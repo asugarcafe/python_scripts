@@ -7,7 +7,7 @@ Created on Thu Dec  8 09:40:36 2022
 import requests
 import json
 
-api_key = "6mlrjOendGqpLK2b0vbqNyIIIyEPggUbW7fcTp4A"
+api_key = "6mlrjOendGqpLK2b0vbqNy4IIIyEPggUbW7fcTp4A"
 
 search_address = "https://api.si.edu/openaccess/api/v1.0/search?api_key=" + api_key
 search_by_id_address = "https://api.si.edu/openaccess/api/v1.0/content/:id?api_key=" + api_key
