@@ -1,0 +1,333 @@
+,fname,lname,tags,associations,subplots
+0,Emin,Agalarov,{'class': 'g-list-item ForeignNational Russiacontacts Manafortindictment MuellerInterest Congress'},"Russian, Campaign","Russia contacts, Manafort indictment"
+1,Aras,Agalarov,{'class': 'g-list-item ForeignNational Russiacontacts Manafortindictment MuellerInterest Congress'},"Russian, Campaign","Russia contacts, Manafort indictment"
+2,Zainab,Ahmad,{'class': 'g-list-item Mueller Flynnplea Russiacontacts'},Prosecutor,"Flynn plea, Russia contacts"
+3,Rinat,Akhmetshin,{'class': 'g-list-item ForeignNational Russiacontacts Manafortindictment MuellerInterest Congress'},Russian-U.S.,"Russia contacts, Manafort indictment"
+4,Ekim,Alptekin,{'class': 'g-list-item ForeignNational Flynnplea MuellerInterest'},Turkish,Flynn plea
+5,Greg,Andres,{'class': 'g-list-item Mueller Manafortindictment Russiacontacts'},Prosecutor,"Manafort indictment, Russia contacts"
+6,Stephen,Anthony ,{'class': 'g-list-item Trump Flynnplea Russiacontacts'},Attorney,"Flynn plea, Russia contacts"
+7,Robert,Arakelian,{'class': 'g-list-item Other TheSteeledossier Russiacontacts MuellerInterest Congress'},Campaign,"The Steele dossier, Russia contacts"
+8,Andrey,Artemenko,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest Congress'},"Ukrainian, Administration",Russia contacts
+9,Dzheykhun Nasimi Ogly,Aslanov,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+10,Julian,Assange,{'class': 'g-list-item ForeignNational Fakenews Stolenemails Russiacontacts MuellerInterest Congress'},"Australian, Campaign","Fake news, Stolen emails, Russia contacts"
+11,Rush,Atkinson,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+12,Petr,Aven,{'class': 'g-list-item ForeignNational TheSteeledossier Manafortindictment Russiacontacts MuellerInterest Congress'},Russian,"The Steele dossier, Manafort indictment, Russia contacts"
+13,James,Baker,{'class': 'g-list-item Other TheSteeledossier Congress'},FBI,The Steele dossier
+14,Rudi,Bakhtiar,{'class': 'g-list-item Trump Flynnplea MuellerInterest'},Campaign,Flynn plea
+15,Scott,Balber,{'class': 'g-list-item Trump Russiacontacts'},Attorney,Russia contacts
+16,Steve,Bannon,{'class': 'g-list-item Trump Stolenemails Fakenews Flynnplea Comeyfiring MuellerInterest Congress'},"Campaign, Transition, Administration","Stolen emails, Fake news, Flynn plea, Comey firing"
+17,Tom,Barrack ,{'class': 'g-list-item Trump Manafortindictment MuellerInterest'},"Campaign, transition",Manafort indictment
+18,Edward,Baumgartner,{'class': 'g-list-item Other TheSteeledossier Russiacontacts MuellerInterest Congress'},Fusion GPS,"The Steele dossier, Russia contacts"
+19,Paul,Behrends,{'class': 'g-list-item Trump Russiacontacts'},Campaign,Russia contacts
+20,Brian,Benczkowski,{'class': 'g-list-item Trump Russiacontacts Congress'},Administration,Russia contacts
+21,Barry,Bennett,{'class': 'g-list-item Trump Russiacontacts'},Campaign,Russia contacts
+22,Avi,Berkowitz,{'class': 'g-list-item Trump Russiacontacts Stolenemails Fakenews MuellerInterest Congress'},"Campaign, Transition, Administration","Russia contacts, Stolen emails, Fake news"
+23,Marshall,Billingslea,{'class': 'g-list-item Trump Flynnplea Russiacontacts Congress'},Transition,"Flynn plea, Russia contacts"
+24,Anna Vladislavovna,Bogacheva,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+25,Erik,Bolog,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+26,Andrey,Bondarev,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+27,Alexander,Bortnikov,{'class': 'g-list-item ForeignNational Stolenemails Russiacontacts Congress'},"Russian, FSB","Stolen emails, Russia contacts"
+28,David,Bossie,{'class': 'g-list-item Trump'},Campaign,
+29,Maria Anatolyevna,Bovda,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+30,Robert Sergeyevich,Bovda,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+31,Matt,Braynard,{'class': 'g-list-item Trump Stolenemails Fakenews'},Campaign,"Stolen emails, Fake news"
+32,Donna,Brazile,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails'},DNC ,Stolen emails
+33,Thomas,Breen,{'class': 'g-list-item Trump Russiacontacts'},Attorney,Russia contacts
+34,John,Brennan,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Fakenews Congress'},CIA,"Stolen emails, Fake news"
+35,Elliott,Broidy,{'class': 'g-list-item Other MuellerInterest'},Businessman,
+36,William,Browder,{'class': 'g-list-item ForeignNational TheSteeledossier Congress'},British,The Steele dossier
+37,Reginald,Brown,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+38,Andrew,Brown,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails'},DNC,Stolen emails
+39,Mikhail Leonidovich,Burchik,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+40,William,Burck,{'class': 'g-list-item Trump Comeyfiring Flynnplea Stolenemails Russiacontacts Fakenews'},Attorney,"Comey firing, Flynn plea, Stolen emails, Russia contacts, Fake news"
+41,James,Burnham,{'class': 'g-list-item Trump Comeyfiring MuellerInterest'},Attorney,Comey firing
+42,Richard,Burt ,{'class': 'g-list-item Trump Russiacontacts'},Campaign,Russia contacts
+43,Robert,Buschel,{'class': 'g-list-item Trump Russiacontacts Stolenemails Fakenews'},Attorney,"Russia contacts, Stolen emails, Fake news"
+44,Mariia,Butina,{'class': 'g-list-item ForeignNational Fakenews Stolenemails Russiacontacts MuellerInterest Congress Indicted'},"Russian, Campaign","Fake news, Stolen emails, Russia contacts"
+45,Chris,Byrne,{'class': 'g-list-item Trump Flynnplea RNCplatformchange Stolenemails Comeyfiring Congress'},"Campaign, Transition","Flynn plea, RNC platform change, Stolen emails, Comey firing"
+46,Mikhail Ivanovich,Bystrov,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+47,Stephen,Calk,{'class': 'g-list-item Trump Manafortindictment MuellerInterest Congress'},Campaign,Manafort indictment
+48,Michael,Caputo,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts MuellerInterest Congress'},Campaign,"Fake news, Stolen emails, Russia contacts"
+49,John,Carlin,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Fakenews Congress'},Justice Department,"Stolen emails, Fake news"
+50,Peter,Carr,{'class': 'g-list-item Mueller Stolenemails Russiacontacts Fakenews Flynnplea Manafortindictment RNCplatformchange TheSteeledossier'},Prosecutor,"Stolen emails, Russia contacts, Fake news, Flynn plea, Manafort indictment, RNC platform change, The Steele dossier"
+51,Yuri,Chaika,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest'},Russian,Russia contacts
+52,Witold,Chrabaszcz,{'class': 'g-list-item Trump Stolenemails Fakenews'},Campaign,"Stolen emails, Fake news"
+53,Chris,Christie,{'class': 'g-list-item Trump Flynnplea'},"Campaign, Transition",Flynn plea
+54,James,Clapper,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Congress'},Administration,Stolen emails
+55,Rachel,Clattenburg,{'class': 'g-list-item Other TheSteeledossier'},"Attorney, Fusion GPS",The Steele dossier
+56,Rick,Clay,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts Congress'},Campaign,"Fake news, Stolen emails, Russia contacts"
+57,Hillary,Clinton,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Fakenews TheSteeledossier MuellerInterest Congress'},Clinton campaign,"Stolen emails, Fake news, The Steele dossier"
+58,Sam,Clovis,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts MuellerInterest Congress'},"Campaign, Transition ","Fake news, Stolen emails, Russia contacts"
+59,Dan,Coats,{'class': 'g-list-item Trump Comeyfiring Stolenemails MuellerInterest Congress'},Administration,"Comey firing, Stolen emails"
+60,Ty,Cobb ,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails Russiacontacts'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails, Russia contacts"
+61,Barry,Coburn,{'class': 'g-list-item Trump Flynnplea Russiacontacts'},Attorney,"Flynn plea, Russia contacts"
+62,Kendall,Coffey,{'class': 'g-list-item Trump Russiacontacts Stolenemails Fakenews'},Attorney,"Russia contacts, Stolen emails, Fake news"
+63,Michael,Cohen,{'class': 'g-list-item Trump Russiacontacts Fakenews Stolenemails MuellerInterest Congress'},"Trump Org, Campaign","Russia contacts, Fake news, Stolen emails"
+64,Ezra,Cohen-Watnick,{'class': 'g-list-item Trump Flynnplea'},Administration,Flynn plea
+65,James,Comey,{'class': 'g-list-item Other Comeyfiring Flynnplea MuellerInterest Congress'},FBI,"Comey firing, Flynn plea"
+66,Kellyanne,Conway,{'class': 'g-list-item Trump Stolenemails Flynnplea Comeyfiring Congress'},"Campaign, Administration ","Stolen emails, Flynn plea, Comey firing"
+67,Christopher,Cooper,{'class': 'g-list-item Other TheSteeledossier Russiacontacts Congress'},Campaign,"The Steele dossier, Russia contacts"
+68,Charles,Cooper,{'class': 'g-list-item Trump Comeyfiring Russiacontacts'},Attorney,"Comey firing, Russia contacts"
+69,Mark,Corallo,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails Russiacontacts MuellerInterest Congress'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails, Russia contacts"
+70,David,Corn ,{'class': 'g-list-item Other TheSteeledossier Congress'},Media,The Steele dossier
+71,Hank,Cox,{'class': 'g-list-item Other Flynnplea MuellerInterest'},Witness,Flynn plea
+72,Randy,Credico,{'class': 'g-list-item Other Stolenemails Fakenews Congress'},Campaign,"Stolen emails, Fake news"
+73,Monica,Crowley,{'class': 'g-list-item Trump Flynnplea RNCplatformchange Russiacontacts Stolenemails Comeyfiring Congress'},"Transition, Administration","Flynn plea, RNC platform change, Russia contacts, Stolen emails, Comey firing"
+74,Richard,Cullen,{'class': 'g-list-item Trump Flynnplea Russiacontacts Comeyfiring'},Attorney,"Flynn plea, Russia contacts, Comey firing"
+75,Mark,Cymrot,{'class': 'g-list-item Other TheSteeledossier Russiacontacts Congress'},Attorney,"The Steele dossier, Russia contacts"
+76,Amy,Dacey,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails'},DNC,Stolen emails
+77,Tera,Dahl,{'class': 'g-list-item Trump Russiacontacts Congress'},"Campaign, Administration",Russia contacts
+78,Rick,Dearborn,{'class': 'g-list-item Trump Russiacontacts Congress'},"Campaign, Transition, Administration",Russia contacts
+79,Charles,Delavan,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails'},Clinton campaign,Stolen emails
+80,Ron,Dellums,{'class': 'g-list-item Other TheSteeledossier Russiacontacts Congress'},Attorney,"The Steele dossier, Russia contacts"
+81,Diana,Denman,{'class': 'g-list-item Trump RNCplatformchange'},Campaign,RNC platform change
+82,Oleg,Deripaska,{'class': 'g-list-item ForeignNational Manafortindictment Russiacontacts MuellerInterest Congress'},"Russian, Campaign","Manafort indictment, Russia contacts"
+83,Uttam,Dhillon,{'class': 'g-list-item Trump Comeyfiring MuellerInterest'},Administration,Comey firing
+84,Ryan,Dickey,{'class': 'g-list-item Mueller Stolenemails Fakenews'},Prosecutor,"Stolen emails, Fake news"
+85,Igor,Diveykin,{'class': 'g-list-item ForeignNational Russiacontacts TheSteeledossier Congress'},"Russian, Campaign","Russia contacts, The Steele dossier"
+86,Kirill,Dmitriev,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest Congress'},Russian,Russia contacts
+87,Dmitry,Dokuchaev,{'class': 'g-list-item ForeignNational Stolenemails Russiacontacts'},"Russian, Campaign","Stolen emails, Russia contacts"
+88,Ann,Donaldson,{'class': 'g-list-item Trump Comeyfiring MuellerInterest'},Administration,Comey firing
+89,Jack,Dorsey,{'class': 'g-list-item Other Fakenews Congress'},Tech executive,Fake news
+90,John,Dowd,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails Russiacontacts'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails, Russia contacts"
+91,Alexander,Downer,{'class': 'g-list-item ForeignNational Russiacontacts Stolenemails'},Australian,"Russia contacts, Stolen emails"
+92,Kevin,Downing,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+93,Michael,Dreeben,{'class': 'g-list-item Mueller Stolenemails Russiacontacts Fakenews Flynnplea Manafortindictment RNCplatformchange TheSteeledossier'},Prosecutor,"Stolen emails, Russia contacts, Fake news, Flynn plea, Manafort indictment, RNC platform change, The Steele dossier"
+94,Michael,Dry,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+95,Marc,Elias,{'class': 'g-list-item ObamaofficialsandDemocrats TheSteeledossier Congress'},"Clinton campaign, DNC",The Steele dossier
+96,Michael,Ellis,{'class': 'g-list-item Trump Flynnplea'},Administration,Flynn plea
+97,David,Enders,{'class': 'g-list-item Trump Flynnplea MuellerInterest'},Campaign,Flynn plea
+98,Boris,Epshteyn,{'class': 'g-list-item Trump Stolenemails Congress'},Campaign,Stolen emails
+99,Paul,Erickson,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts Congress'},"Campaign, Transition","Fake news, Stolen emails, Russia contacts"
+100,Nigel,Farage,{'class': 'g-list-item ForeignNational Russiacontacts Stolenemails MuellerInterest'},British,"Russia contacts, Stolen emails"
+101,Michael,Flynn,{'class': 'g-list-item Trump Flynnplea Russiacontacts Fakenews Stolenemails MuellerInterest Congress Guilty'},"Campaign, Transition, Administration","Flynn plea, Russia contacts, Fake news, Stolen emails"
+102,Michael,Flynn Jr.,{'class': 'g-list-item Trump Flynnplea Russiacontacts MuellerInterest Congress'},"Campaign, Transition","Flynn plea, Russia contacts"
+103,Robert,Foresman,{'class': 'g-list-item Other Fakenews Stolenemails Russiacontacts Congress'},Putin,"Fake news, Stolen emails, Russia contacts"
+104,Kyle,Freeny,{'class': 'g-list-item Mueller Manafortindictment Russiacontacts'},Prosecutor,"Manafort indictment, Russia contacts"
+105,Mikhail,Fridman,{'class': 'g-list-item ForeignNational TheSteeledossier Manafortindictment Russiacontacts MuellerInterest Congress'},Russian,"The Steele dossier, Manafort indictment, Russia contacts"
+106,Peter,Fritsch,{'class': 'g-list-item Other TheSteeledossier Russiacontacts'},Fusion GPS,"The Steele dossier, Russia contacts"
+107,Alan,Futerfas,{'class': 'g-list-item Trump Russiacontacts Stolenemails Fakenews'},Attorney,"Russia contacts, Stolen emails, Fake news"
+108,Robert,Gage,{'class': 'g-list-item Other Russiacontacts'},Attorney,Russia contacts
+109,Alan,Garten,{'class': 'g-list-item Trump Comeyfiring Congress'},Trump Org,Comey firing
+110,Rick,Gates,{'class': 'g-list-item Trump Manafortindictment Russiacontacts MuellerInterest Congress Guilty'},Campaign,"Manafort indictment, Russia contacts"
+111,Ben,Ginsberg,{'class': 'g-list-item Trump Stolenemails Russiacontacts'},Attorney,"Stolen emails, Russia contacts"
+112,Rudy,Giuliani,{'class': 'g-list-item Trump Attorney Russiacontacts'},"Campaign, Administration","Attorney, Russia contacts"
+113,Michael,Glassner,{'class': 'g-list-item Trump Stolenemails Fakenews'},Campaign,"Stolen emails, Fake news"
+114,Andrew,Goldstein,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+115,Rob,Goldstone,{'class': 'g-list-item ForeignNational Russiacontacts Manafortindictment MuellerInterest Congress'},British,"Russia contacts, Manafort indictment"
+116,J.D.,Gordon,{'class': 'g-list-item Trump Russiacontacts Fakenews Stolenemails Manafortindictment RNCplatformchange MuellerInterest Congress'},Campaign,"Russia contacts, Fake news, Stolen emails, Manafort indictment, RNC platform change"
+117,Jamie,Gorelick,{'class': 'g-list-item Trump Russiacontacts Flynnplea Manafortindictment'},Attorney,"Russia contacts, Flynn plea, Manafort indictment"
+118,Oleg,Govorun,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+119,Rhona,Graff,{'class': 'g-list-item Trump Fakenews Stolenemails Congress'},"Trump Org, Campaign, Transition, Administration","Fake news, Stolen emails"
+120,Thomas,Green ,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+121,Griffith,Green ,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+122,Jason,Greenblatt,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts Manafortindictment Congress'},"Trump Org, Campaign, Transition, Administration","Fake news, Stolen emails, Russia contacts, Manafort indictment"
+123,Philip,Griffin,{'class': 'g-list-item Trump Manafortindictment RNCplatformchange Russiacontacts'},Campaign,"Manafort indictment, RNC platform change, Russia contacts"
+124,Steven,Groves,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails"
+125,Aleksej,Gubarev,{'class': 'g-list-item ForeignNational TheSteeledossier Stolenemails Manafortindictment Russiacontacts'},Russian,"The Steele dossier, Stolen emails, Manafort indictment, Russia contacts"
+126,,Guccifer 2.0,{'class': 'g-list-item ForeignNational Stolenemails Russiancontacts MuellerInterest Congress'},Hacker,"Stolen emails, Russian contacts"
+127,Alfred,Gusenbauer,{'class': 'g-list-item ForeignNational Manafortindictment Russiacontacts MuellerInterest'},Austrian,"Manafort indictment, Russia contacts"
+128,Gary,Harrell,{'class': 'g-list-item Trump Russiacontacts Congress'},Campaign ,Russia contacts
+129,Richard,Hibey,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+130,Hope,Hicks,{'class': 'g-list-item Trump Comeyfiring Flynnplea Stolenemails Russiacontacts MuellerInterest Congress'},"Trump Org, Campaign, Administration ","Comey firing, Flynn plea, Stolen emails, Russia contacts"
+131,Sergei,Ivanov,{'class': 'g-list-item ForeignNational Stolenemails Fakenews Russiacontacts Manafortindictment Congress'},Russian,"Stolen emails, Fake news, Russia contacts, Manafort indictment"
+132,Amy Berman,Jackson,{'class': 'g-list-item Other Manafortindictment'},Judge,Manafort indictment
+133,Adam,Jed,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+134,Jeh,Johnson,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Fakenews Congress'},DHS,"Stolen emails, Fake news"
+135,Chuck,Johnson,{'class': 'g-list-item Other Stolenemails Russiacontacts Congress'},Media,"Stolen emails, Russia contacts"
+136,Mikhail,Kalugin,{'class': 'g-list-item ForeignNational Stolenemails TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"Stolen emails, The Steele dossier, Russia contacts, Manafort indictment"
+137,Sergey,Karaganov,{'class': 'g-list-item ForeignNational Russiacontacts Congress'},"Russian, Campaign",Russia contacts
+138,Marc,Kasowitz,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails Russiacontacts'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails, Russia contacts"
+139,Gregory,Katsas,{'class': 'g-list-item Trump Comeyfiring Russiacontacts'},Attorney,"Comey firing, Russia contacts"
+140,Denis,Katsyv,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts MuellerInterest Congress'},Russian,"The Steele dossier, Russia contacts"
+141,Pyotr,Katsyv,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest Congress'},Russian,Russia contacts
+142,Ike,Kaveladze,{'class': 'g-list-item ForeignNational Russiacontacts Manafortindictment MuellerInterest Congress'},Georgian/Russian,"Russia contacts, Manafort indictment"
+143,Irina,Kaverzina,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+144,David,Kelley,{'class': 'g-list-item Other Comeyfiring'},Attorney,Comey firing
+145,Keith,Kellogg,{'class': 'g-list-item Trump Russiacontacts Flynnplea MuellerInterest Congress'},"Campaign, Transition, Administration","Russia contacts, Flynn plea"
+146,Robert,Kelner,{'class': 'g-list-item Trump Flynnplea Russiacontacts'},Attorney,"Flynn plea, Russia contacts"
+147,German,Khan,{'class': 'g-list-item ForeignNational TheSteeledossier Manafortindictment Russiacontacts MuellerInterest Congress'},Russian,"The Steele dossier, Manafort indictment, Russia contacts"
+148,Bijan,Kian,{'class': 'g-list-item Trump Flynnplea MuellerInterest Congress'},Transition,Flynn plea
+149,Konstantin,Kilimnik,{'class': 'g-list-item ForeignNational Manafortindictment Russiacontacts MuellerInterest Congress Indicted'},Ukraine,"Manafort indictment, Russia contacts"
+150,Sergey,Kiriyenko,{'class': 'g-list-item ForeignNational TheSteeledossier Stolenemails Manafortindictment Russiacontacts Congress'},Russian,"The Steele dossier, Stolen emails, Manafort indictment, Russia contacts"
+151,Sergey,Kislyak,{'class': 'g-list-item ForeignNational TheSteeledossier Flynnplea Russiacontacts Comeyfiring Manafortindictment MuellerInterest Congress'},Russian,"The Steele dossier, Flynn plea, Russia contacts, Comey firing, Manafort indictment"
+152,Sezgin Baran,Korkmaz,{'class': 'g-list-item ForeignNational Flynnplea MuellerInterest'},"Turkish, campaign",Flynn plea
+153,Konstantin,Kosachev,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+154,Konstantin,Kozlovsky,{'class': 'g-list-item ForeignNational Stolenemails Russiacontacts'},Russian,"Stolen emails, Russia contacts"
+155,David,Kramer,{'class': 'g-list-item Other TheSteeledossier MuellerInterest Congress'},Fusion GPS,The Steele dossier
+156,Aleksandra Yuryevna,Krylova,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+157,Charles,Kubic,{'class': 'g-list-item Trump Russiacontacts Congress'},Campaign,Russia contacts
+158,Jared,Kushner,{'class': 'g-list-item Trump Russiacontacts Stolenemails Fakenews Flynnplea Comeyfiring MuellerInterest Congress'},"Trump Org, Campaign, Transition, Administration","Russia contacts, Stolen emails, Fake news, Flynn plea, Comey firing"
+159,Kory,Langhofer,{'class': 'g-list-item Trump Russiacontacts Manafortindictment Flynnplea MuellerInterest Congress'},Transition,"Russia contacts, Manafort indictment, Flynn plea"
+160,Bryan,Lanza,{'class': 'g-list-item Trump Russiacontacts'},"Campaign, Transition",Russia contacts
+161,Melissa,Laurenza,{'class': 'g-list-item Trump Manafortindictment MuellerInterest'},Attorney,Manafort indictment
+162,Sergey,Lavrov,{'class': 'g-list-item ForeignNational TheSteeledossier Manafortindictment Russiacontacts Congress'},Russian,"The Steele dossier, Manafort indictment, Russia contacts"
+163,Randi,Levinas,{'class': 'g-list-item Other Russiacontacts Congress'},Putin,Russia contacts
+164,Joshua,Levy,{'class': 'g-list-item Other TheSteeledossier'},"Attorney, Fusion GPS",The Steele dossier
+165,Corey,Lewandowski,{'class': 'g-list-item Trump Stolenemails Fakenews Congress'},Campaign,"Stolen emails, Fake news"
+166,Ed,Lieberman,{'class': 'g-list-item Other TheSteeledossier Russiacontacts MuellerInterest Congress'},Attorney,"The Steele dossier, Russia contacts"
+167,Abbe,Lowell,{'class': 'g-list-item Trump Russiacontacts Flynnplea Manafortindictment'},Attorney,"Russia contacts, Flynn plea, Manafort indictment"
+168,Loretta,Lynch,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Congress'},Justice Department,Stolen emails
+169,Walter,Mack,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+170,Ted,Malloch,{'class': 'g-list-item Trump Stolenemails Russiacontacts MuellerInterest'},Campaign,"Stolen emails, Russia contacts"
+171,Jason,Maloni,{'class': 'g-list-item Trump Manafortindictment MuellerInterest'},Campaign,Manafort indictment
+172,Paul,Manafort,{'class': 'g-list-item Trump Russiacontacts TheSteeledossier Manafortindictment Fakenews Stolenemails RNCplatformchange MuellerInterest Congress Indicted'},Campaign,"Russia contacts, The Steele dossier, Manafort indictment, Fake news, Stolen emails, RNC platform change"
+173,Simona,Mangiante,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest Congress'},"Italian, Campaign",Russia contacts
+174,John,Mashburn,{'class': 'g-list-item Trump RNCplatformchange'},"Campaign, Administration",RNC platform change
+175,Aaron,May,{'class': 'g-list-item Trump Russiacontacts Manafortindictment'},Attorney,"Russia contacts, Manafort indictment"
+176,Auria,McAlicher,{'class': 'g-list-item Trump Fakenews Stolenemails Congress'},"Campaign, transition, Administration","Fake news, Stolen emails"
+177,Annemarie,McAvoy,{'class': 'g-list-item Trump Russiacontacts Manafortindictment'},Attorney,"Russia contacts, Manafort indictment"
+178,Andrew,McCabe,{'class': 'g-list-item Other Stolenemails Flynnplea Comeyfiring MuellerInterest Congress'},FBI,"Stolen emails, Flynn plea, Comey firing"
+179,Denis,McDonough,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Fakenews Congress'},Administration,"Stolen emails, Fake news"
+180,K.T.,McFarland,{'class': 'g-list-item Trump Flynnplea RNCplatformchange Stolenemails Comeyfiring MuellerInterest Congress'},"Transition, Administration","Flynn plea, RNC platform change, Stolen emails, Comey firing"
+181,Don,McGahn,{'class': 'g-list-item Trump Flynnplea Comeyfiring MuellerInterest Congress'},"Campaign, Transition, Administration ","Flynn plea, Comey firing"
+182,Mike,McSherry,{'class': 'g-list-item Trump Manafortindictment Russiacontacts MuellerInterest'},"Lobbyist, Campaign","Manafort indictment, Russia contacts"
+183,Chris,Mead,{'class': 'g-list-item Trump Flynnplea Russiacontacts Comeyfiring'},Attorney,"Flynn plea, Russia contacts, Comey firing"
+184,Dmitry,Medvedev,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Congress'},Russian,"The Steele dossier, Russia contacts"
+185,Scott,Meisler,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+186,Rebekah,Mercer,{'class': 'g-list-item Trump Fakenews Stolenemails MuellerInterest Congress'},Campaign,"Fake news, Stolen emails"
+187,Frank,Mermoud,{'class': 'g-list-item Trump Manafortindictment RNCplatformchange Russiacontacts'},Campaign,"Manafort indictment, RNC platform change, Russia contacts"
+188,Joseph,Mifsud,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest Congress'},"Maltese, Campaign",Russia contacts
+189,Jason,Miller,{'class': 'g-list-item Trump Russiacontacts'},"Campaign, Transition",Russia contacts
+190,Amanda,Miller,{'class': 'g-list-item Trump Russiacontacts Fakenews Stolenemails Congress'},"Trump Org, Campaign","Russia contacts, Fake news, Stolen emails"
+191,Stephen,Miller,{'class': 'g-list-item Trump Stolenemails Fakenews Flynnplea Comeyfiring MuellerInterest Congress'},"Campaign, Transition, Administration","Stolen emails, Fake news, Flynn plea, Comey firing"
+192,Nancye,Miller,{'class': 'g-list-item Trump Flynnplea MuellerInterest'},Campaign,Flynn plea
+193,Sergei,Millian,{'class': 'g-list-item Trump TheSteeledossier Russiacontacts Manafortindictment Congress'},"Trump Org, Campaign","The Steele dossier, Russia contacts, Manafort indictment"
+194,Bert,Mizusawa,{'class': 'g-list-item Trump Russiacontacts Congress'},Campaign,Russia contacts
+195,Al Nahyan,Mohammed bin Zayed,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest'},Emirati,Russia contacts
+196,Lisa,Monaco,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails'},Administration,Stolen emails
+197,Randolph,Moss,{'class': 'g-list-item Other Russiacontacts'},Judge,Russia contacts
+198,Robert,Mueller,{'class': 'g-list-item Mueller Stolenemails Russiacontacts Fakenews Flynnplea Manafortindictment RNCplatformchange TheSteeledossier'},Prosecutor,"Stolen emails, Russia contacts, Fake news, Flynn plea, Manafort indictment, RNC platform change, The Steele dossier"
+199,Jim,Murphy,{'class': 'g-list-item Trump Manafortindictment'},Campaign,Manafort indictment
+200,Robert,Muse,{'class': 'g-list-item Other TheSteeledossier'},"Attorney, Fusion GPS",The Steele dossier
+201,George,Nader,{'class': 'g-list-item ForeignNational RussiaContacts MuellerInterest Congress'},Lebanese-American,Russia Contacts
+202,Melissa,Nathan,{'class': 'g-list-item Trump Stolenemails Fakenews Congress'},Trump Org,"Stolen emails, Fake news"
+203,Aaron,Nevins,{'class': 'g-list-item Other RussiaContacts Stolenemails Congress'},Campaign,"Russia Contacts, Stolen emails"
+204,Viktor Borisovich,Netyksho,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+205,Boris Alekseyevich,Antonov,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+206,Dmitriy Sergeyevich,Badin,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+207,Ivan Sergeyevich,Yermakov,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+208,Aleksey Viktorovich,Lukashev,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+209,Sergey Aleksandrovich,Morgachev,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+210,Nikolay Yuryevich,Kozachek,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+211,Pavel Vyacheslavovich,Yershov,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+212,Artem Vladimirovich,Malyshev,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+213,Aleksandr Vladimirovich,Osadchuk,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+214,Aleksey Aleksandrovich,Potemkin,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+215,Anatoliy Sergeyevich,Kovalev,{'class': 'g-list-item ForeignNational Indicted MuellerInterest Indicted'},Russian,Indicted
+216,Alexander,Nix,{'class': 'g-list-item Trump Fakenews Stolenemails MuellerInterest Congress'},Campaign,"Fake news, Stolen emails"
+217,Sam,Nunberg,{'class': 'g-list-item Trump Russiacontacts MuellerInterest Congress'},Campaign,Russia contacts
+218,Barack,Obama,{'class': 'g-list-item ObamaofficialsandDemocrats TheSteeledossier Stolenemails'},Administration,"The Steele dossier, Stolen emails"
+219,Lisa,Page,{'class': 'g-list-item Mueller Russiacontacts Congress'},FBI,Russia contacts
+220,Carter,Page,{'class': 'g-list-item Trump Stolenemails Russiacontacts Fakenews Manafortindictment Congress'},Campaign,"Stolen emails, Russia contacts, Fake news, Manafort indictment"
+221,George,Papadopoulos,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts MuellerInterest Congress Guilty'},Campaign ,"Fake news, Stolen emails, Russia contacts"
+222,Brad,Parscale,{'class': 'g-list-item Trump Stolenemails Fakenews Congress'},Campaign ,"Stolen emails, Fake news"
+223,Stefan,Passantino,{'class': 'g-list-item Trump Comeyfiring Flynnplea Russiacontacts'},Attorney,"Comey firing, Flynn plea, Russia contacts"
+224,Mike,Pence,{'class': 'g-list-item Trump Flynnplea Comeyfiring Stolenemails Russiacontacts TheSteeledossier MuellerInterest Congress'},"Campaign, Transition, Administration","Flynn plea, Comey firing, Stolen emails, Russia contacts, The Steele dossier"
+225,Dmitry,Peskov,{'class': 'g-list-item ForeignNational Russiacontacts Manafortindictment MuellerInterest Congress'},"Russian, Trump Org","Russia contacts, Manafort indictment"
+226,Walid,Phares,{'class': 'g-list-item Trump Russiacontacts RNCplatformchange Flynnplea MuellerInterest Congress'},Campaign,"Russia contacts, RNC platform change, Flynn plea"
+227,Katrina,Pierson,{'class': 'g-list-item Trump Manafortindictment'},Campaign,Manafort indictment
+228,Richard,Pinedo,{'class': 'g-list-item Other MuellerInterest Guilty'},American,
+229,John,Podesta,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Fakenews TheSteeledossier MuellerInterest Congress'},Clinton campaign,"Stolen emails, Fake news, The Steele dossier"
+230,Tony,Podesta,{'class': 'g-list-item Other Manafortindictment MuellerInterest'},Lobbyist,Manafort indictment
+231,Vadim Vladimirovich,Podkopaev,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+232,Sergey Pavlovich,Polozov,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+233,Mike,Pompeo,{'class': 'g-list-item Trump Stolenemails Russiacontacts Comeyfiring MuellerInterest Congress'},Administration,"Stolen emails, Russia contacts, Comey firing"
+234,Samantha,Power,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Congress'},Administration,Stolen emails
+235,Elizabeth,Prelogar,{'class': 'g-list-item Mueller Russiacontacts Manafortindictment'},Prosecutor,"Russia contacts, Manafort indictment"
+236,Reince,Priebus,{'class': 'g-list-item Trump Flynnplea Comeyfiring MuellerInterest Congress'},"Transition, Administration","Flynn plea, Comey firing"
+237,Erik,Prince,{'class': 'g-list-item Trump Russiacontacts MuellerInterest Congress'},Campaign,Russia contacts
+238,Vladimir,Putin,{'class': 'g-list-item ForeignNational Stolenemails Fakenews Russiacontacts Manafortindictment MuellerInterest Congress'},Russian,"Stolen emails, Fake news, Russia contacts, Manafort indictment"
+239,James,Quarles,{'class': 'g-list-item Mueller Stolenemails Russiacontacts Fakenews Flynnplea Manafortindictment RNCplatformchange TheSteeledossier'},Prosecutor,"Stolen emails, Russia contacts, Fake news, Flynn plea, Manafort indictment, RNC platform change, The Steele dossier"
+240,Josh,Raffel,{'class': 'g-list-item Trump Russiacontacts MuellerInterest'},Administration,Russia contacts
+241,Jeannie,Rhee,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+242,Ben,Rhodes,{'class': 'g-list-item ObamaofficialsandDemocrats Flynnplea Stolenemails Fakenews Congress'},Administration,"Flynn plea, Stolen emails, Fake news"
+243,Susan,Rice,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails Congress'},Administration,Stolen emails
+244,Brian,Richardson,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+245,Daniel,Richman,{'class': 'g-list-item Other Comeyfiring MuellerInterest Congress'},FBI,Comey firing
+246,Mike,Rogers,{'class': 'g-list-item Other Stolenemails Fakenews Comeyfiring MuellerInterest Congress'},NSA,"Stolen emails, Fake news, Comey firing"
+247,Dmitry,Rogozin,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest'},Russian,Russia contacts
+248,Dana,Rohrabacher,{'class': 'g-list-item Trump Russiacontacts Stolenemails Fakenews Flynnplea MuellerInterest Congress'},Campaign,"Russia contacts, Stolen emails, Fake news, Flynn plea"
+249,Rod,Rosenstein,{'class': 'g-list-item Other Comeyfiring MuellerInterest Congress'},DOJ,Comey firing
+250,Wilbur,Ross ,{'class': 'g-list-item Trump Russiacontacts'},Administration,Russia contacts
+251,Stephen,Ryan,{'class': 'g-list-item Trump Russiacontacts'},Attorney,Russia contacts
+252,Dmitry,Rybolovlev,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest'},Russian,Russia contacts
+253,Jonathan,Safron,{'class': 'g-list-item Trump Stolenemails MuellerInterest Congress'},Campaign,Stolen emails
+254,Anatoli,Samochornov,{'class': 'g-list-item Trump Russiacontacts Manafortindictment MuellerInterest Congress'},Campaign,"Russia contacts, Manafort indictment"
+255,Sarah Huckabee,Sanders,{'class': 'g-list-item Trump Flynnplea Comeyfiring'},Administration,"Flynn plea, Comey firing"
+256,Felix,Sater,{'class': 'g-list-item Trump Russiacontacts MuellerInterest Congress'},"Trump Org, Campaign",Russia contacts
+257,Anthony,Scaramucci,{'class': 'g-list-item Trump Russiacontacts Congress'},"Trump Campaign, Transition, Administration",Russia contacts
+258,Dan,Scavino,{'class': 'g-list-item Trump Stolenemails Fakenews Comeyfiring Congress'},"Campaign, Transition, Administration ","Stolen emails, Fake news, Comey firing"
+259,Keith,Schiller,{'class': 'g-list-item Trump Comeyfiring Congress'},"Campaign, Transition, Administration ",Comey firing
+260,Joseph,Schmitz,{'class': 'g-list-item Trump Russiacontacts MuellerInterest Congress'},Campaign,Russia contacts
+261,Howard,Schweitzer,{'class': 'g-list-item Other TheSteeledossier Congress'},Attorney,The Steele dossier
+262,Stuart,Sears,{'class': 'g-list-item Trump Comeyfiring'},Attorney,Comey firing
+263,Igor,Sechin,{'class': 'g-list-item ForeignNational Russiacontacts TheSteeledossier Congress'},"Russian, Campaign","Russia contacts, The Steele dossier"
+264,Jay,Sekulow,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails Russiacontacts'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails, Russia contacts"
+265,Jeff,Sessions,{'class': 'g-list-item Trump Flynnplea Russiacontacts Comeyfiring Congress'},"Campaign, Transition, Administration ","Flynn plea, Russia contacts, Comey firing"
+266,Dimitri,Simes,{'class': 'g-list-item ForeignNational Russiacontacts Congress'},Russian,Russia contacts
+267,Glenn,Simpson,{'class': 'g-list-item Other TheSteeledossier Russiacontacts MuellerInterest Congress'},Fusion GPS,"The Steele dossier, Russia contacts"
+268,Brian,Smith,{'class': 'g-list-item Trump Flynnplea Russiacontacts Fakenews Stolenemails'},Attorney,"Flynn plea, Russia contacts, Fake news, Stolen emails"
+269,Grant,Smith,{'class': 'g-list-item Trump Stolenemails Fakenews Russiacontacts'},Attorney,"Stolen emails, Fake news, Russia contacts"
+270,Peter ,Smith,{'class': 'g-list-item Trump Stolenemails Flynnplea Russiacontacts MuellerInterest Congress'},Campaign,"Stolen emails, Flynn plea, Russia contacts"
+271,Oleg,Solodukhin,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+272,,Sphere Consulting employee,{'class': 'g-list-item Trump Flynnplea MuellerInterest'},Campaign,Flynn plea
+273,Sean,Spicer,{'class': 'g-list-item Trump Flynnplea Comeyfiring MuellerInterest Congress'},"Transition, Administration","Flynn plea, Comey firing"
+274,Robert,Stanley,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts'},Attorney,"Fake news, Stolen emails, Russia contacts"
+275,Christopher,Steele,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment MuellerInterest Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+276,Jill,Stein,{'class': 'g-list-item Other Flynnplea Russiacontacts Congress'},Campaign,"Flynn plea, Russia contacts"
+277,Roger,Stone,{'class': 'g-list-item Trump Stolenemails Fakenews Russiacontacts MuellerInterest Congress'},Campaign,"Stolen emails, Fake news, Russia contacts"
+278,Peter,Strzok,{'class': 'g-list-item Mueller Russiacontacts Congress'},FBI,Russia contacts
+279,Joshua,Stueve,{'class': 'g-list-item Mueller Stolenemails Russiacontacts Fakenews Flynnplea Manafortindictment RNCplatformchange TheSteeledossier'},Prosecutor,"Stolen emails, Russia contacts, Fake news, Flynn plea, Manafort indictment, RNC platform change, The Steele dossier"
+280,Bernie,Sucher,{'class': 'g-list-item Other Russiacontacts Congress'},Businessman,Russia contacts
+281,Emmet,Sullivan,{'class': 'g-list-item Other Flynnplea'},Judge,Flynn plea
+282,Michael,Sussmann,{'class': 'g-list-item ObamaofficialsandDemocrats TheSteeledossier Stolenemails Congress'},Clinton campaign,"The Steele dossier, Stolen emails"
+283,John,Szobocsan,{'class': 'g-list-item Trump Stolenemails MuellerInterest Congress'},Campaign,Stolen emails
+284,Matt,Tait,{'class': 'g-list-item ForeignNational Stolenemails MuellerInterest Congress'},"British, campaign",Stolen emails
+285,Ivan,Timofeev,{'class': 'g-list-item ForeignNational Fakenews Stolenemails Russiacontacts'},"Russian, Campaign","Fake news, Stolen emails, Russia contacts"
+286,Victoria,Toensing,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts'},Attorney,"Fake news, Stolen emails, Russia contacts"
+287,Alexander,Torshin,{'class': 'g-list-item ForeignNational Fakenews Stolenemails Russiacontacts MuellerInterest Congress'},"Russian, Campaign","Fake news, Stolen emails, Russia contacts"
+288,Robert,Trout,{'class': 'g-list-item Trump Comeyfiring Flynnplea Stolenemails Russiacontacts'},Attorney,"Comey firing, Flynn plea, Stolen emails, Russia contacts"
+289,Ivanka,Trump,{'class': 'g-list-item Trump Russiacontacts MuellerInterest Congress'},"Trump Org, Campaign, Administration",Russia contacts
+290,Donald,Trump,{'class': 'g-list-item Trump Stolenemails Fakenews Flynnplea Comeyfiring Russiacontacts TheSteeledossier MuellerInterest Congress'},"Trump Org, Campaign, Transition, Administration","Stolen emails, Fake news, Flynn plea, Comey firing, Russia contacts, The Steele dossier"
+291,Eric,Trump,{'class': 'g-list-item Trump TheSteeledossier Russiacontacts Stolenemails Fakenews MuellerInterest Congress'},"Trump Org, Campaign","The Steele dossier, Russia contacts, Stolen emails, Fake news"
+292,Donald,Trump Jr.,{'class': 'g-list-item Trump Stolenemails Russiacontacts MuellerInterest Congress'},"Trump Org, Campaign","Stolen emails, Russia contacts"
+293,Tim,Unes,{'class': 'g-list-item Trump Manafortindictment Fakenews Stolenemails Congress'},Campaign,"Manafort indictment, Fake news, Stolen emails"
+294,Yuri,Ushakov,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+295,Dennis,Vacco,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts'},Attorney,"Fake news, Stolen emails, Russia contacts"
+296,Anton,Vaino,{'class': 'g-list-item ForeignNational TheSteeledossier Russiacontacts Manafortindictment Congress'},Russian,"The Steele dossier, Russia contacts, Manafort indictment"
+297,Alex,Van Der Zwaan,{'class': 'g-list-item ForeignNational Manafortindictment MuellerInterest Guilty'},Lawyer,Manafort indictment
+298,Brandon,Van Grack,{'class': 'g-list-item Mueller Flynnplea Russiacontacts'},Prosecutor,"Flynn plea, Russia contacts"
+299,Gleb Igorevich,Vasilchenko,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+300,Vladimir,Venkov,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Internet Research Agency","Indicted, Fake news"
+301,Natalia,Veselnitskaya,{'class': 'g-list-item ForeignNational Russiacontacts TheSteeledossier Manafortindictment MuellerInterest Congress'},Russian,"Russia contacts, The Steele dossier, Manafort indictment"
+302,Yevgeniy,ViktorovichPrigozhin,{'class': 'g-list-item ForeignNational Indicted Fakenews MuellerInterest Indicted'},"Russian, Concord","Indicted, Fake news"
+303,Olga,Vinogradova,{'class': 'g-list-item ForeignNational Russiacontacts MuellerInterest'},"Russian, Campaign",Russia contacts
+304,Katie,Walsh,{'class': 'g-list-item Trump Flynnplea MuellerInterest'},Administration,Flynn plea
+305,Brian,Walsh,{'class': 'g-list-item Trump Manafortindictment MuellerInterest'},Administration,Manafort indictment
+306,Debbie,Wasserman Schultz ,{'class': 'g-list-item ObamaofficialsandDemocrats Stolenemails TheSteeledossier Congress'},DNC,"Stolen emails, The Steele dossier"
+307,Vin,Weber,{'class': 'g-list-item Other Manafortindictment MuellerInterest'},Lobbyist,Manafort indictment
+308,Allen,Weisselberg,{'class': 'g-list-item Trump Russiacontacts Congress'},Trump Org,Russia contacts
+309,Andrew,Weissmann,{'class': 'g-list-item Mueller Manafortindictment Russiacontacts'},Prosecutor,"Manafort indictment, Russia contacts"
+310,Curt,Weldon,{'class': 'g-list-item Other Fakenews Stolenemails Russiacontacts Congress'},Campaign,"Fake news, Stolen emails, Russia contacts"
+311,Lanny,Wiles,{'class': 'g-list-item Other TheSteeledossier Russiacontacts Congress'},Campaign,"The Steele dossier, Russia contacts"
+312,Rick,Wiley,{'class': 'g-list-item Trump Manafortindictment'},Campaign ,Manafort indictment
+313,Robert,Wolf,{'class': 'g-list-item Trump Russiacontacts'},Attorney,Russia contacts
+314,Andrew,Wood,{'class': 'g-list-item ForeignNational TheSteeledossier Congress'},"British, Campaign",The Steele dossier
+315,James,Woolsey,{'class': 'g-list-item Trump Flynnplea MuellerInterest'},Campaign,Flynn plea
+316,Shanlon,Wu,{'class': 'g-list-item Trump Manafortindictment Russiacontacts'},Attorney,"Manafort indictment, Russia contacts"
+317,Viktor,Yanukovych,{'class': 'g-list-item ForeignNational TheSteeledossier Manafortindictment MuellerInterest Congress'},Ukrainian,"The Steele dossier, Manafort indictment"
+318,Sally,Yates,{'class': 'g-list-item Other Flynnplea MuellerInterest Congress'},Justice Department,Flynn plea
+319,Sergei,Yatsenko,{'class': 'g-list-item ForeignNational Russiacontacts Congress'},"Russian, Campaign",Russia contacts
+320,Johnny,Yenason,{'class': 'g-list-item Trump Fakenews Stolenemails Russiacontacts MuellerInterest Congress'},Campaign,"Fake news, Stolen emails, Russia contacts"
+321,Jeffrey,Yohai,{'class': 'g-list-item Trump Manafortindictment MuellerInterest'},Campaign,Manafort indictment
+322,Eric,York,{'class': 'g-list-item Trump Stolenemails MuellerInterest Congress'},Campaign,Stolen emails
+323,Aaron,Zebley,{'class': 'g-list-item Mueller Stolenemails Russiacontacts Fakenews Flynnplea Manafortindictment RNCplatformchange TheSteeledossier'},Prosecutor,"Stolen emails, Russia contacts, Fake news, Flynn plea, Manafort indictment, RNC platform change, The Steele dossier"
+324,Thomas,Zehnle,{'class': 'g-list-item Trump Russiacontacts TheSteeledossier Manafortindictment Fakenews Stolenemails RNCplatformchange'},Attorney,"Russia contacts, The Steele dossier, Manafort indictment, Fake news, Stolen emails, RNC platform change"
+325,Aaron,Zelinsky,{'class': 'g-list-item Mueller Russiacontacts'},Prosecutor,Russia contacts
+326,Mark,Zuckerberg,{'class': 'g-list-item Other Fakenews MuellerInterest Congress'},Tech executive,Fake news
+327,Andrew,Miller ,{'class': 'g-list-item Trump Stolenemails Fakenews Russiacontacts MuellerInterest'},Campign,"Stolen emails, Fake news, Russia contacts"
+328,Jason,Sullivan,{'class': 'g-list-item Trump Stolenemails Fakenews Russiacontacts MuellerInterest'},Campaign,"Stolen emails, Fake news, Russia contacts"
+329,Emmet,Flood ,{'class': 'g-list-item Trump Comeyfiring Flynnplea Manafortindictment Stolenemails Russiacontacts'},Attorney,"Comey firing, Flynn plea, Manafort indictment, Stolen emails, Russia contacts"
+330,T.S.,Ellis III,{'class': 'g-list-item Other Manafortindictment'},Judge,Manafort indictment
+331,Tony,Fabrizio,{'class': 'g-list-item Trump Manafortindictment MuellerInterest'},Campaign,Manafort indictment
