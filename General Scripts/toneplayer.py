@@ -73,8 +73,8 @@ class toneplayer():
     def play_scale_hemisynchronous(scale, seconds_per_tone):
         for step in scale:
             note1 = datasets.note_freq_wavelength(notes,step)
-            freq1 = note1[0] - 2 
-            freq2 = note1[0] + 2
+            freq1 = note1[0] - 1.5 
+            freq2 = note1[0] + 1.5
             print(step)
             print(freq1)
             print(freq2)
