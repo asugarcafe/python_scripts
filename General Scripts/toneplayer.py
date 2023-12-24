@@ -58,9 +58,7 @@ class toneplayer():
     #https://www.omnicalculator.com/physics/beat-frequency
     
     @staticmethod
-    def play_tones(mixer, note1, note2, seconds, loopmod=1000):
-        low = 0.01
-        high = 0.99
+    def play_tones(mixer, note1, note2, seconds, loopmod=1000, high = 0.25, low = 0.01):
         lchan = mixer.Channel(0)
         rchan = mixer.Channel(1)
         lchan.set_volume(high,low)
@@ -71,16 +69,31 @@ class toneplayer():
         lchan.stop()
         rchan.stop()
 
+    @staticmethod
+    def play_scale_hemisynchronous(scale, seconds_per_tone):
+        for step in scale:
+            note1 = datasets.note_freq_wavelength(notes,step)
+            freq1 = note1[0] - 2 
+            freq2 = note1[0] + 2
+            print(step)
+            print(freq1)
+            print(freq2)
+            note1 = Note(freq1) if bit else Note(freq2)
+            note2 = Note(freq2) if bit else Note(freq1)
+            player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
+
 notes = datasets.NotesA432()
 
 A4 = datasets.note_freq_wavelength(notes,'A4')
 E0 = datasets.note_freq_wavelength(notes,'E0')
 c4 = datasets.note_freq_wavelength(notes,'C4')
 
-blues_scale_A = ['A{0}','C{0}','D{0}','C#{0}/Db{0}','E{0}','G{0}']
-whole_notes = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
+blues_scale_A_fmt = ['A{0}','C{0}','D{0}','C#{0}/Db{0}','E{0}','G{0}']
+whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
+chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3', 'G3']
 
-scale_to_use = whole_notes
+
+scale_to_use = chakras
 
 pygame.init()
 
@@ -102,6 +115,22 @@ sec = ms * seconds
 
 player = toneplayer()
 bit = True
+
+
+
+
+player.play_scale_hemisynchronous(chakras, 10)
+
+
+
+
+
+
+
+
+
+
+'''
 for x in range(0,1):
     for step in scale_to_use:
         bit = not bit
@@ -115,6 +144,9 @@ for x in range(0,1):
         note1 = Note(freq1) if bit else Note(freq2)
         note2 = Note(freq2) if bit else Note(freq1)
         player.play_tones(pygame.mixer, note1, note2, seconds, K*((x+3)^2))
+'''
+
+
 
 '''
 left_channel.play(note1, loops=dur1)
