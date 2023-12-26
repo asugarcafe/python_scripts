@@ -71,15 +71,19 @@ class toneplayer():
 
     @staticmethod
     def play_scale_hemisynchronous(scale, seconds_per_tone):
+        bit = False
         for step in scale:
             note1 = datasets.note_freq_wavelength(notes,step)
-            freq1 = note1[0] - 1.5 
-            freq2 = note1[0] + 1.5
+            off_pct = note1[0] * 0.015
+            print(off_pct)
+            freq1 = note1[0] - off_pct
+            freq2 = note1[0] + off_pct
             print(step)
             print(freq1)
             print(freq2)
             note1 = Note(freq1) if bit else Note(freq2)
             note2 = Note(freq2) if bit else Note(freq1)
+            bit = not bit
             player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
 
 notes = datasets.NotesA432()
@@ -90,7 +94,7 @@ c4 = datasets.note_freq_wavelength(notes,'C4')
 
 blues_scale_A_fmt = ['A{0}','C{0}','D{0}','C#{0}/Db{0}','E{0}','G{0}']
 whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
-chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3', 'G3']
+chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3','G3']
 
 
 scale_to_use = chakras
@@ -119,7 +123,7 @@ bit = True
 
 
 
-player.play_scale_hemisynchronous(chakras, 10)
+player.play_scale_hemisynchronous(chakras, 3)
 
 
 
@@ -168,3 +172,8 @@ pygame.mixer.quit()
 #next play through an arpeggio of note 
 #combinations that all resonate the goal frequency
 
+'''
+as for a sensible plan. you dont have one. you are a simp. youre jealous of a loser; making you less than a loser. if you want to attract her dont use magick, just be more of a loser than him. be broken in the way she feels compelled to fix. be the exact kind of loser bait she'd fall for. congratulation, you now know what the demon is going to tell you when you present that plan.
+
+or, use the power of magick to free yourself and literally make everything in your life better. first, you could free yourself from the stupid fucking delusion that some bitch with no sense is worth wasting good magick on.
+'''
