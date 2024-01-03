@@ -108,11 +108,11 @@ duration = 2
 pygame.mixer.init(channels=2)
 
 scale_index = 4
-goal_freq = A4[0]
+goal_freq = 7.83 #  A4[0]
 ms = 1000
 seconds = 1
 sec = ms * seconds
-
+seconds_per_tone = 20
 
 #play_tones(pygame.mixer, Note(goal_freq), Note(goal_freq), 3, loopmod=10000)
 
@@ -120,10 +120,15 @@ sec = ms * seconds
 player = toneplayer()
 bit = True
 
+note = Note(goal_freq)
+off_pct = goal_freq * 0.015
+freq1 = goal_freq - off_pct
+freq2 = goal_freq + off_pct
+note1 = Note(freq1)
+note2 = Note(freq2)
+player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
 
-
-
-player.play_scale_hemisynchronous(chakras, 3)
+#player.play_scale_hemisynchronous(chakras, 3)
 
 
 

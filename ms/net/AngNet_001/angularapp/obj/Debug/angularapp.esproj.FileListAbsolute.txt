@@ -1,0 +1,2 @@
+C:\Repos\github_asugarcafe\ms\net\AngNet_001\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
+C:\Repos\github_asugarcafe\python_scripts\ms\net\AngNet_001\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
