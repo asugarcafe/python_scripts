@@ -14,7 +14,10 @@ export class Character {
 
 
 
-  /// TODO add backpack of gear
+  ///TODO: add backpack of gear
+  ///TODO: add skill scores
+  ///TODO: add gear
+  ///
 
   // tslint:disable-next-line: max-line-length
   constructor(Name: string,
