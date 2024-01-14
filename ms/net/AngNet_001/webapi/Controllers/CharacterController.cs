@@ -4,7 +4,7 @@ using webapi.Service;
 
 namespace webapi.Controllers {
    [ApiController]
-   [Route("[controller]")]
+   [Route("api/[controller]")]
    public class CharacterController : Controller {
       private readonly ILogger<CharacterController> _logger;
 
@@ -12,11 +12,14 @@ namespace webapi.Controllers {
          _logger = logger;
       }
 
-
+      [HttpGet]
+      [Route("api/[controller]/BaseSkillList")]
       public IEnumerable<Skill> GetSkillList() {
          return Skill.GetBaseSkillList();
       }
 
+      [HttpGet]
+      [Route("api/[controller]/")]
       public IActionResult Index() {
          return View();
       }

@@ -1,31 +1,42 @@
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-var builder = WebApplication.CreateBuilder(args);
+public class Startup {
+   public void ConfigureServices(IServiceCollection services) {
+      // Add services to the container.
+      services.AddControllers();
+      services.AddLogging();
+      // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+      services.AddEndpointsApiExplorer();
+      services.AddSwaggerGen();
+   }
 
+   public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
+      //app.ConfigureExceptionHandler(app.Services.GetRequiredService<ILogger<ExceptionMiddleware>>());
 
-// Add services to the container.
+      // Configure the HTTP request pipeline.
+      if (env.IsDevelopment()) {
+         app.UseSwagger();
+         app.UseSwaggerUI();
+      }
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-app.ConfigureExceptionHandler(app.Services.GetRequiredService<ILogger<ExceptionMiddleware>>());
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+      app.UseHttpsRedirection();
+      app.UseAuthorization();
+   }
 }
 
-app.UseHttpsRedirection();
+public class Program {
+   public static void Main(string[] args) {
+      var builder = WebApplication.CreateBuilder(args);
+      var startup = new Startup();
 
-app.UseAuthorization();
+      startup.ConfigureServices(builder.Services);
 
-app.MapControllers();
+      var app = builder.Build();
 
-app.Run();
+      startup.Configure(app, app.Environment);
+      app.MapControllers();
+      app.Run();
+   }
+}
