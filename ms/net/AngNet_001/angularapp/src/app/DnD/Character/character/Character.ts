@@ -11,7 +11,7 @@ export class Character {
   public HP: number;
   public Name: string;
   public Career: string;
-
+//blah
  ///TODO: add backpack of gear
   ///TODO: add skill scores
   ///TODO: add gear

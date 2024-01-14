@@ -11,7 +11,7 @@ namespace webapi.Model.DnD.Tests {
    public class DieTests {
       [TestMethod()]
       public void RollTest() {
-         Die d = new Die(6);
+         Die d = new Die(6);//
          for(int x=0; x< 100; x++) {
             int roll = d.Roll();
             if(roll <1 || roll >6)
