@@ -1,4 +1,8 @@
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 
@@ -8,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.ConfigureExceptionHandler(app.Services.GetRequiredService<ILogger<ExceptionMiddleware>>());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

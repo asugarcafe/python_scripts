@@ -12,19 +12,15 @@ export class Character {
   public Name: string;
   public Career: string;
 
-
-
-  ///TODO: add backpack of gear
+ ///TODO: add backpack of gear
   ///TODO: add skill scores
   ///TODO: add gear
-  ///
-
   // tslint:disable-next-line: max-line-length
   constructor(Name: string,
     Career: string,
     Hp: number,
-    Stats: { [key: string]: number },
-    SkillScores: { [key: string]: number }) {
+    Stats: { [key: string]: number }) {
+
     this.Name = Name;
     this.Career = Career;
     this.HP = Hp;
@@ -35,9 +31,5 @@ export class Character {
     this.INT = Stats['INT']
     this.WIS = Stats['WIS']
     this.CHA = Stats['CHA']
-
-    //this.SkilList = new SkillList(this.DEX, this.EDU);
-
-    console.log(SkillScores);
   }
 }

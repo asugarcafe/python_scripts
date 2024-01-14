@@ -6,6 +6,7 @@ export class Skill {
 
   constructor(Name: string,
     RollStat: string) {
+
     this.Name = Name;
     this.RollStat = RollStat;
   }
