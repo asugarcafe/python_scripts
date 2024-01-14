@@ -15,7 +15,7 @@ namespace webapi.Model.DnD.Tests {
          for(int x=0; x< 100; x++) {
             int roll = d.Roll();
             if(roll <1 || roll >6)
-               Assert.Fail(roll.ToString());
+               Assert.Fail(roll.ToString());//blah
          }
       }
    }

@@ -10,7 +10,7 @@ import { SkillComponent } from './DnD/Character/skill/skill.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BackstoryComponent,
+    BackstoryComponent, //blah
     CharacterComponent,
     SkillComponent
   ],
