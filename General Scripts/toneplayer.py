@@ -58,11 +58,14 @@ class toneplayer():
     #https://www.omnicalculator.com/physics/beat-frequency
     
     @staticmethod
-    def play_tones(mixer, note1, note2, seconds, loopmod=1000, high = 0.25, low = 0.01):
+    def play_tones(mixer, note1, note2, seconds, loopmod=1000, high = 0.25, low = 0.01, base_tone = 0):
         lchan = mixer.Channel(0)
         rchan = mixer.Channel(1)
         lchan.set_volume(high,low)
         rchan.set_volume(low,high)
+        if base_tone > 0 :
+            lchan.play(note1, loops=loopmod, maxtime=seconds*K)
+            rchan.play(note2, loops=loopmod, maxtime=seconds*K)            
         lchan.play(note1, loops=loopmod, maxtime=seconds*K)
         rchan.play(note2, loops=loopmod, maxtime=seconds*K)
         time.sleep(seconds)
@@ -70,15 +73,14 @@ class toneplayer():
         rchan.stop()
 
     @staticmethod
-    def play_scale_hemisynchronous(scale, seconds_per_tone):
+    def play_scale_hemisynchronous(scale, seconds_per_tone, hemi_tone = 6):
         bit = False
         for step in scale:
             note1 = datasets.note_freq_wavelength(notes,step)
-            off_pct = note1[0] * 0.015
-            print(off_pct)
-            freq1 = note1[0] - off_pct
-            freq2 = note1[0] + off_pct
-            print(step)
+            freq1 = note1[0] - (hemi_tone/2)
+            freq2 = note1[0] + (hemi_tone/2)
+            print(step + ' - ' + str(note1[0]))
+            print('Hemi tone: ' + str(hemi_tone))
             print(freq1)
             print(freq2)
             note1 = Note(freq1) if bit else Note(freq2)
@@ -95,6 +97,7 @@ c4 = datasets.note_freq_wavelength(notes,'C4')
 blues_scale_A_fmt = ['A{0}','C{0}','D{0}','C#{0}/Db{0}','E{0}','G{0}']
 whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
 chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3','G3']
+#chakras = ['A4','B4','C5','C#5/Db5','D5','D#5/Eb5','E5','F#5/Gb5','G5']
 
 
 scale_to_use = chakras
@@ -128,7 +131,7 @@ note1 = Note(freq1)
 note2 = Note(freq2)
 #player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
 
-player.play_scale_hemisynchronous(chakras, 10)
+player.play_scale_hemisynchronous(chakras, 10, 8)
 
 
 

@@ -10,6 +10,9 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\angularapp</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <TypeScriptConfiguration Remove="NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="NewFolder\**" />
   </ItemGroup>
 </Project>
