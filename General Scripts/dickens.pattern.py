@@ -216,7 +216,8 @@ If not, stop here and make the belief better and test it again.|10|
 Now that you have a tested belief and a plan for a better future, start 
 building it right now.|10| Go inside and experience tomorrow with the 
 old belief gone and the new belief already there.|10|
-where do you notice the new belief in your behavior, or do you even notice it?|10|
+where do you notice the new belief in your behavior?|10|
+where dont you notice the new belief in your behavior?|10|
 Now jump ahead to next week.|10| Take a moment to look back on the last 
 few days and see yourself back at this point where it changed.|10| Now jump 
 a year into to future.|10| Look back on the events in your timeline and how the
@@ -240,10 +241,10 @@ difference in this timelines is your chosen belief.|10| Because of this the
 old and new belief cannot exist in the same timeline.|10| The new belief has
 the one future you just visited.|10|
 
-Make your choice and mentally move into the timeline.|10| Pause for a second to 
+Make your choice and move yourself into the timeline.|10| Pause for a second to 
 let time pass.|10| With each breath you move further into the future of the new 
 timeline.|10| With each breath you you move further away from the point where
-the new timeline split from the old one.|10|
+the new timeline split from the old one.|20|
 
 Now bring yourself to full conscious awareness as quickly as you may
 comfortably do so.
@@ -254,5 +255,5 @@ q_list = [s.strip() for s in ssml_text.split('|')]
 
 for question in q_list:
     print(question)
-    #time.sleep(int(question)) if question.isnumeric() else textspeaker.text_to_speech_ssml(question)
+    time.sleep(int(question)) if question.isnumeric() else textspeaker.text_to_speech_ssml(question)
     
