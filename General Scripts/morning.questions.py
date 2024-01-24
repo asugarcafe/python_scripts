@@ -52,10 +52,10 @@ How can I get my best performance out of myself today?20?
 On a scale of 1-10 how intense should my positive and empowering states be today?15?
 What do I love about myself right now?20? what about that makes me love myself?10? how does that make me feel?30?
 What do I respect about myself right now?20? what about that makes me respect myself?10? how does that make me feel?30?
-How am I choosing positivity in my life about right now?20? why am I choosing positivity?10? how does that make me feel?30?
+How am I choosing positivity in my life right now?20? why am I choosing positivity?10? how does that make me feel?30?
 What am I happy about in my life right now?20? what about that makes me feel happy?10? how does that make me feel?30?
-What am I excited about in my life about right now?20? what about that makes me feel excited?10? how does that make me feel?30?
-What am I proud about in my life about right now?20? what about that makes me feel pride?10? how does that make me feel?30?
+What am I excited about in my life right now?20? what about that makes me feel excited?10? how does that make me feel?30?
+What am I proud about in my life right now?20? what about that makes me feel pride?10? how does that make me feel?30?
 How do I want to be accepted today?30? how will I accept others?10? how will I accept myself?30?
 How can I make my goals my reality as quickly as possible?30?
 What am I responsible for today?20? How should I best handle those responsibilities?
