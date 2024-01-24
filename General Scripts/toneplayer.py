@@ -64,8 +64,8 @@ class toneplayer():
         lchan.set_volume(high,low)
         rchan.set_volume(low,high)
         if base_tone > 0 :
-            lchan.play(note1, loops=loopmod, maxtime=seconds*K)
-            rchan.play(note2, loops=loopmod, maxtime=seconds*K)            
+            lchan.play(note1 + (base_tone/2), loops=loopmod, maxtime=seconds*K)
+            rchan.play(note2 = (base_tone/2), loops=loopmod, maxtime=seconds*K)            
         lchan.play(note1, loops=loopmod, maxtime=seconds*K)
         rchan.play(note2, loops=loopmod, maxtime=seconds*K)
         time.sleep(seconds)
@@ -131,7 +131,8 @@ note1 = Note(freq1)
 note2 = Note(freq2)
 #player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
 
-player.play_scale_hemisynchronous(chakras, 10, 8)
+while True:
+    player.play_scale_hemisynchronous(chakras, 3, 32)
 
 
 

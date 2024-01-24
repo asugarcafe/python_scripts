@@ -7,6 +7,7 @@ Created on Sat Jul 22 19:56:33 2023
 import os
 import pyttsx3
 import pyttsx3.voice
+import time
 
 class textspeaker():
 
@@ -44,24 +45,25 @@ class textspeaker():
                     textspeaker.text_to_speech(content)
 
 
-ssml_text = f"""
-<speak>
-    <prosody volume="+50%">
-        It's important to note that Bob Lazar's claims about Element 115 and his work at S-4 have been highly controversial and heavily debated.
-        <break time="500ms" />
-        Many skeptics and researchers in the scientific community have raised questions about the authenticity and credibility of his claims, and there is no concrete evidence to substantiate his assertions.
-        <break time="2s" />
-        <prosody rate="75%">
-            As with any extraordinary claims, it's crucial to approach them with critical thinking and rely on evidence-based research and scientific consensus.
-        </prosody>
-        <break time="500ms" />
-    </prosody>
-</speak>
-"""
 
-ssml_text = 'The Pythagorean theorem is a statement in mathematics that states that in a right angled triangle'
-# if __name__ == "__main__":
-#     folder_path = "E:/Dropbox/Work/Self Study/python/Python With ChatGPT"  # Replace with the path to your folder containing the files
-#     read_files_in_folder(folder_path)
+ssml_text = '''
+How can I best orient myself towards the next part of my day?20?
+How can I get my best performance out of myself today?20?
+On a scale of 1-10 how intense should my positive and empowering states be today?15?
+What do I love about myself right now?20? what about that makes me love myself?10? how does that make me feel?30?
+What do I respect about myself right now?20? what about that makes me respect myself?10? how does that make me feel?30?
+How am I choosing positivity in my life about right now?20? why am I choosing positivity?10? how does that make me feel?30?
+What am I happy about in my life right now?20? what about that makes me feel happy?10? how does that make me feel?30?
+What am I excited about in my life about right now?20? what about that makes me feel excited?10? how does that make me feel?30?
+What am I proud about in my life about right now?20? what about that makes me feel pride?10? how does that make me feel?30?
+How do I want to be accepted today?30? how will I accept others?10? how will I accept myself?30?
+How can I make my goals my reality as quickly as possible?30?
+What am I responsible for today?20? How should I best handle those responsibilities?
+'''
 
-textspeaker.text_to_speech_ssml(ssml_text)
+q_list = [s.strip() for s in ssml_text.split('?')]
+
+for question in q_list:
+    print(question)
+    time.sleep(int(question)) if question.isnumeric() else textspeaker.text_to_speech_ssml(question)
+    
