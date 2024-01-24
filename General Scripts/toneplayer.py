@@ -12,7 +12,6 @@ import pygame
 from pygame.mixer import Sound, get_init, pre_init
 import sys, os
 from datasets import datasets
-#sys.path.insert(0, 'E:/Dropbox/Work/Self Study/python/ScienceAndPrecisionCalc/tone.data.py')
 K = 1000
 
 class Note(Sound):
