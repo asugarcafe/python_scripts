@@ -131,7 +131,7 @@ note2 = Note(freq2)
 #player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
 
 while True:
-    player.play_scale_hemisynchronous(chakras, 3, 32)
+    player.play_scale_hemisynchronous(chakras, 5, 32)
 
 
 

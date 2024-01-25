@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from pymongo import MongoClient
-
+import json
 
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
@@ -13,6 +13,11 @@ my_database = client["portable_data"]
 my_collection = my_database["work"]
 
 # Insert a document into the collection
+
+with open("C:/Repos/github_asugarcafe/python_scripts/General Scripts/resume.json", "r") as file:
+    json_data = json.load(file)
+    my_collection.insert_one(json_data)
+
 document = {"name": "John Doe", "age": 30, "city": "Example City"}
 my_collection.insert_one(document)
 
