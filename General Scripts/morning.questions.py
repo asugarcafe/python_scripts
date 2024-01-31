@@ -57,7 +57,7 @@ What am I happy about in my life right now?20? what about that makes me feel hap
 What am I excited about in my life right now?20? what about that makes me feel excited?10? how does that make me feel?30?
 What am I proud about in my life right now?20? what about that makes me feel pride?10? how does that make me feel?30?
 How do I want to be accepted today?30? how will I accept others?10? how will I accept myself?30?
-What am I experiencing right now that let's me know I'm wealthy?30?How can I create more wealth in my life?15?How can I share my welath with others?30?
+What am I experiencing right now that let's me know I'm wealthy?30?How can I create more wealth in my life?15?How can I share my wealth with others?30?
 How can I make my goals my reality as quickly as possible?30?
 What am I responsible for today?20? How should I best handle those responsibilities?
 '''

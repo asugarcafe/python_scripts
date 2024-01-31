@@ -1,0 +1,24 @@
+#abstract: another mental kungfu technique to program
+in with hypnosis/NLP. 
+
+mental metaphor: a crow hiding treasure is trying 
+    to not lose anything and make everything useful later.
+    mentally sorting incoming data using mnemonic techniques to ensure recall
+    
+    
+trigger: 
+    A: "Crow Hides Treasure"
+    V:
+    K:
+    
+States/Syntaxes:
+    -Recognize something needing storage
+    -Sort where to store the information by when/where it will be needed later
+        --future pace
+            --when might you need it? who needs it now?
+            --what future situations will be better because you remember this?
+        --how is it useful to people now? how will it be useful to you in the future?
+        --how important will this be when you need it?
+    -cement the information using a mnemonic, 
+        --action + relevence + emotion + sensory immersion
+        
