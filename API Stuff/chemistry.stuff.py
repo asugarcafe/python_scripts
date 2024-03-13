@@ -9,6 +9,7 @@ from chempy import Substance, balance_stoichiometry, mass_fractions
 from pprint import pprint
 
 
+
 def fetch_periodic_table_data():
     url = "https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json"
     response = requests.get(url)

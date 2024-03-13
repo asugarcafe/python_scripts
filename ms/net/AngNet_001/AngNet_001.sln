@@ -7,7 +7,9 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularapp", "angularapp\an
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{9C8F7CE5-B9A2-41FC-9F57-33C3925A10F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiTests", "webapiTests\webapiTests.csproj", "{61932732-04C7-4D4E-B1D6-A97F98E204A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapiTests", "webapiTests\webapiTests.csproj", "{61932732-04C7-4D4E-B1D6-A97F98E204A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "TestHarness\TestHarness.csproj", "{F528DD99-2A78-4D99-9F81-F9EFA052E139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{61932732-04C7-4D4E-B1D6-A97F98E204A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61932732-04C7-4D4E-B1D6-A97F98E204A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61932732-04C7-4D4E-B1D6-A97F98E204A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F528DD99-2A78-4D99-9F81-F9EFA052E139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F528DD99-2A78-4D99-9F81-F9EFA052E139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F528DD99-2A78-4D99-9F81-F9EFA052E139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F528DD99-2A78-4D99-9F81-F9EFA052E139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

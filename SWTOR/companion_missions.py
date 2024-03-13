@@ -286,14 +286,14 @@ def runAll(levels_to_grind, DoMiddleSkill=False):
             time.sleep(.5)
             print('End loop')
             print(str(datetime.datetime.now()))
-    
+
 
 refresh_window()
 
 
-runAll([1,2,3,5,6,7,8,9,10], f)
+#runAll([1,2,3,5,6,7,8,9,10], f)
 
-#run_tops_and_bottoms(5, f)
+run_tops_and_bottoms(5, f)
 
 #run_missions([2,3,4,5,6,7], 180, fullRun=f, runMiddleMissions=f)#, levelMode=t)
 # t = b["ScrollCharTop"]

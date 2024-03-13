@@ -4,6 +4,10 @@ in with hypnosis/NLP.
 mental metaphor: a crow hiding treasure is trying 
     to not lose anything and make everything useful later.
     mentally sorting incoming data using mnemonic techniques to ensure recall
+    crow future paces when it will need the treasure later and its only useful 
+    if the treasure can be found. The crow marks where the treasure is hidden
+    so it can be found later.
+    
     
     
 trigger: 

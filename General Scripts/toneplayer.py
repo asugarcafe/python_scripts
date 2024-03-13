@@ -128,9 +128,13 @@ freq1 = goal_freq - off_pct
 freq2 = goal_freq + off_pct
 note1 = Note(freq1)
 note2 = Note(freq2)
-#player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
+'''#
+player.play_tones(pygame.mixer, note1, note2,
+                  seconds_per_tone,
+                  K*((seconds_per_tone**2)))
+#'''
 
-wobble_at = 24
+wobble_at = 16
 while True:
     player.play_scale_hemisynchronous(chakras, 9, wobble_at)
 
