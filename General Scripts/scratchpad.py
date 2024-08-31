@@ -68,6 +68,10 @@ def read_distances(outer_arr, values_dict, iterations):
     else:
         return outer_arr
 
-arr_holder = []
-distances = read_distances(arr_holder, big_fib_dict, 50)
-print_array_of_arrays_to_file(distances, 'fibonacci.distance.arrays.txt')
+# arr_holder = []
+# distances = read_distances(arr_holder, big_fib_dict, 50)
+# print_array_of_arrays_to_file(distances, 'fibonacci.distance.arrays.txt')
+folder = 'E:/Dropbox/Games/CoC/Python/ElementalLust/Characters/*'
+from glob import glob
+
+print(glob(folder, recursive = True))

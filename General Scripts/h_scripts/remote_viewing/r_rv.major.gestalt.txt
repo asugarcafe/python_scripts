@@ -1,0 +1,2 @@
+sense the basics of the target|10|
+describe using single words|5|

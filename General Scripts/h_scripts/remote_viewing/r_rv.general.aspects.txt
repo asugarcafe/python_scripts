@@ -1,0 +1,11 @@
+General qualitative analytical aspects:
+"Scientific research, live organisms"
+
+go to the target|2|sense the target|2|see the target|5|
+describe using single words|5|
+sense it, are there any colors|5|
+sense it, does it have a temperature|5|
+does it have a texture|5|
+is there movement|3|
+are there any smells or flavors|5|
+see the target|2|go to the target|2|sense the target|5|

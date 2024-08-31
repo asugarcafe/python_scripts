@@ -61,6 +61,7 @@ ssml_text = '''
 How can I best orient myself towards the next part of my day?20?
 How can I get my best performance out of myself today?20?
 On a scale of 1-10 how intense should my positive and empowering states be today?15?
+What am I grateful for in my life?20?What about thatmakes me grateful?10?How does that feel?10?
 How am I choosing positivity in my life right now?20? why am I choosing positivity?10? how does that make me feel?30?
 What do I respect about myself right now?20? what about that makes me respect myself?10? how does that make me feel?30?
 What do I love about myself right now?20? what about that makes me love myself?10? how does that make me feel?30?

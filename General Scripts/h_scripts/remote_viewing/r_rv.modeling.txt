@@ -1,0 +1,4 @@
+observe the layout|8|
+observe the design|8|
+how are things connected?|10|
+how do things relate to each other at the target?|10|
