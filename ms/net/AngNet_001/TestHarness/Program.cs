@@ -14,6 +14,10 @@ var ckt = new Circuit(
     );
 
 
+var ckt_555 = new Circuit(
+   );
+
+
 // Create a DC simulation that sweeps V1 from -1V to 1V in steps of 100mV
 var dc = new DC("DC 1", "V1", -1.0, 1.0, 0.2);
 

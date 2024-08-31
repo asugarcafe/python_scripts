@@ -11,8 +11,8 @@ export class Character {
   public HP: number;
   public Name: string;
   public Career: string;
-//blah
- ///TODO: add backpack of gear
+
+  ///TODO: add backpack of gear
   ///TODO: add skill scores
   ///TODO: add gear
   // tslint:disable-next-line: max-line-length
@@ -26,10 +26,10 @@ export class Character {
     this.HP = Hp;
 
     this.STR = Stats['STR'];
-    this.DEX = Stats['DEX']
-    this.CON = Stats['CON']
-    this.INT = Stats['INT']
-    this.WIS = Stats['WIS']
-    this.CHA = Stats['CHA']
+    this.DEX = Stats['DEX'];
+    this.CON = Stats['CON'];
+    this.INT = Stats['INT'];
+    this.WIS = Stats['WIS'];
+    this.CHA = Stats['CHA'];
   }
 }
