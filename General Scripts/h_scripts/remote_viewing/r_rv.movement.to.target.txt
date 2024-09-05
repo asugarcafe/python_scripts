@@ -1,8 +1,11 @@
-the target is #{TARGET_ID}|2|
-go to the target|2|
-go to #{TARGET_ID}|2|
-the target is #{TARGET_ID}|2|
-sense the target|2|
-sense #{TARGET_ID}|2|
+remove expectation|10|
+the target is #{TARGET_ID}|5|
+go to the target|5|
+go to #{TARGET_ID}|5|
+remove expectation|10|
+the target is #{TARGET_ID}|5|
+sense the target|5|
+sense #{TARGET_ID}|5|
+remove expectation|10|
 observe the target|5|
 observe #{TARGET_ID}|5|

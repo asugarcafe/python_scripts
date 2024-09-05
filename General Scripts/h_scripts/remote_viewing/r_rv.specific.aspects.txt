@@ -1,5 +1,10 @@
-Specific qualitative analytical aspects:
-"Biological warfare (BW) preparation site"
-
-
-asdfasd adf asdfasdfa |5|
+notice specific things|15|
+specifically, what is happening at this target|15|
+describe using short phrases and sentences|10|
+specifically, who, if anyone, is at this target|15|
+describe using short phrases and sentences|10|
+how do things happen here|15|
+describe using short phrases and sentences|10|
+what is the driver of whats happening at this target|10|
+notice specific things|15|
+describe using short phrases and sentences|10|

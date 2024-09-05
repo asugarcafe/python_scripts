@@ -99,7 +99,7 @@ class script_reader:
             #split the file into an array of statements
             return [s.strip() for s in file_text.split('|')]
 
-    def loop_current_script(self):
+    def read_current_script(self):
 
         while not self.exit_program:
         
@@ -133,7 +133,7 @@ class script_reader:
         self.navigator.set_script(0)
         
         while not self.exit_program:
-            self.loop_current_script()
+            self.read_current_script()
         
         listener.stop()
         

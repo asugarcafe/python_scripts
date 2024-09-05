@@ -1,16 +1,24 @@
-sense the target|2|
+sense the target|5|
 describe using single words|5|
-observe the target, are there any colors|2|
+observe the target, are there any colors|5|
 are there shapes|5|
 sense the size|5|
 sense the lighting|5|
 describe using single words|5|
 sense the location|5|
-sense it, does it have a temperature|2|
-does it have a texture|5|
+sense it, what are the dimensions|5|
 describe using single words|5|
-observe the target, is there movement|3|
-sense it, are there any smells or flavors|5|
+sense it, does it have a temperature|5|
+does it have textures|5|
+describe using single words|5|
+observe the target, is there movement or action|5|
+sense it, are there any smells|5|
+describe using single words|5|
+sense it, are there any flavors|5|
 describe using single words|5|
 sense it, are there sounds|5|
 describe any sounds using single words|5|
+sense the target|5|
+sense it, what is the volume of any sounds|5|
+describe using single words|5|
+sense it with all your senses|5|

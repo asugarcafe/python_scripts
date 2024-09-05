@@ -1,2 +1,7 @@
-sense the basics of the target|10|
-describe using single words|5|
+let the target be observed|10|
+remove all expectation|10|
+without expectation, observe the target|10|
+observe the target|10|
+sense a basic idea of the target|10|
+sense a fundamental quality of the target|10|
+when ready, draw a symbol representing the target|10|

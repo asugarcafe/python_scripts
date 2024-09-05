@@ -25,11 +25,11 @@ class Note(Sound):
         period = int(round(get_init()[0] / self.frequency))
         samples = array("h", [0] * period)
         amplitude = 2 ** (abs(get_init()[1]) - 1) - 1
-        for time in range(period):
-            if time < period / 2:
-                samples[time] = amplitude
+        for t in range(period):
+            if t < period / 2:
+                samples[t] = amplitude
             else:
-                samples[time] = -amplitude
+                samples[t] = -amplitude
             
         return samples
 
@@ -93,9 +93,10 @@ A4 = datasets.note_freq_wavelength(notes,'A4')
 E0 = datasets.note_freq_wavelength(notes,'E0')
 c4 = datasets.note_freq_wavelength(notes,'C4')
 
-blues_scale_A_fmt = ['A2','C2','D2','D#2/Eb2','E2','G2','A3','C3','D3','D#3/Eb3','E3','G3']
+blues_scale_A_fmt = ['A{0}','C{0}','D{0}','D#{0}/Eb{0}','E{0}','G{0}']
 whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
 chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3','G3']
+chakras = ['A3','B3','C4','C#4/Db4','D4','D#4/Eb4','E4','F#4/Gb4','G4']
 #chakras = ['A4','B4','C5','C#5/Db5','D5','D#5/Eb5','E5','F#5/Gb5','G5']
 
 
@@ -108,11 +109,13 @@ duration = 2
 pygame.mixer.init(channels=2)
 player = toneplayer()
 bit = True
+seconds_per_tone = 9
 
 
-wobble_at = 8
+# set the hemi-tone to hear
+wobble_at = 6
 while True:
-    player.play_scale_hemisynchronous(scale_to_use, 9, wobble_at)
+    player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)
 
 
 # Quit the pygame mixer
