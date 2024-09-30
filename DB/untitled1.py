@@ -6,29 +6,51 @@ Created on Tue Sep 24 09:29:37 2024
 """
 from PIL import Image, ImageDraw, ImageFont
 
-width = 512
-height = 512
-message = "Hello boss!"
-font = ImageFont.truetype("Tahoma.ttf", size=48)
+width = 200
+height = 200
+message = ''
+output_path = 'C:/temp/data/svg/'
 
-img = Image.new('RGB', (width, height), color='blue')
+messages = ['ADMIN', 'Alta', 'ARCH', 'BCR',
+'CCL', 'CUST','DBK','DRA',
+'FAC','GRA','HER','HOL',
+'HUN','IT','KEA','MAG',
+'MCC','METRO','OXBO','RIV',
+'SAN','SJO','SLCLS','SLCOS',
+'SLC ARC','SMC','SMI','TAY',
+'TRA','TSV','TYL','VEC',
+'VIR','web','WHI','WJO','WVA']
 
-imgDraw = ImageDraw.Draw(img)
+purple = (155, 79, 150)
+blue = (0,56,168)
+pink = (214, 2, 112)
 
-#textWidth, textHeight
-#textwidth  = imgDraw.textlength(message, font=font)
+font = ImageFont.truetype("SHOWG.TTF", size=48)
 
-textWidth = font.getlength(message)
-x,y,wid,hei = font.getbbox(message)
+for message in messages:
 
-# print(x)
-# print(y)
-# print(hei)
-# print(wid)
-
-xText = (width - wid) / 2
-yText = (height - hei) / 2
-
-imgDraw.text((xText, yText), message, font=font, fill=(255, 255, 0))
-
-img.save('result.png')
+    #img = Image.new('RGB', (width, height), color='blue')
+    img = Image.new('RGB',(width, height), purple)
+    
+    
+    imgDraw = ImageDraw.Draw(img)
+    
+    imgDraw.rectangle([(5, 5), (195, 195)],fill=blue )
+    
+    #textWidth, textHeight
+    #textwidth  = imgDraw.textlength(message, font=font)
+    
+    textWidth = font.getlength(message)
+    x,y,wid,hei = font.getbbox(message)
+    
+    # print(x)
+    # print(y)
+    # print(hei)
+    # print(wid)
+    
+    xText = (width - wid) / 2
+    yText = (height - hei) / 2
+    
+    imgDraw.text((xText, yText), message, font=font, fill=pink)
+    
+    img.save(output_path + message + '.png')
