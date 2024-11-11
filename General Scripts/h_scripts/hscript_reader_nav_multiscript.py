@@ -127,7 +127,6 @@ class script_reader:
     def main_loop(self):
         
         listener = keyboard.Listener(on_press=self.on_press)
-        # run listener in background so that the while loop gets executed
         listener.start()
         
         self.navigator.set_script(0)
@@ -140,14 +139,7 @@ class script_reader:
       
 
 TARGET_ID = "wwqrx94a" #"20.214573506000978, -87.42889533936818"
-my_scripts = ["C:\\Repos\\github_asugarcafe\\python_scripts\\General Scripts\\h_scripts\\remote_viewing\\r_rv.induction.txt",
-            "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/remote_viewing/r_rv.movement.to.target.txt",
-            "C:\\Repos\\github_asugarcafe\\python_scripts\\General Scripts\\h_scripts\\remote_viewing\\r_rv.major.gestalt.txt",
-            "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/remote_viewing/r_rv.sensory.contact.txt",
-            "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/remote_viewing/r_rv.dimension.txt",
-            "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/remote_viewing/r_rv.general.aspects.txt",
-            "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/remote_viewing/r_rv.specific.aspects.txt",
-            "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/remote_viewing/r_rv.modeling.txt",]
+my_scripts = ["C:/REPO/MyPythonScripts/python_scripts/General Scripts/h_scripts/r_single.line.repeater.txt",]
 
 
 
