@@ -1,5 +1,6 @@
 |5|I am amused that I practice visualization and improve my visualization skills
-|5|when I visualize, I notice and control the color and greyscale of the thing I am visualizing, I notice and control whether my visualization is color or black and white
+|5|when I visualize, I notice and control the color and greyscale of the thing I am visualizing, 
+I notice and control whether my visualization is color or black and white
 |5|when I visualize, I notice and control the size, shape, and location of the thing I am visualizing
 |5|My visualization skills, and their constant improvement, makes me feel proud
 |5|when I visualize, I engage emotionally with what I am visualizing
@@ -20,7 +21,8 @@
 |5|I am pleased that I practice visualization and improve my visualization skills
 |5|I am grateful that I can use visualization to manifest my goals and dreams
 |5|My visualization skills, and their constant improvement, makes me feel amused
-|5|when I visualize, I notice and control the personal interactivity of the thing I am visualizing, I notice if I am seeing it from my own eyes or if I see myself in the visualization
+|5|when I visualize, I notice and control the personal interactivity of the thing I am visualizing,
+I notice if I am seeing it from my own eyes or if I see myself in the visualization
 |5|I am proud that I practice visualization and improve my visualization skills
 |5|when I visualize, I make the thing I am visualizing more and more detailed and realistic
 |5|I find it easy to visualize
@@ -98,11 +100,13 @@
 |5|I easily visualize the feelings and emotions associated with reaching my goals
 |5|I feel pleased when I see the results I see from my improved visualization skills
 |5|My visualization skills, and their constant improvement, makes me feel pleased
-|5|when I visualize, I notice and control the dimensions of the thing I am visualizing, I notice and control whether my visualization is flat or three dimensional
+|5|when I visualize, I notice and control the dimensions of the thing I am visualizing, 
+I notice and control whether my visualization is flat or three dimensional
 |5|Sights, sounds, sensations, feelings, tastes and smells are easy for me to visualize
 |5|My visualization skills, and their constant improvement, makes me feel delighted
 |5|I have total control over my visualizations
-|5|My visualization skills, and their constant improvement, makes me feel appreciative|5|I feel amused when I see the results I see from my improved visualization skills
+|5|My visualization skills, and their constant improvement, makes me feel appreciative
+|5|I feel amused when I see the results I see from my improved visualization skills
 |5|I visualize in great detail
 |5|I am happy that I can use visualization to manifest solutions to my problems
 |5|I am happy that I am constantly improving my visualization abilities
