@@ -87,6 +87,17 @@ class toneplayer():
             bit = not bit
             player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
 
+    @staticmethod
+    def play_schumman(seconds_per_tone):
+        bit = False
+        hemi_tone = 7.83
+        note1 = 400.00 #datasets.note_freq_wavelength(notes,step)
+        freq1 = note1 - (hemi_tone/2)
+        freq2 = note1 + (hemi_tone/2)
+        note1 = Note(freq1)
+        note2 = Note(freq2)
+        player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
+
 notes = datasets.NotesA432()
 
 A4 = datasets.note_freq_wavelength(notes,'A4')
@@ -113,10 +124,10 @@ seconds_per_tone = 9
 
 
 # set the hemi-tone to hear
-wobble_at = 6
+wobble_at = 7.83
 while True:
     player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)
-
+    player.play_schumman(seconds_per_tone)
 
 # Quit the pygame mixer
 pygame.mixer.quit()
