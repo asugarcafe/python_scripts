@@ -41,11 +41,11 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 loop = 1000
 file_text = ""
 file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_priming.ap.txt'
-#file_path = "C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_visualization.improvement.txt"
+file_path = "C:/REPO/python_scripts_re/General Scripts/h_scripts/r_visualization.improvement.txt"
 #file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_single.line.repeater.txt'
 #file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_mentalacuity.txt'
-file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_manifesting.feedback.txt'
-file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_reading.comprehension.pegs.txt'
+# file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_manifesting.feedback.txt'
+file_path = 'C:/REPO/python_scripts_re/General Scripts/h_scripts/r_reading.comprehension.pegs.txt'
 
 
 desired_outcome = "to " + "open and hone your psychic senses"
