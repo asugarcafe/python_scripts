@@ -31,3 +31,7 @@ def hex2rgb(hexcode):
 print(rgb2hex(27,49,105))
 
 #print(glob(folder, recursive = True))
+
+
+https://www.sexstories.com/search/4/relevance/Non_consensual//66//
+https://www.sexstories.com/search/2/relevance/mind_control//71//
