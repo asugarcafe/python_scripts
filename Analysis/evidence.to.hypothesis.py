@@ -136,7 +136,8 @@ matrix.update_likelyhood(evidences[0].description, "Neighbor is Killer", LikelyH
 df = matrix.data_frame()
 
 
-
+# TODO: Do column counts to find least inconclusive hypotheses
+# TODO: this would be bets in a graphical interface, going to hop to other computer to do a prototype Angular project for an hour
 
 
 
