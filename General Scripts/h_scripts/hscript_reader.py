@@ -38,39 +38,48 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 '''
 
 
-loop = 1000
+loop = 100
 file_text = ""
-file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_priming.ap.txt'
-file_path = "C:/REPO/python_scripts_re/General Scripts/h_scripts/r_visualization.improvement.txt"
-#file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_single.line.repeater.txt'
-#file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_mentalacuity.txt'
-# file_path = 'C:/Repos/github_asugarcafe/python_scripts/General Scripts/h_scripts/r_manifesting.feedback.txt'
-file_path = 'C:/REPO/python_scripts_re/General Scripts/h_scripts/r_reading.comprehension.pegs.txt'
+file_path = 'r_priming.ap.txt'
+# file_path = "r_visualization.improvement.txt"
+# #file_path = 'r_single.line.repeater.txt'
+# file_path = 'r_mentalacuity.txt'
+# # file_path = 'r_manifesting.feedback.txt'
+# file_path = 'r_reading.comprehension.pegs.txt'
 
 
 desired_outcome = "to " + "open and hone your psychic senses"
 repeat = True
-while True:
+randomize = True
+count = 0
+while count < loop or repeat:
     # Open the file in read mode ('r')
     with open(file_path, 'r') as file:
         # Read the entire contents of the file into a string
-        file_text  = file.read()
+        if randomize:
+            file_lines = file.readlines()
+            random.shuffle(file_lines)
+            file_text  = "".join(file_lines)
+        else:
+            file_text  = file.read()
+
+        #split the file into statements and wait periods
         file_text = file_text.replace('.','|2|')
-        
+
         
     q_list = [s.strip() for s in file_text.split('|')]
-    count = 0
     for question in q_list:
         print(question)
+        #if the value is numeric, wait that many seconds
         if question.isnumeric():
             time.sleep(int(question))
         else:
+            #replace values in outcome-specific scripts
             q = question.replace("#{GOAL}", desired_outcome)
+            #random volume
             volume = random.choice([.3, .6, .9, .12, .24])
+            #speak the statement,
+            #this function randomizes TTS voice and speech rate
             textspeaker.text_to_speech_ssml(q, volume)
-        count = count + 1
-        if count > loop:
-            break
 
-    if not repeat:
-        break        
+    count += 1
