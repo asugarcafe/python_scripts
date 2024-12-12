@@ -45,7 +45,7 @@ file_path = 'r_priming.ap.txt'
 # #file_path = 'r_single.line.repeater.txt'
 # file_path = 'r_mentalacuity.txt'
 # # file_path = 'r_manifesting.feedback.txt'
-# file_path = 'r_reading.comprehension.pegs.txt'
+file_path = 'r_reading.comprehension.pegs.txt'
 
 
 desired_outcome = "to " + "open and hone your psychic senses"
