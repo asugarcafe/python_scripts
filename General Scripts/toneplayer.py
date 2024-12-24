@@ -127,7 +127,7 @@ seconds_per_tone = 9
 wobble_at = 7.83
 while True:
     player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)
-    player.play_schumman(seconds_per_tone)
+    #player.play_schumman(seconds_per_tone)
 
 # Quit the pygame mixer
 pygame.mixer.quit()

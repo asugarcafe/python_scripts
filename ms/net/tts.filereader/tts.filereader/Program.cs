@@ -11,9 +11,9 @@ namespace tts.filereader {
          
          string ts_text = "C:\\Repos\\github_asugarcafe\\python_scripts\\General Scripts\\h_scripts\\r_time.distortion.cs.txt";
          Dictionary<string,Tuple<bool,bool>> sourcefile = new Dictionary<string, Tuple<bool, bool>>();
-         sourcefile.Add("C:\\Repos\\github_asugarcafe\\python_scripts\\General Scripts\\h_scripts\\r_priming.ap.cs.txt", new Tuple<bool, bool>(true,false));
+         //sourcefile.Add("C:\\Repos\\github_asugarcafe\\python_scripts\\General Scripts\\h_scripts\\r_priming.ap.cs.txt", new Tuple<bool, bool>(true,false));
          sourcefile.Add("C:\\Repos\\github_asugarcafe\\python_scripts\\General Scripts\\h_scripts\\r_reading.comprehension.pegs.txt", new Tuple<bool, bool>(false, false));
-         sourcefile.Add(ts_text, new Tuple<bool, bool>(true, true));
+         //sourcefile.Add(ts_text, new Tuple<bool, bool>(true, true));
 
          var tasks = new List<Task>();
 
@@ -40,7 +40,7 @@ namespace tts.filereader {
          Task.WaitAll(tasks.ToArray(), TimeSpan.FromSeconds(30));
       }
 
-      public static void RunTTSLoop(string sourceFile, int loop = 100, bool repeat = false, bool randomize = true, bool fastRate = false) {
+      public static void RunTTSLoop(string sourceFile, int loop = 1, bool repeat = false, bool randomize = true, bool fastRate = false) {
          Random rnd = new Random();
          Func<bool> randomBool = () => { return rnd.Next(2) == 1; };
          Func<bool> randomCrit = () => { return rnd.Next(10) == 1; };
@@ -63,6 +63,7 @@ namespace tts.filereader {
                   synthesizer.Rate = (fastRate || randomCrit()) ? rnd.Next(2, 8) : rnd.Next(-7, 1);      // -10...10
 
                   Console.WriteLine($"v={synthesizer.Volume}:r={synthesizer.Rate}:s={statement}");
+
                   // Convert text to speech
                   synthesizer.Speak(statement);
 

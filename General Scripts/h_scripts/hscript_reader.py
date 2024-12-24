@@ -29,6 +29,7 @@ class textspeaker():
         # Set the voice properties to support SSML
         voices = engine.getProperty('voices')
         engine.setProperty('voice', random.choice(voices).id)
+
     
         engine.say(ssml_text)
         engine.runAndWait()
@@ -66,11 +67,13 @@ file_path = 'r_priming.ap.txt'
 # # file_path = 'r_manifesting.feedback.txt'
 file_path = 'r_reading.comprehension.pegs.txt'
 file_path = 'r_time.distortion.txt'
+file_path = 'r_memory.txt'
+file_path = 'r_memory.card.pegs.txt'
 
 
-desired_outcome = "to " + "improve my time distortion skill"
-repeat = False
-randomize = True
+desired_outcome = "to " + "slow down time at will"
+repeat = True
+randomize = False
 count = 0
 while count < loop or repeat:
     # Open the file in read mode ('r')
@@ -78,17 +81,18 @@ while count < loop or repeat:
 
     q_list = [s.strip() for s in file_text.split('|')]
     for question in q_list:
-        print(question)
         #if the value is numeric, wait that many seconds
         if question.isnumeric():
             time.sleep(int(question))
+            print(question)
         else:
             #replace values in outcome-specific scripts
             q = question.replace("#{GOAL}", desired_outcome)
             #random volume
-            volume = random.choice([.3, .6, .9, .12, .24])
+            volume = random.choice([.15, .25, .35])
             #speak the statement,
             #this function randomizes TTS voice and speech rate
+            print(q)
             textspeaker.text_to_speech_ssml(q, volume)
 
     count += 1
