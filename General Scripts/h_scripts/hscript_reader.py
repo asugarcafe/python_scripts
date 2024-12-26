@@ -11,6 +11,38 @@ import time
 import random
 
 class textspeaker():
+    engine = None
+    voices = None
+    
+    def __init__(self):
+        self.engine = pyttsx3.init()
+        self.voices = self.engine.getProperty('voices')
+        
+    def silence(self):
+        self.engine.stop()
+        
+    def getRand(self, upper):
+        return random.randint(1, upper)
+        
+
+    def text_to_speech(self, text, volume = .99):
+        if self.getRand(1) == 0:
+            if random.randint(0, 1) == 0:
+                rate = 100 - self.getRand(10)
+            else:
+                rate = 290 - self.getRand(10)
+        else:
+            rate = 260 - self.getRand(40)
+        print("r: {} v: {}".format(rate, volume))
+        self.engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
+        self.engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
+
+        # Set the voice properties to support SSML
+        self.engine.setProperty('voice', random.choice(self.voices).id)
+
+    
+        self.engine.say(text)
+        self.engine.runAndWait()
 
     @staticmethod
     def text_to_speech_ssml(ssml_text, volume = .99):
@@ -33,7 +65,6 @@ class textspeaker():
     
         engine.say(ssml_text)
         engine.runAndWait()
-        #engine.stop()
 
 def get_file_text(file, randomize_lines=True):
     file_text = ''
@@ -76,6 +107,7 @@ repeat = True
 randomize = False
 count = 0
 while count < loop or repeat:
+    speaker = textspeaker()
     # Open the file in read mode ('r')
     file_text = get_file_text(file_path, randomize)
 
@@ -93,6 +125,8 @@ while count < loop or repeat:
             #speak the statement,
             #this function randomizes TTS voice and speech rate
             print(q)
-            textspeaker.text_to_speech_ssml(q, volume)
+            speaker.text_to_speech(q, volume)
 
+    time.sleep(100)
+    speaker.silence()
     count += 1
