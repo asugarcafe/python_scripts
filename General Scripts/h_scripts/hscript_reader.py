@@ -106,8 +106,8 @@ desired_outcome = "to " + "slow down time at will"
 repeat = True
 randomize = False
 count = 0
+speaker = textspeaker()
 while count < loop or repeat:
-    speaker = textspeaker()
     # Open the file in read mode ('r')
     file_text = get_file_text(file_path, randomize)
 
@@ -125,8 +125,9 @@ while count < loop or repeat:
             #speak the statement,
             #this function randomizes TTS voice and speech rate
             print(q)
-            speaker.text_to_speech(q, volume)
+            if q != '':
+                speaker.text_to_speech(q, volume) 
 
-    time.sleep(100)
-    speaker.silence()
     count += 1
+    
+speaker.silence()
