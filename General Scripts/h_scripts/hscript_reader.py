@@ -99,12 +99,12 @@ file_path = 'r_mentalacuity.txt'
 #file_path = 'r_reading.comprehension.pegs.txt'
 #file_path = 'r_time.distortion.txt'
 #file_path = 'r_memory.txt'
-#file_path = 'r_memory.card.pegs.txt'
+file_path = 'r_memory.card.pegs.txt'
 
 
 desired_outcome = "to " + "slow down time at will"
 repeat = True
-randomize = True
+randomize = False
 count = 0
 speaker = textspeaker()
 while count < loop or repeat:
