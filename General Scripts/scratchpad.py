@@ -5,6 +5,8 @@ Created on Sun Dec 31 22:57:38 2023
 @author: sucre
 """
 from glob import glob
+import datetime
+from dateutil import parser
 
 seeds = 75
 grams = 2.7
@@ -28,10 +30,15 @@ def rgb2hex(r,g,b):
 def hex2rgb(hexcode):
     return tuple(map(ord,hexcode[1:].decode('hex')))
 
-print(rgb2hex(27,49,105))
+#print(rgb2hex(27,49,105))
 
 #print(glob(folder, recursive = True))
 
+d1 = parser.parse('2020-04-01')
+d2 = parser.parse('2023-06-01')
+delta1 = d2-d1
+delta_in_yr = delta1.days / (365.25)
+print(str(delta_in_yr))
 
 #https://www.sexstories.com/search/4/relevance/Non_consensual//66//
 #https://www.sexstories.com/search/2/relevance/mind_control//71//
