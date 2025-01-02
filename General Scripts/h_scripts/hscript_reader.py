@@ -92,9 +92,9 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 loop = 100
 file_text = ""
 file_path = 'r_priming.ap.txt'
-# file_path = "r_visualization.improvement.txt"
+file_path = "r_visualization.improvement.txt"
 # #file_path = 'r_single.line.repeater.txt'
-file_path = 'r_mentalacuity.txt'
+#file_path = 'r_mentalacuity.txt'
 # # file_path = 'r_manifesting.feedback.txt'
 #file_path = 'r_reading.comprehension.pegs.txt'
 #file_path = 'r_time.distortion.txt'
