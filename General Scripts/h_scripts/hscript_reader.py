@@ -30,9 +30,9 @@ class textspeaker():
             if random.randint(0, 1) == 0:
                 rate = 100 - self.getRand(10)
             else:
-                rate = 290 - self.getRand(10)
+                rate = 200 - self.getRand(10)
         else:
-            rate = 260 - self.getRand(40)
+            rate = 160 - self.getRand(40)
         print("r: {} v: {}".format(rate, volume))
         self.engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
         self.engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
@@ -51,9 +51,9 @@ class textspeaker():
             if random.randint(0, 1) == 0:
                 rate = 100 - random.randint(1, 10)
             else:
-                rate = 290 - random.randint(1, 10)
+                rate = 200 - random.randint(1, 10)
         else:
-            rate = 260 - random.randint(1, 40)
+            rate = 160 - random.randint(1, 40)
         print("r: {} v: {}".format(rate, volume))
         engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
         engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
