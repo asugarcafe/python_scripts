@@ -47,7 +47,7 @@ the six of diamonds is Yosemite Sam, the six of diamonds is Yosemite Sam shootin
 the seven of diamonds is Roy gee Biv, the seven of diamonds is Roy gee Biv spelling out the seven letters of his name in colored diamonds.
 the eight of diamonds is Ronald Reagan, the eight of diamonds is Ronald Reagan with infinite diamonds flowing out of his figure eight eyes.
 the nine of diamonds is Rick Sanchez, the nine of diamonds is Rick Sanchez shooting a grid of nine blast shots and the blasts look like red crystals or diamonds.
-the ten of diamonds is Leatherface, the ten of diamonds is Leatherface using a chainsaw to cut the digit of ten in half but his chainsaw kicks back when it hits a diamond.
+the ten of diamonds is Leatherface, the ten of diamonds is Leatherface using a chainsaw to cut the digits of ten in half but his chainsaw kicks back when it hits a diamond.
 the jack of diamonds is the Joker, the jack of diamonds is the Joker snarling with diamond face paint and a giant J on his shirt.
 the queen of diamonds is Lucifer, the queen of diamonds is Lucifer dressed as a Queen holding a diamond sceptre saying, "I'm the queen, baby, Worship me".
 the king of diamonds is Lex Luthor, the king of diamonds is Lex Luthor putting a kryptonite diamond crown on his head, smiling an evil smile.
@@ -124,7 +124,7 @@ The Aces story is A giant A grows out of the ground with the Grinch on it, the g
 The Twos are Shoggoth, Wonder Woman, Noah, then Two-Face, and back to the Shoggoth.
 The story of the Twos is a giant roman numeral two standing in a valley when a Shoggoth emerges from under and swallows it whole, the shoggoth lashes out a whip grabbing Wonder Woman, wonder woman cuts herself loose landing on Noah, and they climb aboard his ark, Two-Face greets them both with a cup of two shoggoths.
 the Threes are Themburshouwd, Doctor Strange, Cerberus, then Harley Quinn, and returns to Themburshouwd.
-the story of the Threes is a giant triangle on a three is destroyed by Themburshouwd, Themburshouwd pukes up Doctor Strange who whistles for Cerberus witha magical triagle whistle, as Cerberus runs to his side his chain drags Harley Quinn by the leg, Harley Quinn frees herself only to look up and see Themburshouwd running down a pyramid towards her.
+the story of the Threes is a giant triangle on a tree is destroyed by Themburshouwd, Themburshouwd pukes up Doctor Strange who whistles for Cerberus witha magical triangle whistle, as Cerberus runs to his side his chain drags Harley Quinn by the leg, Harley Quinn frees herself only to look up and see Themburshouwd running down a pyramid towards her.
 The Fours are Bowser, David who slayed Goliath, ET, then Robby Rotten, and arrives back at Bowser.
 The Fours story is Bowser throws four-pointed hammers at David who slayed Goliath, David gives the hammers to ET who touches them and they start glowing, ET levitates the hammers under the feet of Robby Rotten who clumsily trips on them, then Robby Rotten is lifted up by Bowser who is grabbing the four-pointed hammers under him.
 The Fives are the Zenomorph, Superman, Bigfoot, then Freddy Kruegar, and returns to the Zenomorph.
@@ -134,9 +134,9 @@ The sixes story is Kuhthooloo rises from the ocean six tentacles first with a ju
 The sevens are Jack of the Lantern, Clarice Starling, Geruda, then Roy gee Biv, and returns to Jack of the Lantern.
 The story of the sevens is Jack of the Lantern holding an el for lantern, Jack of the Lantern turns the el over to make a seven, Jack of the Lantern bonks Clarice Starling on the head with the seven, Clarice Starling runs backward shooting the seven out of his hands, Geruda swoops in and grabs Clarice Starling, Geruda flies through a rainbow coming from the eyes of Roy gee Biv, the rainbow lands on a pumpkin and Jack of the Lantern emerges and bends his body into a seven.
 The eights are Jeff the Killer, Obee one Kenobi, Arachne, then Ronald Reagan, and returns to Jeff the Killer.
-The the story of the eights is Jeff the Killer skating a figure eight in a skating rink, Obee one Kenobi comes skates but his lightsaber melts the ice, the water drains out of the rink onto Arachnes web, Arachne twists her whole web into an infitity sign and throws it across the eyes of Ronald Reagan, Ronald Reagan pulls off the web mak revealing he is actually Jeff the Killer.
+The the story of the eights is Jeff the Killer skating a figure eight in a skating rink, Obee one Kenobi comes out on skates but his lightsaber melts the ice, the water drains out of the rink onto Arachnes web, Arachne twists her whole web into an infinity sign and throws it across the eyes of Ronald Reagan, Ronald Reagan pulls off the web mak revealing he is actually Jeff the Killer.
 The nines are Jabba the Hutt, Tarzan, Gandalf, then Rick Sanchez, and returns to Jabba the Hutt.
-The story of nines is Jabba the Hutt is playing tic tac toe with Tarzan, Tarzan loses and hollars loudly sending out sound waves that knock Gandalf over, as Gandalf Stands up his staff which is a nine iron accidentally summons Rick Sanchez who is dressed to the nines, Rick Sanchez says not cool bro and opens a portal Jabba the Hutts desert cruiser and hops on a dance dance revolution pad.
+The story of nines is Jabba the Hutt is playing tic tac toe with Tarzan, Tarzan loses and hollars loudly sending out sound waves that knock Gandalf over, as Gandalf Stands up his staff which is a nine iron accidentally summons Rick Sanchez who is dressed to the nines, Rick Sanchez says not cool bro and opens a portal to Jabba the Huttss desert cruiser and hops through onto a dance dance revolution pad.
 The tens are Gozer the Gozeereean, Moses, Toath, then Leatherface, and returns to Gozer the Gozeereean.
 The tens story is Gozer the Gozeereean waves all her fingers summoning Moses, Moses hands the ten commandments to Toath, Toath unfurls a scroll which unrolls fully into Leatherface, Toath immediately starts transcribing the ten commandments onto the mask of Leatherface, Leatherface chansaws a ten into the chest of Toath, Gozer the Gozeereean steps of the holes wiving her ten fingers.
 The jacks are Demo-gore-gone, Mad Max, Nessie, then the Joker, and returns to Demo-gore-gone.
@@ -203,3 +203,8 @@ the Joker is the jack of diamonds.
 Lucifer is the queen of diamonds.
 Lex Luthor is the king of diamonds.
 Darth Vader is the ace of diamonds.
+
+Clubs are killers.
+Hearts are heroes.
+Spades are special friends.
+Diamonds are dastardly.
