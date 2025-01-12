@@ -99,7 +99,7 @@ file_path = "r_visualization.improvement.txt"
 #file_path = 'r_reading.comprehension.pegs.txt'
 file_path = 'r_time.distortion.txt'
 #file_path = 'r_memory.txt'
-#file_path = 'r_memory.card.pegs.txt'
+file_path = 'r_memory.card.pegs.txt'
 
 
 desired_outcome = "to " + "slow down time at will"
