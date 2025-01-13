@@ -1,0 +1,25 @@
+power is watts.
+voltage is volts.
+resistance is ohms.
+current is amps.
+
+power is watts, power is doctor watson.
+voltage is volts, voltage is misses hudson.
+resistance is ohms, resistance is sherlock holmes.
+current is amps, current is Irene Adler.
+
+power is watts, power is P.
+voltage is volts, voltage is V.
+resistance is ohms, resistance is R.
+current is amps, current is I.
+
+power is watts, power is P, power is doctor watson.
+voltage is volts, voltage is V, voltage is misses hudson.
+resistance is ohms, resistance is R, resistance is sherlock holmes.
+current is amps, current is I, current is Irene Adler.
+
+the unit of power is a watt, power is watts, power is P, power is doctor watson.
+the unit of voltage is a volt, voltage is volts, voltage is V, voltage is misses hudson.
+the unit of resistance is an ohm, resistance is ohms, resistance is R, resistance is sherlock holmes.
+the unit of current is an amp, current is amps, current is I, current is Irene Adler.
+
