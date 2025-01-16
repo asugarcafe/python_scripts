@@ -6,7 +6,7 @@ current is amps.
 power is watts, power is doctor watson.
 voltage is volts, voltage is misses hudson.
 resistance is ohms, resistance is sherlock holmes.
-current is amps, current is Irene Adler.
+current is amps, current is Ireen Addler.
 
 power is watts, power is P.
 voltage is volts, voltage is V.
@@ -16,12 +16,12 @@ current is amps, current is I.
 power is watts, power is P, power is doctor watson.
 voltage is volts, voltage is V, voltage is misses hudson.
 resistance is ohms, resistance is R, resistance is sherlock holmes.
-current is amps, current is I, current is Irene Adler.
+current is amps, current is I, current is Ireen Addler.
 
 the unit of power is a watt, power is watts, power is P, power is doctor watson.
 the unit of voltage is a volt, voltage is volts, voltage is V, voltage is misses hudson.
 the unit of resistance is an ohm, resistance is ohms, resistance is R, resistance is sherlock holmes.
-the unit of current is an amp, current is amps, current is I, current is Irene Adler.
+the unit of current is an amp, current is amps, current is I, current is Ireen Addler.
 
 black resistor bands are zero, black resistor bands are a multiplier of ten to the power of zero, black resistor bands are a multiplier of one.
 brown resistor bands are one, brown resistor bands are a multiplier of ten to the power of one, brown resistor bands are a multiplier of ten.
