@@ -7,7 +7,12 @@ mental metaphor: a crow hiding treasure is trying
     crow future paces when it will need the treasure later and its only useful 
     if the treasure can be found. The crow marks where the treasure is hidden
     so it can be found later.
-    
+
+Focus: Crow recognizes treasure.
+Location: Crow prepares location to store the treasure.
+Coding: Crow wraps treasure in a unique bag.
+Action: Crow flies the wrapped treaure to the location.
+Recall: Crow retrieves the treaure again and again.    
     
     
 trigger: 

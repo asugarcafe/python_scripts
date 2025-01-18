@@ -28,7 +28,7 @@ brown resistor bands are one, brown resistor bands are a multiplier of ten to th
 red resistor bands are two, red resistor bands are a multiplier of ten to the power of two, red resistor bands are a multiplier of one hundred.
 orange resistor bands are three, orange resistor bands are a multiplier of ten to the power of three, orange resistor bands are a multiplier of one thousand.
 yellow resistor bands are four, yellow resistor bands are a multiplier of ten to the power of four, yellow resistor bands are a multiplier of ten thousand.
-green resistor bands are five,, red resistor bands are a multiplier of ten to the power of five, red resistor bands are a multiplier of one hundred thousand.
+green resistor bands are five, green resistor bands are a multiplier of ten to the power of five, red resistor bands are a multiplier of one hundred thousand.
 blue resistor bands are six, blue resistor bands are a multiplier of ten to the power of six, blue resistor bands are a multiplier of one million.
 violet resistor bands are seven, violet resistor bands are a multiplier of ten to the power of seven, violet resistor bands are a multiplier of ten million.
 grey resistor bands are eight, grey resistor bands are a multiplier of ten to the power of eight, grey resistor bands are a multiplier of one hundred million.
