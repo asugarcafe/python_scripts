@@ -124,7 +124,7 @@ seconds_per_tone = 9
 
 
 # set the hemi-tone to hear
-wobble_at = 7.83
+wobble_at = 6
 while True:
     player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)
     #player.play_schumman(seconds_per_tone)
