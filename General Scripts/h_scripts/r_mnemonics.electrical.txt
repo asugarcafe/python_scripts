@@ -11,17 +11,17 @@ current is amps, current is Ireen Addler.
 power is watts, power is P.
 voltage is volts, voltage is V.
 resistance is ohms, resistance is R.
-current is amps, current is I.
+current is amps, current is eye.
 
 power is watts, power is P, power is doctor watson.
 voltage is volts, voltage is V, voltage is misses hudson.
 resistance is ohms, resistance is R, resistance is sherlock holmes.
-current is amps, current is I, current is Ireen Addler.
+current is amps, current is eye, current is Ireen Addler.
 
 the unit of power is a watt, power is watts, power is P, power is doctor watson.
 the unit of voltage is a volt, voltage is volts, voltage is V, voltage is misses hudson.
 the unit of resistance is an ohm, resistance is ohms, resistance is R, resistance is sherlock holmes.
-the unit of current is an amp, current is amps, current is I, current is Ireen Addler.
+the unit of current is an amp, current is amps, current is eye, current is Ireen Addler.
 
 black resistor bands are zero, black resistor bands are a multiplier of ten to the power of zero, black resistor bands are a multiplier of one.
 brown resistor bands are one, brown resistor bands are a multiplier of ten to the power of one, brown resistor bands are a multiplier of ten.
@@ -46,6 +46,8 @@ sherlock holmes wears a violet necklace on his cuff.
 sherlock holmes has a grey clown nose on his face.
 sherlock holmes has a white top hat on his point.
 sherlock holmes stands under a black ceiling.
+sherlock holmes wears a gold bracelet on one wrist.
+sherlock holmes wears two silver bracelets on the other wrist.
 
 sherlock holmes has brown shoes over his toes, one is sherlocks brown shoes.
 sherlock holmes wears red knee pads over his knees, two is sherlocks red knee pads.
