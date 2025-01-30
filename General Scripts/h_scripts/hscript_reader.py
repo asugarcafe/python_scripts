@@ -94,13 +94,13 @@ file_path = "r_single.line.repeater.txt"
 #file_path = 'r_priming.ap.txt'
 #file_path = "r_visualization.improvement.txt"
 #file_path = 'r_mnemonics.electrical.txt'
-#file_path = 'r_mentalacuity.txt'
+file_path = 'r_mentalacuity.txt'
 # # file_path = 'r_manifesting.feedback.txt'
 #file_path = 'r_reading.comprehension.pegs.txt'
 #file_path = 'r_time.distortion.txt'
 #file_path = 'r_memory.txt'
 #file_path = 'r_memory.card.pegs.txt'
-file_path = 'r_manifestation.healing.txt'
+#file_path = 'r_manifestation.healing.txt'
 
 
 desired_outcome = "to " + "slow down time at will"
@@ -131,4 +131,4 @@ while count < loop or repeat:
 
     count += 1
     
-speaker.silence()
+'''speaker.silence()'''
