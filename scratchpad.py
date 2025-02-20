@@ -20,4 +20,9 @@ from collections import Counter
 #     chars.append(char_val)
 j = 0.5
 k = 0.25
-print((7*j) + 5 - (8*k))
+#print((7*j) + 5 - (8*k))
+
+
+x = 169230 + 112076 + 72
+y = 279860
+print( x - y)
