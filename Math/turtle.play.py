@@ -33,8 +33,8 @@ def equilateralTriangle(length=100):
         trtl.forward(length)
         trtl.right(120)
 
-for x in range(0,12):
+for x in range(0,3):
     equilateralTriangle()
-    trtl.right(30)
+    trtl.right(120)
 
 trtl.done()
