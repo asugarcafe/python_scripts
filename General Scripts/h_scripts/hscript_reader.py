@@ -98,7 +98,7 @@ file_path = "r_visualization.improvement.txt"
 #file_path = 'r_manifesting.feedback.txt'
 #file_path = 'r_reading.comprehension.pegs.txt'
 #file_path = 'r_time.distortion.txt'
-#file_path = 'r_memory.txt'
+file_path = 'r_memory.txt'
 #file_path = 'r_memory.card.pegs.txt'
 #file_path = 'r_manifestation.healing.txt'
 
