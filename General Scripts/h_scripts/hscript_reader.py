@@ -122,7 +122,7 @@ while count < loop or repeat:
             #replace values in outcome-specific scripts
             q = question.replace("#{GOAL}", desired_outcome)
             #random volume
-            volume = random.choice([.45, .55, .65])
+            volume = random.choice([.15, .25, .35])
             #speak the statement,
             #this function randomizes TTS voice and speech rate
             print(q)
