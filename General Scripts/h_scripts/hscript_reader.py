@@ -26,14 +26,18 @@ class textspeaker():
         
 
     def text_to_speech(self, text, volume = .99):
-        if self.getRand(1) == 0:
+        flip = 0
+        if random.randint(0, 1) == 0:
             if random.randint(0, 1) == 0:
-                rate = 100 - self.getRand(10)
+                rate = 180 - self.getRand(10)
+                flip = 1
             else:
-                rate = 200 - self.getRand(10)
+                rate = 260 - self.getRand(10)
+                flip = 2
         else:
-            rate = 160 - self.getRand(40)
-        print("r: {} v: {}".format(rate, volume))
+            rate = 200 - self.getRand(40)
+            flip = 3
+        print("r{}: {} v: {}".format(flip, rate, volume))
         self.engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
         self.engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
 
