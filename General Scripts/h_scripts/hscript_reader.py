@@ -71,19 +71,29 @@ class textspeaker():
         engine.runAndWait()
 
 def get_file_text(file, randomize_lines=True):
+    all_lines = []
+    file_lines = []
+    files = []
     file_text = ''
-    with open(file, 'r') as file:
-        # Read the entire contents of the file into a string
-        if randomize_lines:
-            file_lines = file.readlines()
-            random.shuffle(file_lines)
-            file_text  = "".join(file_lines)
-        else:
-            file_text  = file.read()
+    if type(file) == str:
+        files.append()
+    else:
+        files = file
 
-        #split the file into statements and wait periods
-        file_text = file_text.replace('.','|1|')
-        file.close()
+    for f in files:
+        with open(f, 'r') as curr_file:
+            # Read the entire contents of the file into an array
+            file_lines = curr_file.readlines()
+            all_lines.extend(file_lines)
+            print(len(all_lines))
+            curr_file.close()
+
+    if randomize_lines:
+        random.shuffle(all_lines)
+
+    file_text  = "".join(all_lines)
+    file_text = file_text.replace('.','|1|')
+
     return file_text
 
 
@@ -107,6 +117,11 @@ file_path = "r_visualization.improvement.txt"
 #file_path = 'r_manifestation.healing.txt'
 file_path = 'r_selflove.txt'
 
+multifile = [
+    'r_selflove.txt'
+    ,'r_visualization.improvement.txt'
+    ,'r_mentalacuity.txt'
+    ,'r_memory.txt']
 
 desired_outcome = "to " + "slow down time at will"
 repeat = True
@@ -115,7 +130,8 @@ count = 0
 speaker = textspeaker()
 while count < loop or repeat:
     # Open the file in read mode ('r')
-    file_text = get_file_text(file_path, randomize)
+    #file_text = get_file_text(file_path, randomize)
+    file_text = get_file_text(multifile, randomize)
 
     q_list = [s.strip() for s in file_text.split('|')]
     for question in q_list:
