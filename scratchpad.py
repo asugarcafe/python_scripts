@@ -4,6 +4,7 @@ Created on Sun Dec 17 15:13:06 2023
 
 @author: sucre
 """
+'''
 import json
 from collections import Counter
 import turtle as trtl
@@ -27,3 +28,7 @@ for x in range(0,12):
     triangle()
 
 trtl.done()
+
+'''
+
+print(9 + 8 + 7.5 + 5.5)

@@ -120,7 +120,6 @@ file_path = "r_single.line.repeater.txt"
 
 multifile = [
     'r_selflove.txt'
-    ,'r_visualization.improvement.txt'
     ,'r_mentalacuity.txt'
     ,'r_memory.txt']
 
