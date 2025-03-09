@@ -76,11 +76,12 @@ def get_file_text(file, randomize_lines=True):
     files = []
     file_text = ''
     if type(file) == str:
-        files.append()
+        files = [file]
     else:
         files = file
 
     for f in files:
+        #print(f)
         with open(f, 'r') as curr_file:
             # Read the entire contents of the file into an array
             file_lines = curr_file.readlines()
@@ -106,7 +107,7 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 loop = 100
 file_path = "r_single.line.repeater.txt"
 #file_path = 'r_priming.ap.txt'
-file_path = "r_visualization.improvement.txt"
+#file_path = "r_visualization.improvement.txt"
 #file_path = 'r_mnemonics.electrical.txt'
 #file_path = 'r_mentalacuity.txt'
 #file_path = 'r_manifesting.feedback.txt'
@@ -115,13 +116,15 @@ file_path = "r_visualization.improvement.txt"
 #file_path = 'r_memory.txt'
 #file_path = 'r_memory.card.pegs.txt'
 #file_path = 'r_manifestation.healing.txt'
-file_path = 'r_selflove.txt'
+#file_path = 'r_selflove.txt'
 
 multifile = [
     'r_selflove.txt'
     ,'r_visualization.improvement.txt'
     ,'r_mentalacuity.txt'
     ,'r_memory.txt']
+
+#multifile = "r_single.line.repeater.txt"
 
 desired_outcome = "to " + "slow down time at will"
 repeat = True
@@ -132,6 +135,7 @@ while count < loop or repeat:
     # Open the file in read mode ('r')
     #file_text = get_file_text(file_path, randomize)
     file_text = get_file_text(multifile, randomize)
+    #print(multifile)
 
     q_list = [s.strip() for s in file_text.split('|')]
     for question in q_list:
