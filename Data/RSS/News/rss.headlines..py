@@ -21,16 +21,19 @@ def get_article_html(entry):
     return article
 
 all_feeds = {}
-all_feeds["npr.001"] = "https://feeds.npr.org/1001/rss.xml"
-all_feeds["pbs.001"] = "https://www.pbs.org/newshour/feeds/rss/headlines"
-all_feeds["bbc.us.001"] = "https://feeds.bbci.co.uk/news/rss.xml?edition=us"
-all_feeds["bbc.world.001"] = "https://feeds.bbci.co.uk/news/rss.xml?edition=int"
-all_feeds["nas.001"] = "https://www.nasa.gov/news-release/feed/"
-all_feeds["cnn.001"] = "http://rss.cnn.com/rss/edition.rss"
-all_feeds["guard.world.001"] = "https://www.theguardian.com/world/rss"
-all_feeds["guard.us.001"] = "https://www.theguardian.com/us-news/rss"
-all_feeds["dailymail.001"] = "https://www.dailymail.co.uk/news/index.rss"
-all_feeds["dailymail.science.001"] = "https://www.dailymail.co.uk/sciencetech/index.rss"
+all_feeds["reuters"] = "https://reutersbest.com/feed/"
+all_feeds["aljaz"] = "https://www.aljazeera.com/xml/rss/all.xml"
+all_feeds["slash."] = "https://rss.slashdot.org/Slashdot/slashdot"
+all_feeds["guard.world"] = "https://www.theguardian.com/world/rss"
+all_feeds["guard.us"] = "https://www.theguardian.com/us-news/rss"
+all_feeds["npr"] = "https://feeds.npr.org/1001/rss.xml"
+all_feeds["pbs"] = "https://www.pbs.org/newshour/feeds/rss/headlines"
+all_feeds["bbc.us"] = "https://feeds.bbci.co.uk/news/rss.xml?edition=us"
+all_feeds["bbc.world"] = "https://feeds.bbci.co.uk/news/rss.xml?edition=int"
+all_feeds["nas"] = "https://www.nasa.gov/news-release/feed/"
+all_feeds["cnn"] = "http://rss.cnn.com/rss/edition.rss"
+all_feeds["dailymail.top"] = "https://www.dailymail.co.uk/news/index.rss"
+all_feeds["dailymail.science"] = "https://www.dailymail.co.uk/sciencetech/index.rss"
 
 feed_html = ""
 
