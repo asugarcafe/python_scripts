@@ -33,8 +33,8 @@ blue resistor bands are six, blue resistor bands are a multiplier of ten to the 
 violet resistor bands are seven, violet resistor bands are a multiplier of ten to the power of seven, violet resistor bands are a multiplier of ten million.
 grey resistor bands are eight, grey resistor bands are a multiplier of ten to the power of eight, grey resistor bands are a multiplier of one hundred million.
 white resistor bands are nine, white resistor bands are a multiplier of ten to the power of nine, white resistor bands are a multiplier of one billion.
-gold resistor bands are nine, gold resistor bands are a multiplier of ten to the power of negative one, gold resistor bands are a multiplier of point one.
-silver resistor bands are nine, silver resistor bands are a multiplier of ten to the power of negative two, silver resistor bands are a multiplier of point zero one.
+gold resistor bands are one tenth, gold resistor bands are a multiplier of ten to the power of negative one, gold resistor bands are a multiplier of point one.
+silver resistor bands are one one hundredth, silver resistor bands are a multiplier of ten to the power of negative two, silver resistor bands are a multiplier of point zero one.
 
 sherlock holmes has brown shoes over his toes.
 sherlock holmes wears red knee pads over his knees.
@@ -59,4 +59,3 @@ sherlock holmes wears a violet necklace on his cuff, seven is sherlocks violet n
 sherlock holmes has a grey clown nose on his face, eight is sherlocks grey clown nose.
 sherlock holmes has a white top hat on his point, nine is sherlocks white top hat.
 sherlock holmes stands under a black ceiling, zero is the black ceiling over sherlock.
-

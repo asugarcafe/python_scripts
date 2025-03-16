@@ -21,7 +21,7 @@ def get_article_html(entry):
     return article
 
 all_feeds = {}
-all_feeds["reuters"] = "https://reutersbest.com/feed/"
+all_feeds["sltrib"] = "https://www.sltrib.com/arc/outboundfeeds/rss/?outputType=xml"
 all_feeds["aljaz"] = "https://www.aljazeera.com/xml/rss/all.xml"
 all_feeds["slash."] = "https://rss.slashdot.org/Slashdot/slashdot"
 all_feeds["guard.world"] = "https://www.theguardian.com/world/rss"
@@ -31,6 +31,8 @@ all_feeds["pbs"] = "https://www.pbs.org/newshour/feeds/rss/headlines"
 all_feeds["bbc.us"] = "https://feeds.bbci.co.uk/news/rss.xml?edition=us"
 all_feeds["bbc.world"] = "https://feeds.bbci.co.uk/news/rss.xml?edition=int"
 all_feeds["nas"] = "https://www.nasa.gov/news-release/feed/"
+all_feeds["lemonde"] = "https://www.lemonde.fr/en/rss/une.xml"
+all_feeds["lemonde.int"] = "https://www.lemonde.fr/en/international/rss_full.xml"
 all_feeds["cnn"] = "http://rss.cnn.com/rss/edition.rss"
 all_feeds["dailymail.top"] = "https://www.dailymail.co.uk/news/index.rss"
 all_feeds["dailymail.science"] = "https://www.dailymail.co.uk/sciencetech/index.rss"
