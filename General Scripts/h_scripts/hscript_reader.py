@@ -118,11 +118,8 @@ file_path = "r_single.line.repeater.txt"
 #file_path = 'r_manifestation.healing.txt'
 #file_path = 'r_selflove.txt'
 
-multifile = [
-    'r_manifestation.healing.txt',
-    'r_selflove.txt'
-    ,'r_mentalacuity.txt'
-    ,'r_memory.txt']
+multifile = ['r_manifestation.healing.txt'
+             ,'r_priming.ap.txt']
 
 #multifile = "r_single.line.repeater.txt"
 
