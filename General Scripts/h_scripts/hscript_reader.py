@@ -118,12 +118,19 @@ file_path = "r_single.line.repeater.txt"
 #file_path = 'r_manifestation.healing.txt'
 #file_path = 'r_selflove.txt'
 
+<<<<<<< Updated upstream
 multifile = ['r_manifestation.healing.txt'
              ,'r_priming.ap.txt']
+=======
+multifile = [
+    'r_mentalacuity.txt'
+    ,'r_visualization.improvement.txt'
+    ,'r_memory.txt']
+>>>>>>> Stashed changes
 
 #multifile = "r_single.line.repeater.txt"
 
-desired_outcome = "to " + "slow down time at will"
+desired_outcome = "to " + "open my third eye"
 repeat = True
 randomize = True
 count = 0

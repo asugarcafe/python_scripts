@@ -27,7 +27,9 @@ G_asymmetric.add_edge('D','E')
 
 nx.spring_layout(G_asymmetric)
 nx.draw_networkx(G_asymmetric)
+'''
 
+#'''
 G_weighted = nx.Graph()
 G_weighted.add_edge('Amitabh Bachchan','Abhishek Bachchan', weight=99)
 G_weighted.add_edge('Amitabh Bachchan','Aaamir Khan', weight=8)
@@ -37,10 +39,14 @@ G_weighted.add_edge('Abhishek Bachchan','Aaamir Khan', weight=4)
 G_weighted.add_edge('Abhishek Bachchan','Akshay Kumar',weight=7)
 G_weighted.add_edge('Abhishek Bachchan','Dev Anand', weight=1)
 G_weighted.add_edge('Dev Anand','Aaamir Khan',weight=1)
+#G_weighted.add_edge('Howdy Johnson','Aaamir Khan',twitter_link="@twitterlink")
+
+print(G_weighted.nodes)
+
 nx.draw_networkx(G_weighted)
+#'''
+
 '''
-
-
 G = nx.MultiGraph()
 G.add_edge('A','D',relation ='neighbor')
 G.add_edge('A','B',relation='friend')
@@ -48,6 +54,7 @@ G.add_edge('A','C',relation='friend')
 G.add_edge('B','C', relation='neighbor')
 G.add_edge('D','C',relation='friend')
 nx.draw_networkx(G)
+'''
 
 #MultiEdgeDataView([('A', 'B', {'relation': 'neighbor'}), 
 #                   ('A', 'B', {'relation': 'friend'}), 
@@ -59,3 +66,16 @@ nx.draw_networkx(G)
 #                        create_using = nx.Graph(), 
 #                        nodetype=int)
 #nx.draw_networkx(G_fb)
+
+'''
+BSR: how to actually use this:
+    --Define an Actor object which covers the relevant info about a person
+    --Populate Actor objects and use them as nodes
+    --Add relationships as edges
+        --define
+
+
+'''
+
+
+
