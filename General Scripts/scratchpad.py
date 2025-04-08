@@ -34,11 +34,19 @@ def hex2rgb(hexcode):
 
 #print(glob(folder, recursive = True))
 
-d1 = parser.parse('2020-04-01')
-d2 = parser.parse('2023-06-01')
-delta1 = d2-d1
-delta_in_yr = delta1.days / (365.25)
-print(str(delta_in_yr))
+# d1 = parser.parse('2020-04-01')
+# d2 = parser.parse('2023-06-01')
+# delta1 = d2-d1
+# delta_in_yr = delta1.days / (365.25)
+# print(str(delta_in_yr))
 
 #https://www.sexstories.com/search/4/relevance/Non_consensual//66//
 #https://www.sexstories.com/search/2/relevance/mind_control//71//
+
+Total_Hours = 259
+Weekdays_Open =  [3,4,5,6,10,11,12,13,17,18,19,20,24,25,26,27,31]
+WeekendDays_Open =  [1,7,8,14,15,21,22,28,29]
+
+print(len(Weekdays_Open))
+print(len(WeekendDays_Open))
+

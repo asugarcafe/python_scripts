@@ -1,0 +1,8 @@
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.induction.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.movement.to.target.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.major.gestalt.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.sensory.contact.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.dimension.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.general.aspects.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.specific.aspects.txt
+C:/REPO/python_scripts_re/General Scripts/h_scripts/remote_viewing/r_rv.modeling.txt
