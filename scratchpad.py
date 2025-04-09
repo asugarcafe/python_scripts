@@ -4,31 +4,31 @@ Created on Sun Dec 17 15:13:06 2023
 
 @author: sucre
 """
-'''
-import json
-from collections import Counter
-import turtle as trtl
+import pandas as pd
+
+ledger = 'C:/temp/bk_download.csv'
+
+df = pd.read_csv(ledger)
+
+df_deposits = df[df.Amount > 1.0]
+df_deposits = df_deposits[df.Description != 'ATM Fee Rebate']
+df_deposits = df_deposits[df.Description != 'USAA Transfer']
+df_deposits = df_deposits[df.Description != 'Mobile Deposit']
+df_deposits = df_deposits[df.Description != 'Utah State Tax Refund']
+df_deposits = df_deposits[df.Description != 'Federal Tax Refund']
+df_deposits = df_deposits[df.Description != 'Amazon Prime Membership']
+df_deposits = df_deposits[df.Description != 'Debit Card Refund']
+
+df_ira = df_deposits[df.Description == 'Schwab Brokerage']
+df_deposits = df_deposits[df.Description != 'Schwab Brokerage']
+df_deposits = df_deposits[df.Description != 'Usaa Close']
+
+non_taxed = df_deposits['Amount'].sum()
+print(non_taxed)
+
+taxed = df_ira['Amount'].sum()
+print(taxed)
 
 
-def square(length=100):
-    for x in range(0,4):
-        trtl.forward(length)
-        trtl.right(90)
-        
-def triangle(length=100):
-    for x in range(0,2):
-        trtl.forward(length)
-        trtl.right(120)
-        
 
-for x in range(0,12):        
-    trtl.right(30)
-    square()
-    #trtl.right(5)
-    triangle()
 
-trtl.done()
-
-'''
-
-print(9 + 8 + 7.5 + 5.5)
