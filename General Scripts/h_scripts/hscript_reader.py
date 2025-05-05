@@ -123,21 +123,22 @@ file_path = "r_single.line.repeater.txt"
 #file_path = 'r_manifestation.healing.txt'
 #file_path = 'r_selflove.txt'
 
-multifile = ['r_meditation.manifestation.coaching.txt'
-# multifile = ['r_memory.card.pegs.txt'
-#              ,'r_mentalacuity.txt'
+multifile = ['r_martialarts.metaphysical.txt']
+# multifile = ['r_mentalacuity.txt'
 #              ,'r_memory.txt'
-              ]
+#              ,'r_manifestation.economics.txt'
+#               ]
 
 #multifile = "r_single.line.repeater.txt"
 
 desired_outcome = "to " + "come up with an idea for a business that would help my community"
-manifestation = "you receive twelve thousand five hundred dollars every lunar month"
+manifestation = "you have mastered the five elemental fists of sing yee"
 repeat = True
-randomize = False
+randomize = True
 count = 0
 speaker = textspeaker()
 rate = 'fast'
+volumes = [.15, .2, .25, .3]
 #rate = 'not fast'
 while count < loop or repeat:
     # Open the file in read mode ('r')
@@ -156,7 +157,7 @@ while count < loop or repeat:
             q = question.replace("#{GOAL}", desired_outcome)
             q = question.replace("#{MANIFESTATION}", manifestation)
             #random volume
-            volume = random.choice([.15, .25, .35])
+            volume = random.choice(volumes)
             #speak the statement,
             #this function randomizes TTS voice and speech rate
             print(q)

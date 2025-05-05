@@ -28,9 +28,9 @@ if profession == '':
 
 
 cs = {'STR':60,'CON':40,
-      'POW':70,'DEX':60,
-      'APP':50,'SIZ':80,
-      'INT':50,'EDU':50}
+      'POW':60,'DEX':60,
+      'APP':50,'SIZ':60,
+      'INT':70,'EDU':50}
         
 inv = Investigator_7_Fast(full_name, list(cs.values()), profession)
 #inv.print_character()
