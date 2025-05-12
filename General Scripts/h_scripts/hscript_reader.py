@@ -123,10 +123,9 @@ file_path = "r_single.line.repeater.txt"
 #file_path = 'r_manifestation.healing.txt'
 #file_path = 'r_selflove.txt'
 
-multifile = ['r_martialarts.metaphysical.txt']
+multifile = ['r_reading.comprehension.pegs.txt']
 # multifile = ['r_mentalacuity.txt'
 #              ,'r_memory.txt'
-#              ,'r_manifestation.economics.txt'
 #               ]
 
 #multifile = "r_single.line.repeater.txt"
@@ -134,7 +133,7 @@ multifile = ['r_martialarts.metaphysical.txt']
 desired_outcome = "to " + "come up with an idea for a business that would help my community"
 manifestation = "you have mastered the five elemental fists of sing yee"
 repeat = True
-randomize = True
+randomize = False
 count = 0
 speaker = textspeaker()
 rate = 'fast'
