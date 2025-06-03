@@ -54,7 +54,11 @@ if True:
                             f'UID={username};'
                             f'PWD={password};'
                             f'Trusted_Connection={trusted_connection};')
-        
+    # cursor = conn.cursor()
+    # # Do the insert
+    # cursor.execute("insert into products(id, name) values ('pyodbc', 'awesome library')")
+    # #commit the transaction
+    # conn.commit()        
     #engine = create_engine(connection_string)
     # sql_query = f"EXEC [stat].[VisitorsWelcomed_Compile] @RunId = {runId}"
     
