@@ -37,8 +37,8 @@ class Note(Sound):
     def freq_to_note(freq):
         notes = ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#']
     
-        #BSR: this is 440 and I have been using 432
-        note_number = 12 * math.log2(freq / 440) + 49  
+        #BSR: this is 440 and I have been using A = 432
+        note_number = 12 * math.log2(freq / 432) + 49  
         note_number = round(note_number)
             
         note = (note_number - 1 ) % len(notes)
@@ -107,7 +107,7 @@ c4 = datasets.note_freq_wavelength(notes,'C4')
 blues_scale_A_fmt = ['A{0}','C{0}','D{0}','D#{0}/Eb{0}','E{0}','G{0}']
 whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
 chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3','G3']
-chakras = ['A3','B3','C4','C#4/Db4','D4','D#4/Eb4','E4','F#4/Gb4','G4']
+#chakras = ['A3','B3','C4','C#4/Db4','D4','D#4/Eb4','E4','F#4/Gb4','G4']
 #chakras = ['A4','B4','C5','C#5/Db5','D5','D#5/Eb5','E5','F#5/Gb5','G5']
 
 
@@ -120,7 +120,7 @@ duration = 2
 pygame.mixer.init(channels=2)
 player = toneplayer()
 bit = True
-seconds_per_tone = 9
+seconds_per_tone = 11
 
 
 # set the hemi-tone to hear

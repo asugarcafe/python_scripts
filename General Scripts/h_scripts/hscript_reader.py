@@ -31,6 +31,8 @@ class textspeaker():
         uppers = [180,260,200]
         if rate != 'fast':
             uppers = [90,130,200]
+        if rate == 'both':
+            uppers = [180,260,200,90,130,200]
             
         if random.randint(0, 1) == 0:
             if random.randint(0, 1) == 0:
@@ -109,7 +111,7 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 '''
 
 
-loop = 100
+loop = 10000
 file_path = "r_single.line.repeater.txt"
 #file_path = 'r_priming.ap.txt'
 #file_path = "r_visualization.improvement.txt"
@@ -121,24 +123,34 @@ file_path = "r_single.line.repeater.txt"
 #file_path = 'r_memory.txt'
 #file_path = 'r_memory.card.pegs.txt'
 #file_path = 'r_manifestation.healing.txt'
-#file_path = 'r_selflove.txt'
+#file_path = 'r_single.line.repeater.txt'
+multifile = [file_path]
 
+<<<<<<< Updated upstream
 multifile = ['r_reading.comprehension.pegs.txt']
 # multifile = ['r_mentalacuity.txt'
 #              ,'r_memory.txt'
 #               ]
+=======
+#multifile = ['r_meditation.manifestation.coaching.txt']
+# multifile = ['r_manifestation.economics.txt']
+multifile = ['r_mentalacuity.txt'
+              ,'r_memory.txt'
+              ,'r_manifestation.economics.txt'
+               ]
+>>>>>>> Stashed changes
 
 #multifile = "r_single.line.repeater.txt"
 
 desired_outcome = "to " + "come up with an idea for a business that would help my community"
-manifestation = "you have mastered the five elemental fists of sing yee"
+manifestation = "you have and maintain your dream job"
 repeat = True
 randomize = False
 count = 0
 speaker = textspeaker()
 rate = 'fast'
 volumes = [.15, .2, .25, .3]
-#rate = 'not fast'
+rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')
     #file_text = get_file_text(file_path, randomize)

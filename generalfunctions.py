@@ -4,7 +4,7 @@ Created on Sun Mar  2 17:22:15 2025
 
 @author: sucre
 """
-from asteval import Interpreter
+# from asteval import Interpreter
 import math
 
 def compound(principal, apr, years, intervals = 1):
@@ -37,14 +37,14 @@ b_diam = 70
 # print(f"hei: {hei:.2f} {compound(hei, .04, 10):.2f}")#vol
 # print(f"vol: {vol:.2f} {compound(vol, .04, 10):.2f}")#vol
 # print('--')
-# print(compound(100.0, .01, 100))
-# print(compound(100.0, -.01, 100))
-# print(compound(100.0, -.005, 100))
-print(bin_to_dec('11111'))
-print(bin_to_dec('1'))
-print(len("abcdefghijklmnopqrstuvwxyz_"))
-print(len("0123456789."))
-print(len("()^*/+-=_"))
+print(compound(100.0, .01, 100))
+print(compound(100.0, -.01, 100))
+print(compound(100.0, -.005, 100))
+# print(bin_to_dec('11111'))
+# print(bin_to_dec('1'))
+# print(len("abcdefghijklmnopqrstuvwxyz_"))
+# print(len("0123456789."))
+# print(len("()^*/+-=_"))
 
 # aeval = Interpreter()
 # result = aeval('2**(4 + 1)')
