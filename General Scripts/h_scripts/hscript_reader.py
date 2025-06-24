@@ -127,17 +127,23 @@ file_path = "r_single.line.repeater.txt"
 multifile = [file_path]
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 multifile = ['r_reading.comprehension.pegs.txt']
 # multifile = ['r_mentalacuity.txt'
 #              ,'r_memory.txt'
 #               ]
 =======
+=======
+>>>>>>> Stashed changes
 #multifile = ['r_meditation.manifestation.coaching.txt']
 # multifile = ['r_manifestation.economics.txt']
 multifile = ['r_mentalacuity.txt'
               ,'r_memory.txt'
               ,'r_manifestation.economics.txt'
                ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 #multifile = "r_single.line.repeater.txt"
