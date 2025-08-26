@@ -1,6 +1,6 @@
 |15|your manifestation is, #{MANIFESTATION}
 |15|experience your manifestation, #{MANIFESTATION}, what do you experience
-|15|experience your manifestation from a shockra, #{MANIFESTATION} from a shokra
+|15|experience your manifestation from a shockra, #{MANIFESTATION} and experience it from a shokra
 |15|#{MANIFESTATION}, what do you learn as you experience this
 |15|experience more about your manifestation
 |15|experience everything you can of your manifestation

@@ -112,50 +112,36 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 
 
 loop = 10000
-file_path = "r_single.line.repeater.txt"
-#file_path = 'r_priming.ap.txt'
-#file_path = "r_visualization.improvement.txt"
-#file_path = 'r_mnemonics.electrical.txt'
-#file_path = 'r_mentalacuity.txt'
-#file_path = 'r_manifesting.feedback.txt'
-#file_path = 'r_reading.comprehension.pegs.txt'
-#file_path = 'r_time.distortion.txt'
-#file_path = 'r_memory.txt'
-#file_path = 'r_memory.card.pegs.txt'
-#file_path = 'r_manifestation.healing.txt'
-#file_path = 'r_single.line.repeater.txt'
-multifile = [file_path]
+file_path = []
+#file_path.append("r_single.line.repeater.txt")
+#file_path.append('r_priming.ap.txt')
+#file_path.append("r_visualization.improvement.txt")
+#file_path.append('r_mnemonics.electrical.txt')
+#file_path.append('r_mentalacuity.txt')
+#file_path.append('r_manifesting.feedback.txt')
+#file_path.append('r_reading.comprehension.pegs.txt)'
+#file_path.append('r_time.distortion.txt')
+#file_path.append('r_memory.txt')
+#file_path.append('r_memory.txt')
+#file_path.append('r_goal.questions.txt')
+#file_path.append('r_metaphysical.chakras.txt')
+#file_path.append('r_manifestation.healing.txt')
+#file_path.append('r_single.line.repeater.txt')
+file_path.append('r_meditation.manifestation.coaching.txt')
+multifile = file_path
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-multifile = ['r_reading.comprehension.pegs.txt']
-# multifile = ['r_mentalacuity.txt'
-#              ,'r_memory.txt'
-#               ]
-=======
-=======
->>>>>>> Stashed changes
-#multifile = ['r_meditation.manifestation.coaching.txt']
-# multifile = ['r_manifestation.economics.txt']
-multifile = ['r_mentalacuity.txt'
-              ,'r_memory.txt'
-              ,'r_manifestation.economics.txt'
-               ]
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-
-#multifile = "r_single.line.repeater.txt"
 
 desired_outcome = "to " + "come up with an idea for a business that would help my community"
-manifestation = "you have and maintain your dream job"
+manifestation = []
+manifestation.append(" you receive thirteen thousand dollars every month ")
+manifestation.append(" you have trained your shockras to get lighter and lighter until they are lighter than air ")
+#manifestation = " you are especially competent and detail oriented at work "
 repeat = True
-randomize = False
+randomize = True
 count = 0
 speaker = textspeaker()
 rate = 'fast'
-volumes = [.15, .2, .25, .3]
+volumes = [.35, .25, .55, .45]
 rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')
@@ -172,7 +158,7 @@ while count < loop or repeat:
         else:
             #replace values in outcome-specific scripts
             q = question.replace("#{GOAL}", desired_outcome)
-            q = question.replace("#{MANIFESTATION}", manifestation)
+            q = question.replace("#{MANIFESTATION}", random.choice(manifestation))
             #random volume
             volume = random.choice(volumes)
             #speak the statement,
