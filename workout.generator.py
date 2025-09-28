@@ -8,12 +8,13 @@ import pandas as pd
 
 reps = { "High": [15,20],
         "Medium": [12,15],
-        "Low" : [8,12] }
+        "Low" : [5,12] }
 
 elements = ["Aerobics",
             "Flexibility",
             "Strength",
-            "Balance"]
+            "Balance",
+            "Mixed",]
 calisthenics = ["Burpees",
                 "Mountain Climbers",
                 "Heavy Bag Drills",

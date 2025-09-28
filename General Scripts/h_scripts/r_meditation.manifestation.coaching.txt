@@ -1,11 +1,53 @@
-|15|your manifestation is, #{MANIFESTATION}
-|15|experience your manifestation, #{MANIFESTATION}, what do you experience
-|15|experience your manifestation from a shockra, #{MANIFESTATION} and experience it from a shokra
-|15|#{MANIFESTATION}, what do you learn as you experience this
-|15|experience more about your manifestation
-|15|experience everything you can of your manifestation
-|15|experience more of what you are manifesting
-|15|experience your life now that you have your manifestation
-|15|experience this manifestation more and more clearly
-|15|explore what it feels like when #{MANIFESTATION}
-
+|0|my manifestation is, #{MANIFESTATION}
+|0|#{MANIFESTATION}, because I have created this
+|0|#{MANIFESTATION}, and I experience everything about this
+|0|#{MANIFESTATION}, this is real because #{MANIFESTATION}
+|0|#{MANIFESTATION}, and I feel happier each time I remember it
+|0|#{MANIFESTATION}, and Im surprised by how much I love it
+|0|#{MANIFESTATION}, and I love everything about this
+|0|#{MANIFESTATION}, and I am grateful for it
+|0|#{MANIFESTATION}, how grateful do I feel
+|0|#{MANIFESTATION}, and I feel it in my body
+|0|#{MANIFESTATION}, and I sense it in many ways
+|0|#{MANIFESTATION}, and my higher self loves it
+|0|#{MANIFESTATION}, and I realize it often because this is reality
+|0|#{MANIFESTATION}, this is my reality, I notice it all the time
+|0|experience what I have created, #{MANIFESTATION}, what is it like
+|0|#{MANIFESTATION}, what have I learned from this
+|0|I can see more and more clearly that #{MANIFESTATION}
+|0|I love exploring what it feels like when #{MANIFESTATION}
+|0|when I remember, #{MANIFESTATION}, it makes me happier
+|0|every time I focus on what I am manifesting, #{MANIFESTATION}, it becomes stronger
+|0|every time I realize #{MANIFESTATION}, the realization is stronger
+|0|#{MANIFESTATION}, I realize it more and more
+|0|#{MANIFESTATION}, and I see it clearly
+|0|it is already true, #{MANIFESTATION}
+|0|#{MANIFESTATION}, because I have chosen that #{MANIFESTATION}
+|0|#{MANIFESTATION}, or I realize that #{MANIFESTATION}
+|0|#{MANIFESTATION}, I already have this
+|0|#{MANIFESTATION}, and I say it out loud
+|0|I remember how #{MANIFESTATION}
+|0|#{MANIFESTATION}, and I tell myself often that #{MANIFESTATION}
+|0|#{MANIFESTATION}, this is who I am
+|0|#{MANIFESTATION}, its more real every time
+|0|#{MANIFESTATION}, this is effortless
+|0|#{MANIFESTATION}, because this is who I am
+|0|#{MANIFESTATION}, because I must
+|0|#{MANIFESTATION}, it flows everywhere in my life
+|0|#{MANIFESTATION}, it affects every aspect of my life
+|0|#{MANIFESTATION}, I am constantly reminded of this
+|0|I am hearing this because #{MANIFESTATION}
+|0|It becomes truer every time that #{MANIFESTATION}
+|0|There is no need to pretend because #{MANIFESTATION}
+|0|I cant deny that #{MANIFESTATION}
+|0|Its undeniable that #{MANIFESTATION}
+|0|I embrace that #{MANIFESTATION}
+|0|Its so good that #{MANIFESTATION}
+|0|It helps everyone that #{MANIFESTATION}
+|0|I completely accept that #{MANIFESTATION}
+|0|I accept the truth #{MANIFESTATION}
+|0|Its obvious that #{MANIFESTATION}
+|0|#{MANIFESTATION}, I could draw a picture of it
+|0|#{MANIFESTATION}, because I can see it in my life
+|0|I naturally align my whole self towards this, #{MANIFESTATION}
+|0|Its already happening, #{MANIFESTATION}

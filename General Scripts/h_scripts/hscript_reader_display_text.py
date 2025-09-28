@@ -4,11 +4,70 @@ Created on Sat Jul 22 19:56:33 2023
 
 @author: sucre
 """
-import os
+import os, time, random
 import pyttsx3
 import pyttsx3.voice
-import time
-import random
+import tkinter, win32api, win32con, pywintypes
+
+fonts = ["Aharoni","Arial",
+         "Bahnschrift","Calibri",
+         "Comic Sans MS","Corbel",
+         "David","Georgia",
+         "Segoe UI","Tahoma",]
+sizes = [24,72]
+font_colors = ["red", "blue", "blue4",
+               "brown4","burlywood4",
+               "cadetblue4","cadmiumorange",
+               "green", "aquamarine4",
+               "darkolivegreen4", "darkgreen",
+               "darkorchid4", "darkslateblue",
+               "darkslategray", "deeppink4",
+               "firebrick", "firebrick4",
+               "indigo", "lightblue4",
+               "black", "bisque4"]
+
+def quit_label(lbl):
+    lbl.master.destroy()
+    lbl.quit()
+
+def create_disappearing_label(caption, dur_ms):
+    label = tkinter.Label(text=caption, 
+                          wraplength=1200,
+                          font=get_random_font(), 
+                          fg=get_random_font_color(), 
+                          bg='white')
+    label.master.overrideredirect(True)
+    label.master.geometry(get_random_position())
+    label.master.lift()
+    label.master.wm_attributes("-topmost", True)
+    label.master.wm_attributes("-disabled", True)
+    label.master.wm_attributes("-transparentcolor", "white")
+    
+    hWindow = pywintypes.HANDLE(int(label.master.frame(), 16))
+    # http://msdn.microsoft.com/en-us/library/windows/desktop/ff700543(v=vs.85).aspx
+    # The WS_EX_TRANSPARENT flag makes events (like mouse clicks) fall through the window.
+    exStyle = win32con.WS_EX_COMPOSITED | win32con.WS_EX_LAYERED | win32con.WS_EX_NOACTIVATE | win32con.WS_EX_TOPMOST | win32con.WS_EX_TRANSPARENT
+    win32api.SetWindowLong(hWindow, win32con.GWL_EXSTYLE, exStyle)
+
+    label.pack()
+    label.after(dur_ms, lambda: quit_label(label))
+    label.mainloop()
+
+def get_random_font():
+    font = random.choice(fonts)
+    size = random.randrange(sizes[0],sizes[1])
+    return (font, str(size))
+
+def get_random_position():
+    max_top = 700
+    max_left = 700
+    top = random.randrange(1,max_top)
+    left = random.randrange(1,max_left)
+    return "+{0}+{1}".format(left,top)
+
+def get_random_font_color():
+    return random.choice(font_colors)
+
 
 class textspeaker():
     engine = None
@@ -167,8 +226,9 @@ randomize = True
 count = 0
 loop = 1000
 speaker = textspeaker()
-rate = 'both'
+rate = 'vfast'
 volumes = [.35, .25, .55, .45]
+destroy_label_after = 750
 #rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')
@@ -192,6 +252,7 @@ while count < loop or repeat:
             #this function randomizes TTS voice and speech rate
             print(q)
             if q != '':
+                create_disappearing_label(q, destroy_label_after)
                 speaker.text_to_speech(q, volume, rate) 
 
     count += 1

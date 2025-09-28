@@ -41,16 +41,6 @@ def hex2rgb(hexcode):
 # print(str(delta_in_yr))
 
 
-Total_Hours = 259
-Weekdays_Open =  [3,4,5,6,10,11,12,13,17,18,19,20,24,25,26,27,31]
-WeekendDays_Open =  [1,7,8,14,15,21,22,28,29]
-
-Total_Hours =  262
-Weekdays_Open = [1,2,3,7,8,9,10,14,15,16,17,21,22,23,24,28,29,30]
-WeekendDays_Open = [4,5,11,12,18,19,25,26]
 
 
-print(len(Weekdays_Open))
-print(len(WeekendDays_Open))
 
-#print(2255+ 590)

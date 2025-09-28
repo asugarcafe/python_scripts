@@ -37,7 +37,10 @@ b_diam = 70
 # print(f"hei: {hei:.2f} {compound(hei, .04, 10):.2f}")#vol
 # print(f"vol: {vol:.2f} {compound(vol, .04, 10):.2f}")#vol
 # print('--')
+print(compound(100.0, .01, 50))
+print(compound(100.0, -.01, 50))
 print(compound(100.0, .01, 100))
+print(compound(110.5115, .011, 100))
 print(compound(100.0, -.01, 100))
 print(compound(100.0, -.005, 100))
 # print(bin_to_dec('11111'))

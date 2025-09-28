@@ -24,6 +24,40 @@ class textspeaker():
     def getRand(self, upper):
         return random.randint(1, upper)
         
+    def text_to_file(self, filename, text, volume = .99, rate='fast'):
+        flip = 0
+        
+        uppers = [180,260,200]
+        if rate == 'vfast':
+            uppers = [255,305,355]
+        if rate == 'slow':
+            uppers = [90,130,200]
+        if rate == 'both':
+            uppers = [180,260,200,90,130,200]
+            
+        if random.randint(0, 1) == 0:
+            if random.randint(0, 1) == 0:
+                rate = uppers[0] - self.getRand(10)
+                flip = 1
+            else:
+                rate = uppers[1] - self.getRand(10)
+                flip = 2
+        else:
+            rate = uppers[2] - self.getRand(40)
+            flip = 3
+
+
+        print("r{}: {} v: {}".format(flip, rate, volume))
+        self.engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
+        self.engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
+
+        # Set the voice properties to support SSML
+        self.engine.setProperty('voice', random.choice(self.voices).id)
+
+    
+        self.engine.say(text)
+        self.engine.runAndWait()
+
 
     def text_to_speech(self, text, volume = .99, rate='fast'):
         flip = 0
@@ -142,42 +176,48 @@ manifestation = []
 # manifestation.append(" you think about your living spaces in a way that allows you to keep them clean and natually organize them ")
 # manifestation.append(" you have paid off your mortgage and own your home ")
 # manifestation.append(" you explore and learn how to use the chee energy flowing through your body ")
-# manifestation.append(" I have mastered my chee energy and use it like a master of sheenanjoo ")
-# manifestation.append(" I control and direct my chee energy ")
+# manifestation.append(" you have mastered your chee energy and use it like a master of sheenanjoo ")
 # manifestation.append(" you have trained yourself to quickly and easily see and sense auras ")
 # manifestation.append(" you take good care of the things you own and are responsible for maintaining ")
 # manifestation.append(" you appreciate people and build stronger and healthier bonds with the people you connect with ")
 # manifestation.append(" you learn and play music every day ")
-# manifestation.append(" I have healed, strengthened, and aligned each of my major shockras ")
-manifestation.append(" I increase my strength, endurance, and dexterity every day ")
-manifestation.append(" I increase my strength, dexterity, and endurance every day ")
-manifestation.append(" I increase my endurance, strength, and dexterity every day ")
-manifestation.append(" I increase my endurance, dexterity, and strength every day ")
-manifestation.append(" I increase my dexterity, endurance, and strength every day ")
-manifestation.append(" I increase my dexterity, strength, and endurance every day ")
-manifestation.append(" I rest and heal in ways that increase my strength, endurance, and dexterity every day ")
-manifestation.append(" I rest and heal in ways that increase my strength, dexterity, and endurance every day ")
-manifestation.append(" I rest and heal in ways that increase my endurance, strength, and dexterity every day ")
-manifestation.append(" I rest and heal in ways that increase my endurance, dexterity, and strength every day ")
-manifestation.append(" I rest and heal in ways that increase my dexterity, endurance, and strength every day ")
-manifestation.append(" I rest and heal in ways that increase my dexterity, strength, and endurance every day ")
+manifestation.append(" you have healed, strengthened, and aligned each of your major shockras ")
+#manifestation.append("  ")
 #manifestation = " you are especially competent and detail oriented at work "
-repeat = True
+repeat = False
 randomize = True
 count = 0
-loop = 1000
+loop = 25
 speaker = textspeaker()
-rate = 'both'
+rate = 'vfast'
 volumes = [.35, .25, .55, .45]
 #rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')
-    #file_text = get_file_text(file_path, randomize)
     file_text = get_file_text(multifile, randomize)
     #print(multifile)
 
     q_list = [s.strip() for s in file_text.split('|')]
+
+    engine = pyttsx3.init()
+
     for question in q_list:
+
+        if random.randint(0, 1) == 0:
+            if random.randint(0, 1) == 0:
+                rate = 255 - random.randint(1, 10)
+            else:
+                rate = 355 - random.randint(1, 10)
+        else:
+            rate = 305 - random.randint(1, 10)
+            
+        engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
+    
+        # Set the voice properties to support SSML
+        voices = engine.getProperty('voices')
+        engine.setProperty('voice', random.choice(voices).id)
+    
+
         #if the value is numeric, wait that many seconds
         if question.isnumeric():
             time.sleep(int(question))
@@ -188,11 +228,9 @@ while count < loop or repeat:
             q = question.replace("#{MANIFESTATION}", random.choice(manifestation))
             #random volume
             volume = random.choice(volumes)
-            #speak the statement,
-            #this function randomizes TTS voice and speech rate
-            print(q)
-            if q != '':
-                speaker.text_to_speech(q, volume, rate) 
+            engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
+            engine.say(q)
+            engine.runAndWait()
 
     count += 1
     

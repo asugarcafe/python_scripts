@@ -5,6 +5,7 @@ Created on Tue Nov 28 21:53:00 2023
 @author: sucre
 """
 import math
+import random
 from array import array
 import time
 from time import sleep
@@ -73,7 +74,7 @@ class toneplayer():
 
     @staticmethod
     def play_scale_hemisynchronous(scale, seconds_per_tone, hemi_tone = 6):
-        bit = False
+        bit = random.choice([True,False])
         for step in scale:
             note1 = datasets.note_freq_wavelength(notes,step)
             freq1 = note1[0] - (hemi_tone/2)
@@ -106,6 +107,7 @@ c4 = datasets.note_freq_wavelength(notes,'C4')
 
 blues_scale_A_fmt = ['A{0}','C{0}','D{0}','D#{0}/Eb{0}','E{0}','G{0}']
 whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
+chakras = ['A0','B0','C1','C#3/Db1','D1','D#1/Eb1','E1','F#1/Gb1','G1']
 chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3','G3']
 #chakras = ['A3','B3','C4','C#4/Db4','D4','D#4/Eb4','E4','F#4/Gb4','G4']
 #chakras = ['A4','B4','C5','C#5/Db5','D5','D#5/Eb5','E5','F#5/Gb5','G5']
@@ -122,12 +124,20 @@ player = toneplayer()
 bit = True
 seconds_per_tone = 11
 
-
+#'''
 # set the hemi-tone to hear
 wobble_at = 6
+
 while True:
     player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)
     #player.play_schumman(seconds_per_tone)
+#'''
+
+wobble_range = [6.0, 8.0, 10.0, 12.0, 16.0, 24.0, 32.0, 40.0, 50.0, 60.0]
+for x in range(0,20):
+    for hemitone in wobble_range:
+        player.play_scale_hemisynchronous(['A4','B4','C5','C#5/Db5'], 15, hemitone)
+
 
 # Quit the pygame mixer
 pygame.mixer.quit()
