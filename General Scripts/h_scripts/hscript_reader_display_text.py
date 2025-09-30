@@ -208,6 +208,7 @@ manifestation = []
 # manifestation.append(" you appreciate people and build stronger and healthier bonds with the people you connect with ")
 # manifestation.append(" you learn and play music every day ")
 # manifestation.append(" I have healed, strengthened, and aligned each of my major shockras ")
+
 manifestation.append(" I increase my strength, endurance, and dexterity every day ")
 manifestation.append(" I increase my strength, dexterity, and endurance every day ")
 manifestation.append(" I increase my endurance, strength, and dexterity every day ")
@@ -221,8 +222,10 @@ manifestation.append(" I rest and heal in ways that increase my endurance, dexte
 manifestation.append(" I rest and heal in ways that increase my dexterity, endurance, and strength every day ")
 manifestation.append(" I rest and heal in ways that increase my dexterity, strength, and endurance every day ")
 #manifestation = " you are especially competent and detail oriented at work "
+
 repeat = True
 randomize = True
+display_text = False
 count = 0
 loop = 1000
 speaker = textspeaker()
@@ -252,7 +255,8 @@ while count < loop or repeat:
             #this function randomizes TTS voice and speech rate
             print(q)
             if q != '':
-                create_disappearing_label(q, destroy_label_after)
+                if display_text:
+                    create_disappearing_label(q, destroy_label_after)
                 speaker.text_to_speech(q, volume, rate) 
 
     count += 1
