@@ -33,6 +33,10 @@
 |0|#{MANIFESTATION}, this is effortless
 |0|#{MANIFESTATION}, because this is who I am
 |0|#{MANIFESTATION}, because I must
+|0|#{MANIFESTATION}, now and always
+|0|#{MANIFESTATION}, now and forever
+|0|#{MANIFESTATION}, I often laugh about it
+|0|I smile often because #{MANIFESTATION}
 |0|#{MANIFESTATION}, it flows everywhere in my life
 |0|#{MANIFESTATION}, it affects every aspect of my life
 |0|#{MANIFESTATION}, I am constantly reminded of this
@@ -48,6 +52,7 @@
 |0|I accept the truth #{MANIFESTATION}
 |0|Its obvious that #{MANIFESTATION}
 |0|#{MANIFESTATION}, I could draw a picture of it
+|0|#{MANIFESTATION}, I even dream about it
 |0|#{MANIFESTATION}, because I can see it in my life
 |0|I naturally align my whole self towards this, #{MANIFESTATION}
 |0|Its already happening, #{MANIFESTATION}

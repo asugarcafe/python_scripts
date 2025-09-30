@@ -8,16 +8,15 @@ import os, time, random
 import pyttsx3
 import pyttsx3.voice
 import tkinter, win32api, win32con, pywintypes
+from tkinter import ttk
 
 fonts = ["Aharoni","Arial",
          "Bahnschrift","Calibri",
          "Comic Sans MS","Corbel",
          "David","Georgia",
          "Segoe UI","Tahoma",]
-sizes = [24,72]
 font_colors = ["red", "blue", "blue4",
                "brown4","burlywood4",
-               "cadetblue4","cadmiumorange",
                "green", "aquamarine4",
                "darkolivegreen4", "darkgreen",
                "darkorchid4", "darkslateblue",
@@ -31,17 +30,22 @@ def quit_label(lbl):
     lbl.quit()
 
 def create_disappearing_label(caption, dur_ms):
+    rand_font = get_random_font()
+    # rand_style = ttk.Style()
+    # rand_style.configure("BoldLabel", font=(rand_font[0], int(rand_font[1]), "bold"))
     label = tkinter.Label(text=caption, 
                           wraplength=1200,
-                          font=get_random_font(), 
+                          font=(rand_font[0], int(rand_font[1]), "bold"), 
                           fg=get_random_font_color(), 
-                          bg='white')
+                          anchor=tkinter.CENTER,
+                          justify=tkinter.CENTER,
+                          bg='black')
     label.master.overrideredirect(True)
     label.master.geometry(get_random_position())
     label.master.lift()
     label.master.wm_attributes("-topmost", True)
     label.master.wm_attributes("-disabled", True)
-    label.master.wm_attributes("-transparentcolor", "white")
+    label.master.wm_attributes("-transparentcolor", "black")
     
     hWindow = pywintypes.HANDLE(int(label.master.frame(), 16))
     # http://msdn.microsoft.com/en-us/library/windows/desktop/ff700543(v=vs.85).aspx
@@ -60,7 +64,7 @@ def get_random_font():
 
 def get_random_position():
     max_top = 700
-    max_left = 700
+    max_left = 800
     top = random.randrange(1,max_top)
     left = random.randrange(1,max_left)
     return "+{0}+{1}".format(left,top)
@@ -195,7 +199,7 @@ multifile = file_path
 
 desired_outcome = "to " + "come up with an idea for a business that would help my community"
 manifestation = []
-# manifestation.append(" you receive thirteen thousand dollars every month ")
+# manifestation.append(" I receive thirteen thousand dollars every month ")
 # manifestation.append(" you have trained your shockras to get lighter and lighter until they can be lighter than air ")
 # manifestation.append(" you explore more and more of the capabilities of your shockras ")
 # manifestation.append(" you think about your living spaces in a way that allows you to keep them clean and natually organize them ")
@@ -207,7 +211,7 @@ manifestation = []
 # manifestation.append(" you take good care of the things you own and are responsible for maintaining ")
 # manifestation.append(" you appreciate people and build stronger and healthier bonds with the people you connect with ")
 # manifestation.append(" you learn and play music every day ")
-# manifestation.append(" I have healed, strengthened, and aligned each of my major shockras ")
+# manifestation.append(" I reed peoples emotions easily whenever I want ")
 
 manifestation.append(" I increase my strength, endurance, and dexterity every day ")
 manifestation.append(" I increase my strength, dexterity, and endurance every day ")
@@ -221,6 +225,7 @@ manifestation.append(" I rest and heal in ways that increase my endurance, stren
 manifestation.append(" I rest and heal in ways that increase my endurance, dexterity, and strength every day ")
 manifestation.append(" I rest and heal in ways that increase my dexterity, endurance, and strength every day ")
 manifestation.append(" I rest and heal in ways that increase my dexterity, strength, and endurance every day ")
+
 #manifestation = " you are especially competent and detail oriented at work "
 
 repeat = True
@@ -230,8 +235,9 @@ count = 0
 loop = 1000
 speaker = textspeaker()
 rate = 'vfast'
-volumes = [.35, .25, .55, .45]
-destroy_label_after = 750
+volumes = [.15, .20, .25, .30]
+#volumes = [.30, .35, .40, .45]
+destroy_label_after = 300
 #rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')
@@ -256,7 +262,7 @@ while count < loop or repeat:
             print(q)
             if q != '':
                 if display_text:
-                    create_disappearing_label(q, destroy_label_after)
+                    create_disappearing_label(random.choice(manifestation), destroy_label_after)
                 speaker.text_to_speech(q, volume, rate) 
 
     count += 1

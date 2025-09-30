@@ -79,11 +79,11 @@ foo = ['a', 'b', 'c', 'd', 'e']
 #print(inc_over_range(100, 99, .02))#pa
 #print(inc_over_range(100, 365, 100/365))#cs
 start_val = 100
-iterations = 100
+iterations = 126
 d = 1
 randvar = 1
-inc_pct = .0075 * randvar
-st_measure = 0.5
+inc_pct = .01 * randvar
+st_measure = 100
 new_u = st_measure * (inc_over_range(start_val, iterations, inc_pct)/100)
 new_d = st_measure * (inc_over_range(start_val, iterations, -inc_pct)/100)
 
