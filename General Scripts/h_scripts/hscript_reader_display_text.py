@@ -15,8 +15,10 @@ fonts = ["Aharoni","Arial",
          "Comic Sans MS","Corbel",
          "David","Georgia",
          "Segoe UI","Tahoma",]
+sizes = [24,64]
 font_colors = ["red", "blue", "blue4",
                "brown4","burlywood4",
+               "cadetblue4",
                "green", "aquamarine4",
                "darkolivegreen4", "darkgreen",
                "darkorchid4", "darkslateblue",
