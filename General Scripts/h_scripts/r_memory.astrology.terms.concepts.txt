@@ -1,0 +1,96 @@
+Aries is The Ram.
+Taurus is The Bull.
+Gemini is The Twins.
+Cancer is The Crab.
+Leo is The Lion.
+Virgo is The Maiden.
+Libra is The Scales.
+Scorpio is The Scorpion.
+Sagittarius is The Archer.
+Capricorn is The Goat.
+Aquarius is The Water-bearer.
+Pisces is The Fish.
+Aries is in the 1st house.
+Taurus is in the 2nd house.
+Gemini is in the 3rd house.
+Cancer is in the 4th house.
+Leo is in the 5th house.
+Virgo is in the 6th house.
+Libra is in the 7th house.
+Scorpio is in the 8th house.
+Sagittarius is in the 9th house.
+Capricorn is in the 10th house.
+Aquarius is in the 11th house.
+Pisces is in the 12th house.
+Aries is from March 21 to April 20.
+Taurus is from April 21 to May 20.
+Gemini is from May 21 to June 20.
+Cancer is from June 21 to July 22.
+Leo is from July 23 to August 22.
+Virgo is from August 23 to September 22.
+Libra is from September 23 to October 22.
+Scorpio is from October 23 to November 21.
+Sagittarius is from November 22 to December 21.
+Capricorn is from December 22 to January 19.
+Aquarius is from January 20 to February 18.
+Pisces is from February 19 to March 20.
+Aries is from 0 degrees to 30 degrees.
+Taurus is from 30 degrees to 60 degrees.
+Gemini is from 60 degrees to 90 degrees.
+Cancer is from 90 degrees to 120 degrees.
+Leo is from 120 degrees to 150 degrees.
+Virgo is from 150 degrees to 180 degrees.
+Libra is from 180 degrees to 210 degrees.
+Scorpio is from 210 degrees to 240 degrees.
+Sagittarius is from 240 degrees to 270 degrees.
+Capricorn is from 270 degrees to 300 degrees.
+Aquarius is from 300 degrees to 330 degrees.
+Pisces is from 330 degrees to 360 degrees.
+Aries has a Positive polarity.
+Taurus has a Negative polarity.
+Gemini has a Positive polarity.
+Cancer has a Negative polarity.
+Leo has a Positive polarity.
+Virgo has a Negative polarity.
+Libra has a Positive polarity.
+Scorpio has a Negative polarity.
+Sagittarius has a Positive polarity.
+Capricorn has a Negative polarity.
+Aquarius has a Positive polarity.
+Pisces has a Negative polarity.
+Aries has a Cardinal modality.
+Taurus has a Fixed modality.
+Gemini has a Mutable modality.
+Cancer has a Cardinal modality.
+Leo has a Fixed modality.
+Virgo has a Mutable modality.
+Libra has a Cardinal modality.
+Scorpio has a Fixed modality.
+Sagittarius has a Mutable modality.
+Capricorn has a Cardinal modality.
+Aquarius has a Fixed modality.
+Pisces has a Mutable modality.
+Aries is of the element Fire.
+Taurus is of the element Earth.
+Gemini is of the element Air.
+Cancer is of the element Water.
+Leo is of the element Fire.
+Virgo is of the element Earth.
+Libra is of the element Air.
+Scorpio is of the element Water.
+Sagittarius is of the element Fire.
+Capricorn is of the element Earth.
+Aquarius is of the element Air.
+Pisces is of the element Water.
+Aries is ruled by Mars.
+Taurus is ruled by Venus.
+Gemini is ruled by Mercury.
+Cancer is ruled by Moon.
+Leo is ruled by Sun.
+Virgo is ruled by Mercury.
+Libra is ruled by Venus.
+Scorpio is ruled by Pluto or Mars.
+Sagittarius is ruled by Jupiter.
+Capricorn is ruled by Saturn.
+Aquarius is ruled by Uranus.
+Pisces is ruled by Neptune.
