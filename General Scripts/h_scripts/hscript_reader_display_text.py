@@ -32,6 +32,7 @@ def quit_label(lbl):
     lbl.quit()
 
 def create_disappearing_label(caption, dur_ms):
+    #print(caption)
     rand_font = get_random_font()
     # rand_style = ttk.Style()
     # rand_style.configure("BoldLabel", font=(rand_font[0], int(rand_font[1]), "bold"))
@@ -190,45 +191,84 @@ file_path = []
 #file_path.append('r_reading.comprehension.pegs.txt)'
 #file_path.append('r_time.distortion.txt')
 #file_path.append('r_memory.txt')
-#file_path.append('r_memory.txt')
+#file_path.append('r_dream_job.txt')
+#file_path.append('r_dream_job.a.txt')
 #file_path.append('r_goal.questions.txt')
 #file_path.append('r_metaphysical.chakras.txt')
 #file_path.append('r_manifestation.healing.txt')
 #file_path.append('r_single.line.repeater.txt')
 file_path.append('r_meditation.manifestation.coaching.txt')
+file_path.append('dickens_leverage_pain.txt')
+file_path.append('dickens_leverage_pleasure.txt')
+#file_path.append('r_shinanju.txt')
 multifile = file_path
 
 
-desired_outcome = "to " + "come up with an idea for a business that would help my community"
 manifestation = []
 # manifestation.append(" I receive thirteen thousand dollars every month ")
-# manifestation.append(" you have trained your shockras to get lighter and lighter until they can be lighter than air ")
-# manifestation.append(" you explore more and more of the capabilities of your shockras ")
-# manifestation.append(" you think about your living spaces in a way that allows you to keep them clean and natually organize them ")
-# manifestation.append(" you have paid off your mortgage and own your home ")
-# manifestation.append(" you explore and learn how to use the chee energy flowing through your body ")
 # manifestation.append(" I have mastered my chee energy and use it like a master of sheenanjoo ")
 # manifestation.append(" I control and direct my chee energy ")
-# manifestation.append(" you have trained yourself to quickly and easily see and sense auras ")
-# manifestation.append(" you take good care of the things you own and are responsible for maintaining ")
-# manifestation.append(" you appreciate people and build stronger and healthier bonds with the people you connect with ")
-# manifestation.append(" you learn and play music every day ")
 # manifestation.append(" I reed peoples emotions easily whenever I want ")
+# manifestation.append(" I consciously strengthen and focus my will throughout the day ")
+#"""
+# manifestation.append(" I have my dream job and I love it more every workday ")
+# manifestation.append(" I feel liberated because I earn great money from my dream job ")
+# manifestation.append(" I feel great relief that I earn great money from my dream job ")
+# manifestation.append(" I feel pride in the skill I demonstrate at my dream job ")
+# manifestation.append(" I am the star employee at my dream job ")
+# manifestation.append(" I am full of joy that my dream job has found me ")
+# manifestation.append(" I feel tremendous optimism before during and after working at my dream job ")
+# manifestation.append(" I feel peaceful when I realize I have my dream job ")
+# manifestation.append(" I feel glad because I have my dream job ")
+# manifestation.append(" I feel grateful when I realize I have my dream job ")
+# manifestation.append(" I feel grateful because I have my dream job ")
+# manifestation.append(" I feel passionate at my dream job ")
 
-manifestation.append(" I increase my strength, endurance, and dexterity every day ")
-manifestation.append(" I increase my strength, dexterity, and endurance every day ")
-manifestation.append(" I increase my endurance, strength, and dexterity every day ")
-manifestation.append(" I increase my endurance, dexterity, and strength every day ")
-manifestation.append(" I increase my dexterity, endurance, and strength every day ")
-manifestation.append(" I increase my dexterity, strength, and endurance every day ")
-manifestation.append(" I rest and heal in ways that increase my strength, endurance, and dexterity every day ")
-manifestation.append(" I rest and heal in ways that increase my strength, dexterity, and endurance every day ")
-manifestation.append(" I rest and heal in ways that increase my endurance, strength, and dexterity every day ")
-manifestation.append(" I rest and heal in ways that increase my endurance, dexterity, and strength every day ")
-manifestation.append(" I rest and heal in ways that increase my dexterity, endurance, and strength every day ")
-manifestation.append(" I rest and heal in ways that increase my dexterity, strength, and endurance every day ")
+"""
+manifestation.append(" I associate to why I want my dream job ")
+manifestation.append(" I associate to why I desire my dream job ")
+manifestation.append(" I visualize myself having my dream job ")
+manifestation.append(" I visualize myself doing my dream job ")
+manifestation.append(" I vividly see visualize myself having my dream job ")
+manifestation.append(" I vividly see  myself doing my dream job ")
+manifestation.append(" I envision myself having my dream job ")
+manifestation.append(" I clearly see myself having my dream job ")
+manifestation.append(" I know I have my dream job ")
+manifestation.append(" I release all resistance between me and my dream job ")
+manifestation.append(" I believe I have my dream job ")
+manifestation.append(" I already have my dream job ")
+manifestation.append(" I ask for my dream job ")
+manifestation.append(" I act to create my dream job ")
+manifestation.append(" I work to create my dream job ")
+manifestation.append(" I build my dream job ")
+manifestation.append(" I allow my dream job into my life ")
+manifestation.append(" I accept my dream job " )
+"""
+# manifestation.append(" I maintain and deepen the connection when I channel ")
+# manifestation.append(" I maintain a strong connection when I channel ")
+# manifestation.append(" I deepen the connection when I channel ")
+# manifestation.append(" I channel with great focus ")
+#"""
+#"""
+manifestation.append(" I can psychokinetically affect any and all matter ")
+manifestation.append(" I psychokinetically affect anything I desire ")
+manifestation.append(" I use psychokinesis at will ")
+manifestation.append(" I become more telekinetically skilled ")
+manifestation.append(" I continue discovering more ways to use psychokinesis ")
+manifestation.append(" I nurture and grow my innate psychokinetic skills ")
+#"""
 
-#manifestation = " you are especially competent and detail oriented at work "
+desired_outcome = "to " + "come up with an idea for a business that would help my community"
+pain_leverage_statements = []
+pain_leverage_statements.append(" skipping psychokinesis study and practice ")
+pain_leverage_statements.append(" avoiding psychokinesis practice ")
+pain_leverage_statements.append(" failing to practice psychokinesis ")
+
+pleasure_leverage_statements = []
+pleasure_leverage_statements.append(" I become more skilled at psychokinesis ")
+pleasure_leverage_statements.append(" I practice psychokinetically affecting objects ")
+pleasure_leverage_statements.append(" I improve all my psychokinesis skills ")
+pleasure_leverage_statements.append(" I quickly improve all my psychokinesis skills ")
 
 repeat = True
 randomize = True
@@ -255,8 +295,16 @@ while count < loop or repeat:
             print(question)
         else:
             #replace values in outcome-specific scripts
-            q = question.replace("#{GOAL}", desired_outcome)
-            q = question.replace("#{MANIFESTATION}", random.choice(manifestation))
+            q = question
+            if len(pain_leverage_statements) > 0:
+                q = q.replace("#{PAIN_LEVER}", random.choice(pain_leverage_statements))
+            if len(pleasure_leverage_statements) > 0:
+                q = q.replace("#{PLEASURE_LEVER}", random.choice(pleasure_leverage_statements))
+            q = q.replace("#{GOAL}", desired_outcome)
+            if len(manifestation) > 0:
+                q = q.replace("#{MANIFESTATION}", random.choice(manifestation))
+            q = q.replace("  ", " ")
+            
             #random volume
             volume = random.choice(volumes)
             #speak the statement,
@@ -264,7 +312,7 @@ while count < loop or repeat:
             print(q)
             if q != '':
                 if display_text:
-                    create_disappearing_label(random.choice(manifestation), destroy_label_after)
+                    create_disappearing_label(random.choice(pain_leverage_statements+pleasure_leverage_statements+manifestation), destroy_label_after)
                 speaker.text_to_speech(q, volume, rate) 
 
     count += 1

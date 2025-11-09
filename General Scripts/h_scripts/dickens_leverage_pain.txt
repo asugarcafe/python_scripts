@@ -1,0 +1,7 @@
+#{PAIN_LEVER} causes real pain in my life.
+#{PAIN_LEVER} brings massive pain to my life.
+#{PAIN_LEVER} drags my life down horribly.
+#{PAIN_LEVER} creates awful pain and damage.
+#{PAIN_LEVER} harms me.
+#{PAIN_LEVER} is failing myself.
+#{PAIN_LEVER} fails myself terribly.

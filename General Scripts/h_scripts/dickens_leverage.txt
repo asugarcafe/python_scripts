@@ -1,0 +1,19 @@
+#{PAIN_LEVER} because I know, when I dont, it causes real pain in my life.
+#{PAIN_LEVER} because I realize, if I dont, it brings massive pain to my life.
+#{PAIN_LEVER} because, if I didnt, it would drag my life down horribly.
+#{PAIN_LEVER} because of the awful pain and damage that comes if I dont do it.
+#{PAIN_LEVER} because, when I fail to do this it harms me.
+#{PAIN_LEVER} because I would be failing myself if I didnt.
+#{PAIN_LEVER} and I would be failing myself terribly if I didnt.
+
+#{PLEASURE_LEVER} and I feel great pleasure in my life because I do this.
+#{PLEASURE_LEVER} and I feel the wonderful success this creates in my life.
+#{PLEASURE_LEVER} and know it builds a happier and better future when I do.
+#{PLEASURE_LEVER} and feel happier and better today because of it.
+#{PLEASURE_LEVER} and it feels good because I realize it makes me a better person.
+#{PLEASURE_LEVER} and love that it builds me and my life up to be better.
+#{PLEASURE_LEVER} and it makes me better in every way.
+#{PLEASURE_LEVER} and it feels great.
+#{PLEASURE_LEVER} and I love how it makes me feel.
+#{PLEASURE_LEVER} and I love the wonderful results it brings to my life.
+
