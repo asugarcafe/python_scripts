@@ -1,0 +1,1 @@
+describe the target using single words and short phrases|30|

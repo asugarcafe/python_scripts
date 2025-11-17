@@ -1,0 +1,1 @@
+go to the target|20|sense the target|20|see the target|30|

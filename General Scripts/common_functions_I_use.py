@@ -36,7 +36,7 @@ def inc_over_range(base, rg, incre):
 def compound(principal, rate, periods_per_year, years):
     return principal * ( (1 + rate/periods_per_year)**(periods_per_year*years) )
 
-def getXAmountOfRolls(sides, rounds):
+def getX_countO_Rolls(sides, rounds):
     result = []
     for x in range(0, rounds):
         result.append(random.randint(1, sides))
@@ -54,10 +54,11 @@ def bmr(weight_Kg, height_Cm, age):
 def run_with_luck_mod(luck_pct):
     return
 
-def select_random_item(arr):
+def select_rando_item(arr):
     if not arr:
         return None  # Return None if the array is empty
     return random.choice(arr)
+
 
 # https://jav.guru/category/english-subbed/
 # https://jav.guru/tag/mourning/
@@ -67,11 +68,11 @@ def select_random_item(arr):
 #https://jav.guru/category/english-subbed/?tag=dirty-talk
 
 start_val = 100
-iterations = 10
+iterations = 20
 d = 1
 randvar = 1
-inc_pct = .05 * randvar
-st_measure = 15.24
+inc_pct = .01 * randvar
+st_measure = 110.0
 new_u = st_measure * (inc_over_range(start_val, iterations, inc_pct)/100)
 new_u2 = st_measure * (inc_over_range(start_val, iterations, inc_pct*2)/100)
 new_d = st_measure * (inc_over_range(start_val, iterations, -inc_pct)/100)
@@ -81,16 +82,44 @@ print(new_u2)
 print(new_d)
 print(new_d2)
 
-st_measure = 11.0
+'''
+st_measure = 130.0
+iterations = 60
 new_u = st_measure * (inc_over_range(start_val, iterations, inc_pct)/100)
-new_u = st_measure * (inc_over_range(start_val, iterations, inc_pct*2)/100)
+new_u2 = st_measure * (inc_over_range(start_val, iterations, inc_pct*2)/100)
 new_d = st_measure * (inc_over_range(start_val, iterations, -inc_pct)/100)
-new_d = st_measure * (inc_over_range(start_val, iterations, -inc_pct*2)/100)
+new_d2 = st_measure * (inc_over_range(start_val, iterations, -inc_pct*2)/100)
 print(new_u)
 print(new_u2)
 print(new_d)
 print(new_d2)
+'''
 
+start_d = 500
+j = 20
+fee_b = 100
+fee_p = 0.25
+p_d = [10,11,12,13,14,15,16,17,18,19,20,
+       50,50,50,50,50,50,50,50,50,50,
+       100,100,100,100,100,100,100,100,100,100,
+       100,100,100,100,100,100,100,100,100,100,
+       100,100,100,100,100,100,100,100,100,100,
+       ]
+curr = start_d
+p = 0
+earned = 0
+s = 0
 
-print(24*60)
+for x in range(0,len(p_d)):
+    new_f = curr + fee_b
+    new_f = new_f + (new_f * fee_p)
+    earned = j - (j * fee_p)
+    p = p + earned
+    s = s + p_d[x]
+    new_f = new_f -  (earned * p_d[x])
+    curr = new_f
+print(f'cur: {curr}')
+print(f'ear: {p}')
+print(f'cou: {s}')
 
+#'''
