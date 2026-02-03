@@ -68,11 +68,11 @@ def select_rando_item(arr):
 #https://jav.guru/category/english-subbed/?tag=dirty-talk
 
 start_val = 100
-iterations = 20
+iterations = 10
 d = 1
 randvar = 1
-inc_pct = .01 * randvar
-st_measure = 110.0
+inc_pct = .1 * randvar
+st_measure = 100.0
 new_u = st_measure * (inc_over_range(start_val, iterations, inc_pct)/100)
 new_u2 = st_measure * (inc_over_range(start_val, iterations, inc_pct*2)/100)
 new_d = st_measure * (inc_over_range(start_val, iterations, -inc_pct)/100)
@@ -95,31 +95,51 @@ print(new_d)
 print(new_d2)
 '''
 
-start_d = 500
-j = 20
-fee_b = 100
+'''
+r1
+start debt: 5000.0
+current debt: 7999
+manager paid: 50000.0
+worker paid: 12300.0
+count: 1000
+days: 60
+'''
+
+start_d = 5000.0
+start_d = 7999.0
+j = 20.0
+fee_b = 60.0
 fee_p = 0.25
-p_d = [10,11,12,13,14,15,16,17,18,19,20,
-       50,50,50,50,50,50,50,50,50,50,
-       100,100,100,100,100,100,100,100,100,100,
-       100,100,100,100,100,100,100,100,100,100,
-       100,100,100,100,100,100,100,100,100,100,
+p_d = [15,15,15,15,15,15,15,15,15,15,
+       21,21,22,23,12,20,5,25,25,25,
+       21,15,15,5,15,15,15,15,15,15,
+       20,20,15,15,25,20,20,10,20,20,
+       20,20,15,15,10,20,20,20,20,20,
+       20,20,15,15,20,20,8,15,15,15,
        ]
-curr = start_d
-p = 0
-earned = 0
+rng = len(p_d)
+curr = start_d + 0.0
+p = 0.0
+earned = 0.0
 s = 0
+per_rate = j - (j * (fee_p))
+p_th_h = 0.0
 
 for x in range(0,len(p_d)):
-    new_f = curr + fee_b
-    new_f = new_f + (new_f * fee_p)
-    earned = j - (j * fee_p)
-    p = p + earned
-    s = s + p_d[x]
-    new_f = new_f -  (earned * p_d[x])
+    p_th_h = p_th_h + (2.5 * (j * (p_d[x]+ math.ceil(fee_b/j))))
+    new_f = curr 
+    if x % 7 == 0:
+        new_f = math.ceil(new_f + (new_f * fee_p))
+    s = s + p_d[x] + math.ceil(fee_b/j)
+    new_f = new_f - math.floor((per_rate * p_d[x]))
     curr = new_f
-print(f'cur: {curr}')
-print(f'ear: {p}')
-print(f'cou: {s}')
+    p = p + math.floor((per_rate * p_d[x]))
+
+print(f'start debt: {start_d}')
+print(f'current debt: {curr}')
+print(f'manager paid: {p_th_h}')
+print(f'worker paid: {p}')
+print(f'count: {s}')
+print(f'days: {rng}')
 
 #'''

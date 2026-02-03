@@ -126,7 +126,7 @@ seconds_per_tone = 11
 
 #'''
 # set the hemi-tone to hear
-wobble_at = 6
+wobble_at = 7.83
 
 while True:
     player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)

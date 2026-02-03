@@ -4,11 +4,13 @@ Created on Sat Jul 22 19:56:33 2023
 
 @author: sucre
 """
-import os, time, random
+import os, time, random, sys
 import pyttsx3
 import pyttsx3.voice
 import tkinter, win32api, win32con, pywintypes
 from tkinter import ttk
+sys.path.append(os.path.abspath("h_scripts/func_manifestations.py"))
+from func_manifestations import *
 
 fonts = ["Aharoni","Arial",
          "Bahnschrift","Calibri",
@@ -124,28 +126,11 @@ class textspeaker():
     
         self.engine.say(text)
         self.engine.runAndWait()
+        self.engine.startLoop(False)
+        self.engine.iterate()
+        self.engine.endLoop()
+        return 0
 
-    @staticmethod
-    def text_to_speech_ssml(ssml_text, volume = .99):
-        engine = pyttsx3.init()
-        if random.randint(0, 1) == 0:
-            if random.randint(0, 1) == 0:
-                rate = 100 - random.randint(1, 10)
-            else:
-                rate = 200 - random.randint(1, 10)
-        else:
-            rate = 160 - random.randint(1, 40)
-        print("r: {} v: {}".format(rate, volume))
-        engine.setProperty('rate', rate)  # Adjust the speech rate (words per minute)
-        engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
-
-        # Set the voice properties to support SSML
-        voices = engine.getProperty('voices')
-        engine.setProperty('voice', random.choice(voices).id)
-
-    
-        engine.say(ssml_text)
-        engine.runAndWait()
 
 def get_file_text(file, randomize_lines=True):
     all_lines = []
@@ -180,10 +165,10 @@ https://freehypnosisscripts.com/subject-scripts/creative-abilities/
 
 '''
 
-
 file_path = []
 #file_path.append("r_single.line.repeater.txt")
 #file_path.append('r_priming.ap.txt')
+#file_path.append('r_priming.telepathy.txt')
 #file_path.append("r_visualization.improvement.txt")
 #file_path.append('r_mnemonics.electrical.txt')
 #file_path.append('r_mentalacuity.txt')
@@ -197,88 +182,78 @@ file_path = []
 #file_path.append('r_metaphysical.chakras.txt')
 #file_path.append('r_manifestation.healing.txt')
 #file_path.append('r_single.line.repeater.txt')
-file_path.append('r_meditation.manifestation.coaching.txt')
-file_path.append('dickens_leverage_pain.txt')
-file_path.append('dickens_leverage_pleasure.txt')
-#file_path.append('r_shinanju.txt')
-multifile = file_path
+# file_path.append('r_psi.telekinesis.txt')
 
 
 manifestation = []
-# manifestation.append(" I receive thirteen thousand dollars every month ")
-# manifestation.append(" I have mastered my chee energy and use it like a master of sheenanjoo ")
-# manifestation.append(" I control and direct my chee energy ")
+# manifestation.append(" I can orgasm without ejaculating ")
+# manifestation.append(" I can orgasm without ejaculation ")
+# manifestation.append(" I have trained my body to orgasm without ejaculating ")
+# manifestation.append(" I have trained my body to orgasm without ejaculation ")
+
 # manifestation.append(" I reed peoples emotions easily whenever I want ")
 # manifestation.append(" I consciously strengthen and focus my will throughout the day ")
-#"""
-# manifestation.append(" I have my dream job and I love it more every workday ")
-# manifestation.append(" I feel liberated because I earn great money from my dream job ")
-# manifestation.append(" I feel great relief that I earn great money from my dream job ")
-# manifestation.append(" I feel pride in the skill I demonstrate at my dream job ")
-# manifestation.append(" I am the star employee at my dream job ")
-# manifestation.append(" I am full of joy that my dream job has found me ")
-# manifestation.append(" I feel tremendous optimism before during and after working at my dream job ")
-# manifestation.append(" I feel peaceful when I realize I have my dream job ")
-# manifestation.append(" I feel glad because I have my dream job ")
-# manifestation.append(" I feel grateful when I realize I have my dream job ")
-# manifestation.append(" I feel grateful because I have my dream job ")
-# manifestation.append(" I feel passionate at my dream job ")
 
-"""
-manifestation.append(" I associate to why I want my dream job ")
-manifestation.append(" I associate to why I desire my dream job ")
-manifestation.append(" I visualize myself having my dream job ")
-manifestation.append(" I visualize myself doing my dream job ")
-manifestation.append(" I vividly see visualize myself having my dream job ")
-manifestation.append(" I vividly see  myself doing my dream job ")
-manifestation.append(" I envision myself having my dream job ")
-manifestation.append(" I clearly see myself having my dream job ")
-manifestation.append(" I know I have my dream job ")
-manifestation.append(" I release all resistance between me and my dream job ")
-manifestation.append(" I believe I have my dream job ")
-manifestation.append(" I already have my dream job ")
-manifestation.append(" I ask for my dream job ")
-manifestation.append(" I act to create my dream job ")
-manifestation.append(" I work to create my dream job ")
-manifestation.append(" I build my dream job ")
-manifestation.append(" I allow my dream job into my life ")
-manifestation.append(" I accept my dream job " )
-"""
-# manifestation.append(" I maintain and deepen the connection when I channel ")
-# manifestation.append(" I maintain a strong connection when I channel ")
-# manifestation.append(" I deepen the connection when I channel ")
-# manifestation.append(" I channel with great focus ")
-#"""
-#"""
-manifestation.append(" I can psychokinetically affect any and all matter ")
-manifestation.append(" I psychokinetically affect anything I desire ")
-manifestation.append(" I use psychokinesis at will ")
-manifestation.append(" I become more telekinetically skilled ")
-manifestation.append(" I continue discovering more ways to use psychokinesis ")
-manifestation.append(" I nurture and grow my innate psychokinetic skills ")
+# manifestation.append(" I can raise the energy and vibration of each of my shockras ")
+# manifestation.append(" I empower each of my shockras by raising their energy and vibration ")
+# manifestation.append(" I can consciously raise the energy and vibration of each of my shockras ")
+# manifestation.append(" I have trained myself to raise the energy and vibration of each of my shockras ")
+# manifestation.append(" I have trained myself to harness and engage my shockras for spells, blessings, and manifestations ")
+file_path.append('r_meditation.manifestation.coaching.txt')
+
+#add_dream_job(manifestation)
 #"""
 
-desired_outcome = "to " + "come up with an idea for a business that would help my community"
+add_chi_capabilities(file_path, manifestation)
+
+#manifestation.append(" I have mastered the awareness and use of my chakras ")
+#"""
+
+desired_outcome = "you strength train every week"
+# desired_outcome = "you meditate every morning and every night"
+# desired_outcome = "you have trained yourself to astrally pruhject whenever you will"
+# desired_outcome = "you have trained yourself to scry and remotely observe while in the waking state"
+# desired_outcome = "you train your balance, agility, flexibility, and dexterity every week"
+# desired_outcome = "you have mastered the five basic shing yee movements"
+# desired_outcome = "you have learned basic astrology"
+# desired_outcome = "you have memorized the astrological signs and their natures"
+
+# desired_outcome = "you have memorized the astrological houses and what they represent"
+# desired_outcome = "you have memorized the astrological planets and bodies and their natures"
+# desired_outcome = "you have memorized the astrological points and notations and their natures"
+# desired_outcome = "you have memorized the astrological aspects and how they affect astrological situations"
+# desired_outcome = "you have learned natal astrology"
+# desired_outcome = "you have learned synastry astrology"
+# desired_outcome = "you have learned electional astrology"
+# desired_outcome = "you have learned business astrology"
+# desired_outcome = "you have learned karmic astrology"
+# desired_outcome = "you have learned how to use astrology to analyze a personal situation"
+# desired_outcome = "you have learned how to use astrology to analyze decisions"
+# desired_outcome = "you have learned basic chemistry"
+# desired_outcome = "you have memorized the periodic table and all its elements and their properties"
+# desired_outcome = "you have learned how to calculate chemistry formulas"
+# desired_outcome = "you have learned chemistry stoichiometry"
+# desired_outcome = "you have memorized and learned the laws of thermo dynamics"
+# desired_outcome = "you train your oxygen capacity every week"
+#desired_outcome = "you start every day with a to do list"
+#file_path.append('r_goalviz.txt')
+
 pain_leverage_statements = []
-pain_leverage_statements.append(" skipping psychokinesis study and practice ")
-pain_leverage_statements.append(" avoiding psychokinesis practice ")
-pain_leverage_statements.append(" failing to practice psychokinesis ")
-
 pleasure_leverage_statements = []
-pleasure_leverage_statements.append(" I become more skilled at psychokinesis ")
-pleasure_leverage_statements.append(" I practice psychokinetically affecting objects ")
-pleasure_leverage_statements.append(" I improve all my psychokinesis skills ")
-pleasure_leverage_statements.append(" I quickly improve all my psychokinesis skills ")
 
+
+multifile = file_path
 repeat = True
 randomize = True
 display_text = False
 count = 0
-loop = 1000
+loop = 10
 speaker = textspeaker()
 rate = 'vfast'
-volumes = [.15, .20, .25, .30]
-#volumes = [.30, .35, .40, .45]
+rate = 'fast'
+rate = 'slow'
+#volumes = [.15, .20, .25, .30]
+volumes = [.60, .85, .5, .70]
 destroy_label_after = 300
 #rate = 'both'
 while count < loop or repeat:

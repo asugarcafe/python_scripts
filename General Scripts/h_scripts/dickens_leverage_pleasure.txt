@@ -9,3 +9,7 @@
 #{PLEASURE_LEVER} and it feels great.
 #{PLEASURE_LEVER} and I love how it makes me feel.
 #{PLEASURE_LEVER} and I love the wonderful results it brings to my life.
+#{PLEASURE_LEVER} and I recognize how this improves my life.
+#{PLEASURE_LEVER} and I feel how this makes my life better.
+#{PLEASURE_LEVER} and I see how this makes my life better.
+

@@ -46,6 +46,7 @@
 |0|I cant deny that #{MANIFESTATION}
 |0|Its undeniable that #{MANIFESTATION}
 |0|I embrace that #{MANIFESTATION}
+|0|I enjoy that #{MANIFESTATION}
 |0|Its so good that #{MANIFESTATION}
 |0|It helps everyone that #{MANIFESTATION}
 |0|I completely accept that #{MANIFESTATION}
@@ -56,3 +57,9 @@
 |0|#{MANIFESTATION}, because I can see it in my life
 |0|I naturally align my whole self towards this, #{MANIFESTATION}
 |0|Its already happening, #{MANIFESTATION}
+|0|Throughout the day I realize, #{MANIFESTATION}
+|0|When I notice it, I realize, #{MANIFESTATION}
+|0|I often realize, #{MANIFESTATION}
+|0|I often remember, #{MANIFESTATION}
+
+

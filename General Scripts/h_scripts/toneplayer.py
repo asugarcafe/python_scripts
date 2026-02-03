@@ -11,6 +11,7 @@ from time import sleep
 import pygame
 from pygame.mixer import Sound, get_init, pre_init
 import sys, os
+import numbers
 from datasets import datasets
 K = 1000
 
@@ -57,39 +58,59 @@ class toneplayer():
     #https://www.omnicalculator.com/physics/beat-frequency
     
     @staticmethod
-    def play_tones(mixer, note1, note2, seconds, loopmod=1000, high = 0.25, low = 0.01, base_tone = 0):
+    def play_tones(mixer, note1, note2, seconds, loopmod=1000, high = 0.15, low = 0.01, primary = None):
         lchan = mixer.Channel(0)
+        lchan2 = mixer.Channel(2)
+        
         rchan = mixer.Channel(1)
+        rchan2 = mixer.Channel(3)
+        
         lchan.set_volume(high,low)
         rchan.set_volume(low,high)
-        if base_tone > 0 :
-            lchan.play(note1 + (base_tone/2), loops=loopmod, maxtime=seconds*K)
-            rchan.play(note2 - (base_tone/2), loops=loopmod, maxtime=seconds*K)
+        
+        lchan2.set_volume(high,low)
+        rchan2.set_volume(low,high)
+        
         lchan.play(note1, loops=loopmod, maxtime=seconds*K)
         rchan.play(note2, loops=loopmod, maxtime=seconds*K)
+
+        if primary is not None:
+            lchan2.play(primary, loops=loopmod, maxtime=seconds*K)
+            rchan2.play(primary, loops=loopmod, maxtime=seconds*K)
+
         time.sleep(seconds)
         lchan.stop()
         rchan.stop()
+        lchan2.stop()
+        rchan2.stop()
 
     @staticmethod
     def play_scale_hemisynchronous(scale, seconds_per_tone, hemi_tone = 6):
         bit = False
         for step in scale:
-            note1 = datasets.note_freq_wavelength(notes,step)
+            if isinstance(step, (int,float)):
+                note1 = [float(step), float(step)]
+            else:
+                note1 = datasets.note_freq_wavelength(notes,step)
+            true_note = Note(note1[0])
+            
+            #BSR: this math is off, 
+            # https://agentcalc.com/binaural-beat-frequency-calculator
             freq1 = note1[0] - (hemi_tone/2)
             freq2 = note1[0] + (hemi_tone/2)
-            print(step + ' - ' + str(note1[0]))
+            #BSR: fix the math above
+            
+            print(str(step) + ' - ' + str(note1[0]))
             print('Hemi tone: ' + str(hemi_tone))
             print(freq1)
             print(freq2)
             note1 = Note(freq1) if bit else Note(freq2)
             note2 = Note(freq2) if bit else Note(freq1)
             bit = not bit
-            player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)))
+            player.play_tones(pygame.mixer, note1, note2, seconds_per_tone, K*((seconds_per_tone**2)), primary=true_note)
 
     @staticmethod
     def play_schumman(seconds_per_tone):
-        bit = False
         hemi_tone = 7.83
         note1 = 400.00 #datasets.note_freq_wavelength(notes,step)
         freq1 = note1 - (hemi_tone/2)
@@ -107,24 +128,29 @@ c4 = datasets.note_freq_wavelength(notes,'C4')
 blues_scale_A_fmt = ['A{0}','C{0}','D{0}','D#{0}/Eb{0}','E{0}','G{0}']
 whole_notes_fmt = ['A{0}','B{0}','C{0}','D{0}','E{0}','F{0}','G{0}']
 chakras = ['A2','B2','C3','C#3/Db3','D3','D#3/Eb3','E3','F#3/Gb3','G3']
-chakras = ['A3','B3','C4','C#4/Db4','D4','D#4/Eb4','E4','F#4/Gb4','G4']
-#chakras = ['A4','B4','C5','C#5/Db5','D5','D#5/Eb5','E5','F#5/Gb5','G5']
+#chakras = ['A1','B1','C2','C#2/Db2','D2','D#2/Eb2','E2','F#2/Gb2','G2']
+#chakras = ['A3','B3','C4','C#4/Db4','D4','D#4/Eb4','E4','F#4/Gb4','G4']
+#chakras = [396.0, 417.0, 528.0, 639.0, 741.0, 852.0, 963.0]
+#chakras = [528.0, 639.0, 741.0]
+short = [128.43,132.25,136.07,132.25]
+short = [108.00,111.21,114.42,111.21]
 
 
-scale_to_use = chakras
+
+scale_to_use = short
 
 pygame.init()
 # Set a wait duration in seconds
 duration = 2
 # Initialize the mixer
-pygame.mixer.init(channels=2)
+pygame.mixer.init(channels=4)
 player = toneplayer()
 bit = True
-seconds_per_tone = 11
+seconds_per_tone = 30
 
 
 # set the hemi-tone to hear
-wobble_at = 20
+wobble_at = 6
 while True:
     player.play_scale_hemisynchronous(scale_to_use, seconds_per_tone, wobble_at)
     #player.play_schumman(seconds_per_tone)

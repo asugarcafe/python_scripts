@@ -5,3 +5,5 @@
 #{PAIN_LEVER} harms me.
 #{PAIN_LEVER} is failing myself.
 #{PAIN_LEVER} fails myself terribly.
+I recognize the real pain in my life caused by #{PAIN_LEVER}
+I feel the real pain in my life from #{PAIN_LEVER}
