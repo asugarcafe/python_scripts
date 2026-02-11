@@ -5,6 +5,17 @@ Created on Fri Jan 30 14:24:06 2026
 @author: sucre
 """
 
+def add_orgasm_without_ejaculation(file_path, manifestation):
+    manifestation.append(" I can orgasm without ejaculating ")
+    manifestation.append(" I can orgasm without ejaculation ")
+    manifestation.append(" I refrain from ejaculation ")
+    manifestation.append(" I have trained myself to refrain from ejaculation ")
+    manifestation.append(" I have trained myself to go as long as possible without ejaculation ")
+    manifestation.append(" I have trained myself to go as long as possible without ejaculating ")
+    manifestation.append(" I have trained my body to orgasm without ejaculating ")
+    manifestation.append(" I have trained my body to orgasm without ejaculation ")
+    file_path.append('r_meditation.manifestation.coaching.txt')
+
 def add_reki_teacher(file_path, manifestation):
     manifestation.append(" I meet and learn from a skilled raykee teacher ")
     manifestation.append(" I find a skilled raykee teacher ")

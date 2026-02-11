@@ -81,10 +81,14 @@ def get_random_font_color():
 class textspeaker():
     engine = None
     voices = None
+    zira = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0'
     
     def __init__(self):
         self.engine = pyttsx3.init()
         self.voices = self.engine.getProperty('voices')
+        # for voice in self.voices:
+        #     print(voice.name)
+        #     print(voice.id)
         
     def silence(self):
         self.engine.stop()
@@ -93,14 +97,14 @@ class textspeaker():
         return random.randint(1, upper)
         
 
-    def text_to_speech(self, text, volume = .99, rate='fast'):
+    def text_to_speech(self, text, volume = .99, rate='fast', f_only = False):
         flip = 0
         
         uppers = [180,260,200]
         if rate == 'vfast':
             uppers = [255,305,355]
         if rate == 'slow':
-            uppers = [90,130,200]
+            uppers = [110,130,150]
         if rate == 'both':
             uppers = [180,260,200,90,130,200]
             
@@ -121,7 +125,10 @@ class textspeaker():
         self.engine.setProperty('volume', volume)  # Adjust the speech rate (words per minute)
 
         # Set the voice properties to support SSML
-        self.engine.setProperty('voice', random.choice(self.voices).id)
+        if not f_only:
+            self.engine.setProperty('voice', random.choice(self.voices).id)
+        else:
+            self.engine.setProperty('voice', self.zira)
 
     
         self.engine.say(text)
@@ -183,13 +190,29 @@ file_path = []
 #file_path.append('r_manifestation.healing.txt')
 #file_path.append('r_single.line.repeater.txt')
 # file_path.append('r_psi.telekinesis.txt')
+#file_path.append('sexual.thoughts.txt')
 
 
 manifestation = []
-# manifestation.append(" I can orgasm without ejaculating ")
-# manifestation.append(" I can orgasm without ejaculation ")
-# manifestation.append(" I have trained my body to orgasm without ejaculating ")
-# manifestation.append(" I have trained my body to orgasm without ejaculation ")
+manifestation.append(" I associate pain and deep displeasure to smoking ")
+manifestation.append(" I have fully associated to the pain and deep displeasure caused by smoking ")
+manifestation.append(" I associate deep displeasure to smoking ")
+manifestation.append(" I associate strong displeasure to smoking ")
+manifestation.append(" I associate powerful displeasure to smoking ")
+manifestation.append(" I associate deep discomfort to smoking ")
+manifestation.append(" I associate strong discomfort to smoking ")
+manifestation.append(" I associate powerful discomfort to smoking ")
+manifestation.append(" I feel deep displeasure at the idea of smoking ")
+manifestation.append(" I feel strong displeasure at the idea of smoking ")
+manifestation.append(" I feel powerful displeasure at the idea of smoking ")
+manifestation.append(" I feel deep discomfort at the idea of smoking ")
+manifestation.append(" I feel strong discomfort at the idea of smoking ")
+manifestation.append(" I feel powerful discomfort at the idea of smoking ")
+manifestation.append(" I associate pain to smoking ")
+manifestation.append(" I dislike the act of smoking ")
+manifestation.append(" I think about what I hate about smoking ")
+manifestation.append(" I remember what I hate about smoking ")
+manifestation.append(" I interrupt the train of thought when I think about smoking ")
 
 # manifestation.append(" I reed peoples emotions easily whenever I want ")
 # manifestation.append(" I consciously strengthen and focus my will throughout the day ")
@@ -202,14 +225,14 @@ manifestation = []
 file_path.append('r_meditation.manifestation.coaching.txt')
 
 #add_dream_job(manifestation)
-#"""
-
-add_chi_capabilities(file_path, manifestation)
+#add_chi_capabilities(file_path, manifestation)
+#add_orgasm_without_ejaculation(file_path, manifestation)
 
 #manifestation.append(" I have mastered the awareness and use of my chakras ")
 #"""
 
-desired_outcome = "you strength train every week"
+desired_outcome = ""
+# desired_outcome = "you strength train every week"
 # desired_outcome = "you meditate every morning and every night"
 # desired_outcome = "you have trained yourself to astrally pruhject whenever you will"
 # desired_outcome = "you have trained yourself to scry and remotely observe while in the waking state"
@@ -247,14 +270,15 @@ repeat = True
 randomize = True
 display_text = False
 count = 0
-loop = 10
+loop = 1
 speaker = textspeaker()
 rate = 'vfast'
-rate = 'fast'
-rate = 'slow'
-#volumes = [.15, .20, .25, .30]
-volumes = [.60, .85, .5, .70]
+# rate = 'fast'
+# rate = 'slow'
+volumes = [.15, .20, .25, .30]
+#volumes = [.60, .85, .5, .70]
 destroy_label_after = 300
+female_only = True
 #rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')
@@ -275,7 +299,8 @@ while count < loop or repeat:
                 q = q.replace("#{PAIN_LEVER}", random.choice(pain_leverage_statements))
             if len(pleasure_leverage_statements) > 0:
                 q = q.replace("#{PLEASURE_LEVER}", random.choice(pleasure_leverage_statements))
-            q = q.replace("#{GOAL}", desired_outcome)
+            if len(desired_outcome) > 0:
+                q = q.replace("#{GOAL}", desired_outcome)
             if len(manifestation) > 0:
                 q = q.replace("#{MANIFESTATION}", random.choice(manifestation))
             q = q.replace("  ", " ")
@@ -288,7 +313,7 @@ while count < loop or repeat:
             if q != '':
                 if display_text:
                     create_disappearing_label(random.choice(pain_leverage_statements+pleasure_leverage_statements+manifestation), destroy_label_after)
-                speaker.text_to_speech(q, volume, rate) 
+                speaker.text_to_speech(q, volume, rate, female_only) 
 
     count += 1
     
