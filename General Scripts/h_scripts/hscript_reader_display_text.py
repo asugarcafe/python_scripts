@@ -194,27 +194,10 @@ file_path = []
 
 
 manifestation = []
-manifestation.append(" I associate pain and deep displeasure to smoking ")
-manifestation.append(" I have fully associated to the pain and deep displeasure caused by smoking ")
-manifestation.append(" I associate deep displeasure to smoking ")
-manifestation.append(" I associate strong displeasure to smoking ")
-manifestation.append(" I associate powerful displeasure to smoking ")
-manifestation.append(" I associate deep discomfort to smoking ")
-manifestation.append(" I associate strong discomfort to smoking ")
-manifestation.append(" I associate powerful discomfort to smoking ")
-manifestation.append(" I feel deep displeasure at the idea of smoking ")
-manifestation.append(" I feel strong displeasure at the idea of smoking ")
-manifestation.append(" I feel powerful displeasure at the idea of smoking ")
-manifestation.append(" I feel deep discomfort at the idea of smoking ")
-manifestation.append(" I feel strong discomfort at the idea of smoking ")
-manifestation.append(" I feel powerful discomfort at the idea of smoking ")
-manifestation.append(" I associate pain to smoking ")
-manifestation.append(" I dislike the act of smoking ")
-manifestation.append(" I think about what I hate about smoking ")
-manifestation.append(" I remember what I hate about smoking ")
-manifestation.append(" I interrupt the train of thought when I think about smoking ")
 
-# manifestation.append(" I reed peoples emotions easily whenever I want ")
+manifestation.append(" I fully open my consciousness whenever I desire ")
+manifestation.append(" I open my consciousness to learn whatever I desire ")
+manifestation.append(" I open my full consciousness to observe whatever I desire ")
 # manifestation.append(" I consciously strengthen and focus my will throughout the day ")
 
 # manifestation.append(" I can raise the energy and vibration of each of my shockras ")
@@ -258,7 +241,7 @@ desired_outcome = ""
 # desired_outcome = "you have learned chemistry stoichiometry"
 # desired_outcome = "you have memorized and learned the laws of thermo dynamics"
 # desired_outcome = "you train your oxygen capacity every week"
-#desired_outcome = "you start every day with a to do list"
+#desired_outcome.append("you start every day with a to do list")
 #file_path.append('r_goalviz.txt')
 
 pain_leverage_statements = []
@@ -278,7 +261,7 @@ rate = 'vfast'
 volumes = [.15, .20, .25, .30]
 #volumes = [.60, .85, .5, .70]
 destroy_label_after = 300
-female_only = True
+female_only = False
 #rate = 'both'
 while count < loop or repeat:
     # Open the file in read mode ('r')

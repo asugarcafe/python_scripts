@@ -5,6 +5,28 @@ Created on Fri Jan 30 14:24:06 2026
 @author: sucre
 """
 
+def add_dislike_smoking(file_path, manifestation):
+    manifestation.append(" I associate pain and deep displeasure to smoking ")
+    manifestation.append(" I have fully associated to the pain and deep displeasure caused by smoking ")
+    manifestation.append(" I associate deep displeasure to smoking ")
+    manifestation.append(" I associate strong displeasure to smoking ")
+    manifestation.append(" I associate powerful displeasure to smoking ")
+    manifestation.append(" I associate deep discomfort to smoking ")
+    manifestation.append(" I associate strong discomfort to smoking ")
+    manifestation.append(" I associate powerful discomfort to smoking ")
+    manifestation.append(" I feel deep displeasure at the idea of smoking ")
+    manifestation.append(" I feel strong displeasure at the idea of smoking ")
+    manifestation.append(" I feel powerful displeasure at the idea of smoking ")
+    manifestation.append(" I feel deep discomfort at the idea of smoking ")
+    manifestation.append(" I feel strong discomfort at the idea of smoking ")
+    manifestation.append(" I feel powerful discomfort at the idea of smoking ")
+    manifestation.append(" I associate pain to smoking ")
+    manifestation.append(" I dislike the act of smoking ")
+    manifestation.append(" I think about what I hate about smoking ")
+    manifestation.append(" I remember what I hate about smoking ")
+    manifestation.append(" I interrupt the train of thought when I think about smoking ")
+    file_path.append('r_meditation.manifestation.coaching.txt')
+
 def add_orgasm_without_ejaculation(file_path, manifestation):
     manifestation.append(" I can orgasm without ejaculating ")
     manifestation.append(" I can orgasm without ejaculation ")
